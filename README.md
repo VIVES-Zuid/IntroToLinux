@@ -4,6 +4,13 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 
 ## Course Structure
 
+### [Chapter 0: Course Information](00-Course-Info/)
+
+0. [Course Lecturers](00-Course-Info/00-Lecturers.md)
+1. [Course Agreements](00-Course-Info/01-course-agreements.md)
+2. [Downloads and Software Requirements](00-Course-Info/02-downloads.md)
+3. [CA Lab: Linux Installation](00-Course-Info/03-ca-lab.md)
+
 ### [Lesson 1: Introduction to Linux and Unix](01-Intro/)
 
 0. [Introduction and Learning Objectives](01-Intro/00-introduction-and-objectives.md)
