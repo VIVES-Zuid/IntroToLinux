@@ -6,7 +6,7 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 
 ### [Chapter 0: Course Information](00-Course-Info/)
 
-0. [Course Lecturers](00-Course-Info/00-Lecturers.md)
+0. [Course Lecturers](00-Course-Info/00-lecturers.md)
 1. [Course Agreements](00-Course-Info/01-course-agreements.md)
 2. [Downloads and Software Requirements](00-Course-Info/02-downloads.md)
 3. [CA Lab: Linux Installation](00-Course-Info/03-ca-lab.md)
@@ -195,6 +195,7 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 ## How to Use These Materials
 
 Each lesson folder contains:
+
 - **Individual topic files**: Focused study materials for each section
 - **Practical exercises and labs**: Hands-on learning opportunities
 - **Review questions and key takeaways**: Assessment and reinforcement
@@ -204,25 +205,28 @@ Navigate to individual lesson folders to access the materials, or click the link
 ### 🧭 **Navigation Features**
 
 Every lesson file now includes seamless navigation:
+
 - **Next Link**: Move forward to the next topic
 - **Previous Link**: Go back to the previous topic
 - **Lesson Home**: Quick return to lesson overview
 - **Course Home**: Jump back to this main index
 
 **Example Navigation Pattern:**
+
 ```
 ---
 ## Navigation
 
-**Next:** [→ Next Topic](next-topic.md)  
-**Previous:** [← Previous Topic](previous-topic.md)  
-**Lesson Home:** [↑ Lesson X: Topic](../)  
+**Next:** [→ Next Topic](next-topic.md)
+**Previous:** [← Previous Topic](previous-topic.md)
+**Lesson Home:** [↑ Lesson X: Topic](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)
 ```
 
 ## Course Progression
 
 The lessons follow a logical progression:
+
 - **Lessons 1-4**: Foundation concepts and basic operations
 - **Lessons 5-8**: Advanced command usage and scripting
 - **Lessons 9-11**: System administration and security
