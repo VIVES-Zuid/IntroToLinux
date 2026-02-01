@@ -1,5 +1,9 @@
 # Introduction To Linux - Lessons
 
+<div align="right">
+  <img src="images/vives-logo.png" alt="VIVES University of Applied Sciences" width="200"/>
+</div>
+
 This folder contains all the lesson materials for the Introduction to Linux course.
 
 ## Course Structure
@@ -232,3 +236,60 @@ The lessons follow a logical progression:
 - **Lessons 9-11**: System administration and security
 
 Each topic is designed to build upon previous knowledge while remaining focused and manageable for individual study sessions.
+
+---
+
+## 📜 License
+
+This course material is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+### What this means:
+
+- ✅ **Freedom to use**: You can use this material for any purpose
+- ✅ **Freedom to study**: You can study how the material works and adapt it to your needs
+- ✅ **Freedom to share**: You can redistribute copies to help others
+- ✅ **Freedom to improve**: You can distribute your modified versions
+
+### License Terms
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**; without even the implied warranty of **MERCHANTABILITY** or **FITNESS FOR A PARTICULAR PURPOSE**. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+
+---
+
+## 🏫 About VIVES
+
+<div align="center">
+  <img src="images/vives-logo.png" alt="VIVES University of Applied Sciences" width="300"/>
+</div>
+
+**VIVES University of Applied Sciences** is a university college in West Flanders, Belgium. We provide high-quality, practice-oriented education in various fields, preparing students for successful careers in their chosen professions.
+
+### Course Information
+
+- **Institution**: VIVES University of Applied Sciences
+- **Program**: Computer Science - First Year
+- **Course**: Introduction to Linux
+- **Academic Year**: 2024-2025
+- **Lecturers**: Milan Decorte & Steven Beeckman
+
+### Contact
+
+- 🌐 Website: [https://www.vives.be](https://www.vives.be)
+- 📧 Course Questions: Use Toledo Ultra Discussion Forums
+- 🏢 Campus: VIVES Brugge Station
+
+---
+
+<div align="center">
+  
+**© 2024-2025 VIVES University of Applied Sciences**
+
+*This course material is provided under the GPL-3.0 License*
+
+Made with ❤️ for Computer Science Students
+
+</div>
