@@ -273,22 +273,22 @@ You should have received a copy of the GNU General Public License along with thi
 - **Institution**: VIVES University of Applied Sciences
 - **Program**: Computer Science - First Year
 - **Course**: Introduction to Linux
-- **Academic Year**: 2024-2025
+- **Academic Year**: 2025-2026
 - **Lecturers**: Milan Decorte & Steven Beeckman
 
 ### Contact
 
 - 🌐 Website: [https://www.vives.be](https://www.vives.be)
 - 📧 Course Questions: Use Toledo Ultra Discussion Forums
-- 🏢 Campus: VIVES Brugge Station
+- 🏢 Campus: VIVES Kortrijk
 
 ---
 
 <div align="center">
   
-**© 2024-2025 VIVES University of Applied Sciences**
+**© 2025-2026 VIVES University of Applied Sciences**
 
-*This course material is provided under the GPL-3.0 License*
+_This course material is provided under the GPL-3.0 License_
 
 Made with ❤️ for Computer Science Students
 
