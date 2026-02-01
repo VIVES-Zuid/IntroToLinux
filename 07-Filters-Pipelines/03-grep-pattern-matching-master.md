@@ -106,7 +106,7 @@ grep "Port" /etc/ssh/sshd_config
 
 ## Navigation
 
-**Previous:** [← The Cat Command And Tee Utility](02-the-cat-command-and-tee-utility.md)  
 **Next:** [→ Cut Extract Fields And Characters](04-cut-extract-fields-and-characters.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← The Cat Command And Tee Utility](02-the-cat-command-and-tee-utility.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

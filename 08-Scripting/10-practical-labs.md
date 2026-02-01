@@ -155,7 +155,7 @@ chmod +x system_monitor.sh
 
 ## Navigation
 
-**Previous:** [← Script Examples And Best Practices](09-script-examples-and-best-practices.md)  
 **Next:** [→ Review Questions](11-review-questions.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Script Examples And Best Practices](09-script-examples-and-best-practices.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

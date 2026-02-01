@@ -68,7 +68,7 @@ sudo ufw deny 23/tcp
 
 ## Navigation
 
-**Previous:** [← Job Scheduling With Cron](03-job-scheduling-with-cron.md)  
 **Next:** [→ System Maintenance And Monitoring](05-system-maintenance-and-monitoring.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Job Scheduling With Cron](03-job-scheduling-with-cron.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

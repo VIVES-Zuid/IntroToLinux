@@ -67,7 +67,7 @@ sudo usermod -aG project-team bob
 
 ## Navigation
 
-**Previous:** [← Creating And Managing Users](03-creating-and-managing-users.md)  
 **Next:** [→ The Sudo System](05-the-sudo-system.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Creating And Managing Users](03-creating-and-managing-users.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

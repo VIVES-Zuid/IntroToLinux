@@ -167,7 +167,7 @@ echo "Backup checks completed successfully"
 
 ## Navigation
 
-**Previous:** [← User Input And Command Line Arguments](05-user-input-and-command-line-arguments.md)  
 **Next:** [→ Loops](07-loops.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← User Input And Command Line Arguments](05-user-input-and-command-line-arguments.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

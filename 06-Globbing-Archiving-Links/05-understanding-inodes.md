@@ -55,7 +55,7 @@ stat original.txt                   # Link count decreased
 
 ## Navigation
 
-**Previous:** [← Understanding Links](04-understanding-links.md)  
 **Next:** [→ Practical Labs](06-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Understanding Links](04-understanding-links.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

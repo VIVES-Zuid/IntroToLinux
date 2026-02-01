@@ -54,7 +54,7 @@ script.sh
 
 ## Navigation
 
-**Previous:** [← Introduction To Shell Scripting](01-introduction-to-shell-scripting.md)  
 **Next:** [→ Comments And Documentation](03-comments-and-documentation.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Introduction To Shell Scripting](01-introduction-to-shell-scripting.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

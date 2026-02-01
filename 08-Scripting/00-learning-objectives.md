@@ -10,7 +10,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../07-Filters-Pipelines/16-next-lesson.md)  
 **Next:** [→ Introduction To Shell Scripting](01-introduction-to-shell-scripting.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Next Lesson](../07-Filters-Pipelines/16-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -176,7 +176,7 @@ Common permission combinations:
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ The Chmod Command](02-the-chmod-command.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

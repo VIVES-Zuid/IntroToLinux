@@ -21,7 +21,7 @@ Shell scripts are collections of commands written in a file that can be executed
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ Creating Your First Script](02-creating-your-first-script.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

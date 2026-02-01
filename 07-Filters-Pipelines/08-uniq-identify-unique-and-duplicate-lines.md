@@ -42,7 +42,7 @@ grep "ERROR" log.txt | cut -d' ' -f3 | sort | uniq -c
 
 ## Navigation
 
-**Previous:** [← Sort Sorting Text](07-sort-sorting-text.md)  
 **Next:** [→ Comm Compare Sorted Files](09-comm-compare-sorted-files.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Sort Sorting Text](07-sort-sorting-text.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -9,7 +9,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../04-Redirects-Pipes/13-next-lesson.md)  
 **Next:** [→ Working With Whitespace And Quotes](01-working-with-whitespace-and-quotes.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Next Lesson](../04-Redirects-Pipes/13-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

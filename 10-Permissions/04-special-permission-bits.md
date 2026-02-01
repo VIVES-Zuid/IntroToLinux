@@ -65,7 +65,7 @@ find / -perm -1000 -type d 2>/dev/null # Sticky bit directories
 
 ## Navigation
 
-**Previous:** [← Ownership With Chown And Chgrp](03-ownership-with-chown-and-chgrp.md)  
 **Next:** [→ Default Permissions With Umask](05-default-permissions-with-umask.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Ownership With Chown And Chgrp](03-ownership-with-chown-and-chgrp.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

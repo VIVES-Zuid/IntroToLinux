@@ -9,7 +9,7 @@ In the next lesson, we'll explore advanced command usage, quotes, variables, and
 
 ## Navigation
 
-**Previous:** [← Key Takeaways](12-key-takeaways.md)  
 **Next:** [→ Learning Objectives](../05-Echo-Alias-Operators/00-learning-objectives.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Key Takeaways](12-key-takeaways.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

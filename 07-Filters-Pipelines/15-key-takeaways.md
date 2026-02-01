@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](14-review-questions.md)  
 **Next:** [→ Next Lesson](16-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Review Questions](14-review-questions.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

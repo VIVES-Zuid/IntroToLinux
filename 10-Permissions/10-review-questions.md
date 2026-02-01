@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Security Best Practices](09-security-best-practices.md)  
 **Next:** [→ Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Security Best Practices](09-security-best-practices.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

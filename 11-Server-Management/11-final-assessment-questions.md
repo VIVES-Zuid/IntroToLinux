@@ -13,7 +13,7 @@
 
 ## Navigation
 
-**Previous:** [← Course Review And Next Steps](10-course-review-and-next-steps.md)  
 **Next:** [→ Key Takeaways](12-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Course Review And Next Steps](10-course-review-and-next-steps.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

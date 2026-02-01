@@ -115,7 +115,7 @@ df -h | grep -v "^Filesystem" | \
 
 ## Navigation
 
-**Previous:** [← Building Powerful Pipelines](11-building-powerful-pipelines.md)  
 **Next:** [→ Best Practices](13-best-practices.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Building Powerful Pipelines](11-building-powerful-pipelines.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

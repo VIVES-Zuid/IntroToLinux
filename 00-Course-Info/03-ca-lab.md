@@ -63,7 +63,7 @@ Choose **ONE** installation method:
 
 ## 📝 Step-by-Step Instructions
 
-### Part 1: AlmaLinux 9.3 Installation
+### Part 1: AlmaLinux 10.1 Installation
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 

@@ -160,7 +160,7 @@ SQL
 
 ## Navigation
 
-**Previous:** [← Output Redirection](02-output-redirection.md)  
 **Next:** [→ Pipes Chaining Commands](04-pipes-chaining-commands.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Output Redirection](02-output-redirection.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

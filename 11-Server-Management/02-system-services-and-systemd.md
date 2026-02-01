@@ -80,7 +80,7 @@ sudo systemctl isolate multi-user.target       # Multi-user mode
 
 ## Navigation
 
-**Previous:** [← Process Management](01-process-management.md)  
 **Next:** [→ Job Scheduling With Cron](03-job-scheduling-with-cron.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Process Management](01-process-management.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

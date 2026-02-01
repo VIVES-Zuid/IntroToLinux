@@ -57,7 +57,7 @@ Add the export command to your shell configuration file:
 
 ## Navigation
 
-**Previous:** [← Command Line Editing](04-command-line-editing.md)  
 **Next:** [→ Shell Configuration Files](06-shell-configuration-files.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Command Line Editing](04-command-line-editing.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

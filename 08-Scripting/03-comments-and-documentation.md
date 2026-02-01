@@ -55,7 +55,7 @@ echo "Starting backup at $(date)"
 
 ## Navigation
 
-**Previous:** [← Creating Your First Script](02-creating-your-first-script.md)  
 **Next:** [→ Variables In Shell Scripts](04-variables-in-shell-scripts.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Creating Your First Script](02-creating-your-first-script.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

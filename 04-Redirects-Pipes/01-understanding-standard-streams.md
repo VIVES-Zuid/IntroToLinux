@@ -102,7 +102,7 @@ ls -la /proc/$$/fd
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ Output Redirection](02-output-redirection.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

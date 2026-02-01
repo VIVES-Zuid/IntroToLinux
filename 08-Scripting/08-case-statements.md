@@ -75,7 +75,7 @@ esac
 
 ## Navigation
 
-**Previous:** [← Loops](07-loops.md)  
 **Next:** [→ Script Examples And Best Practices](09-script-examples-and-best-practices.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Loops](07-loops.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

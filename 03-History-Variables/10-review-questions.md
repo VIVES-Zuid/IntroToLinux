@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Troubleshooting Common Issues](09-troubleshooting-common-issues.md)  
 **Next:** [→ Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Troubleshooting Common Issues](09-troubleshooting-common-issues.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

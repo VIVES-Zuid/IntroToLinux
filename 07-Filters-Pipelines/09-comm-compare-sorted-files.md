@@ -24,7 +24,7 @@ comm -12 sorted1.txt sorted2.txt
 
 ## Navigation
 
-**Previous:** [← Uniq Identify Unique And Duplicate Lines](08-uniq-identify-unique-and-duplicate-lines.md)  
 **Next:** [→ Sed Stream Editor](10-sed-stream-editor.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Uniq Identify Unique And Duplicate Lines](08-uniq-identify-unique-and-duplicate-lines.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

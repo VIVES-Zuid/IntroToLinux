@@ -48,7 +48,7 @@ sort -k1 logfile.txt
 
 ## Navigation
 
-**Previous:** [← Wc Word Line And Character Counting](06-wc-word-line-and-character-counting.md)  
 **Next:** [→ Uniq Identify Unique And Duplicate Lines](08-uniq-identify-unique-and-duplicate-lines.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Wc Word Line And Character Counting](06-wc-word-line-and-character-counting.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

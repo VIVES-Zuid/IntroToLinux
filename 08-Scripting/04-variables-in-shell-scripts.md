@@ -121,7 +121,7 @@ CONFIG_DIR=${CONFIG_DIR:-"/etc"}    # Use env var or default
 
 ## Navigation
 
-**Previous:** [← Comments And Documentation](03-comments-and-documentation.md)  
 **Next:** [→ User Input And Command Line Arguments](05-user-input-and-command-line-arguments.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Comments And Documentation](03-comments-and-documentation.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -63,7 +63,7 @@ sudo gunzip -c /backup/disk_image.img.gz | dd of=/dev/sda bs=4M
 
 ## Navigation
 
-**Previous:** [← System Maintenance And Monitoring](05-system-maintenance-and-monitoring.md)  
 **Next:** [→ Performance Tuning And Troubleshooting](07-performance-tuning-and-troubleshooting.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← System Maintenance And Monitoring](05-system-maintenance-and-monitoring.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Troubleshooting](10-troubleshooting.md)  
 **Next:** [→ Key Takeaways](12-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Troubleshooting](10-troubleshooting.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

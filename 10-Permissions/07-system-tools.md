@@ -91,7 +91,7 @@ time find / -name "*.txt" 2>/dev/null
 
 ## Navigation
 
-**Previous:** [← The Find Command Advanced File Search](06-the-find-command-advanced-file-search.md)  
 **Next:** [→ Practical Labs](08-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← The Find Command Advanced File Search](06-the-find-command-advanced-file-search.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

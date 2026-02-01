@@ -61,7 +61,7 @@ rpm -qa                        # RedHat/CentOS
 
 ## Navigation
 
-**Previous:** [← Network Basics](04-network-basics.md)  
 **Next:** [→ Backup And Recovery Strategies](06-backup-and-recovery-strategies.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Network Basics](04-network-basics.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

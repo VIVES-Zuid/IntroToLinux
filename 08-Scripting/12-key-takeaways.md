@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](11-review-questions.md)  
 **Next:** [→ Next Lesson](13-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Review Questions](11-review-questions.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

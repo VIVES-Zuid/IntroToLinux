@@ -60,7 +60,7 @@ find /home -type f \( -perm -4000 -o -perm -2000 \) -ls
 
 ## Navigation
 
-**Previous:** [← Practical User Management Scenarios](07-practical-user-management-scenarios.md)  
 **Next:** [→ Troubleshooting User Issues](09-troubleshooting-user-issues.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Practical User Management Scenarios](07-practical-user-management-scenarios.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

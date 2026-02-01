@@ -118,7 +118,7 @@ echo "File organization completed!"
 
 ## Navigation
 
-**Previous:** [← Case Statements](08-case-statements.md)  
 **Next:** [→ Practical Labs](10-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Case Statements](08-case-statements.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

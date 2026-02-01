@@ -46,7 +46,7 @@
 
 ## Navigation
 
-**Previous:** [← Final Project Labs](09-final-project-labs.md)  
 **Next:** [→ Final Assessment Questions](11-final-assessment-questions.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Final Project Labs](09-final-project-labs.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

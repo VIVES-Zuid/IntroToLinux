@@ -77,7 +77,7 @@ sudo chmod +x /etc/cron.daily/backup
 
 ## Navigation
 
-**Previous:** [← System Services And Systemd](02-system-services-and-systemd.md)  
 **Next:** [→ Network Basics](04-network-basics.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← System Services And Systemd](02-system-services-and-systemd.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

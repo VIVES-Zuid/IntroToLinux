@@ -101,7 +101,7 @@ cat document.txt | \
 
 ## Navigation
 
-**Previous:** [← Sed Stream Editor](10-sed-stream-editor.md)  
 **Next:** [→ Practical Labs](12-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Sed Stream Editor](10-sed-stream-editor.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

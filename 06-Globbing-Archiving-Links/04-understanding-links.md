@@ -159,7 +159,7 @@ ln -s /var/log/application.log ~/current.log
 
 ## Navigation
 
-**Previous:** [← Archiving And Compression](03-archiving-and-compression.md)  
 **Next:** [→ Understanding Inodes](05-understanding-inodes.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Archiving And Compression](03-archiving-and-compression.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

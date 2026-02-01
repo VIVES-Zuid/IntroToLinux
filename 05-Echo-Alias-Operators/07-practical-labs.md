@@ -109,7 +109,7 @@ cd /tmp && \
 
 ## Navigation
 
-**Previous:** [← Line Continuation And Escaping](06-line-continuation-and-escaping.md)  
 **Next:** [→ Best Practices](08-best-practices.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Line Continuation And Escaping](06-line-continuation-and-escaping.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -87,7 +87,7 @@ chmod 664 /var/log/application.log
 
 ## Navigation
 
-**Previous:** [← Understanding Linux File Permissions](01-understanding-linux-file-permissions.md)  
 **Next:** [→ Ownership With Chown And Chgrp](03-ownership-with-chown-and-chgrp.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Understanding Linux File Permissions](01-understanding-linux-file-permissions.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

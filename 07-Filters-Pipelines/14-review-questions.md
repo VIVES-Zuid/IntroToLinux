@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Best Practices](13-best-practices.md)  
 **Next:** [→ Key Takeaways](15-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Best Practices](13-best-practices.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

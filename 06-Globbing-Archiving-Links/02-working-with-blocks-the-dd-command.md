@@ -66,7 +66,7 @@ dd if=test.img of=/dev/null bs=1M iflag=direct
 
 ## Navigation
 
-**Previous:** [← File Globbing Wildcard Patterns](01-file-globbing-wildcard-patterns.md)  
 **Next:** [→ Archiving And Compression](03-archiving-and-compression.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← File Globbing Wildcard Patterns](01-file-globbing-wildcard-patterns.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

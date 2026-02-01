@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Best Practices](07-best-practices.md)  
 **Next:** [→ Key Takeaways](09-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Best Practices](07-best-practices.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -120,7 +120,7 @@ cd ..
 
 ## Navigation
 
-**Previous:** [← Understanding Inodes](05-understanding-inodes.md)  
 **Next:** [→ Best Practices](07-best-practices.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Understanding Inodes](05-understanding-inodes.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

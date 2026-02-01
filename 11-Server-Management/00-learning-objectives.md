@@ -10,7 +10,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../10-Permissions/12-next-lesson.md)  
 **Next:** [→ Process Management](01-process-management.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Next Lesson](../10-Permissions/12-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

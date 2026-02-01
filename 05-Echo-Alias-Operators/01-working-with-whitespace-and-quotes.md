@@ -65,7 +65,7 @@ echo "$MESSAGE 'World' from Linux"
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ Special Characters And Echo](02-special-characters-and-echo.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -28,7 +28,7 @@ env | grep VAR_NAME
 
 ## Navigation
 
-**Previous:** [← Advanced Environment Concepts](08-advanced-environment-concepts.md)  
 **Next:** [→ Review Questions](10-review-questions.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Advanced Environment Concepts](08-advanced-environment-concepts.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

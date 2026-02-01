@@ -49,7 +49,7 @@ export PS1='\u@\h:\w\$ '
 
 ## Navigation
 
-**Previous:** [← Working With The Path Variable](05-working-with-the-path-variable.md)  
 **Next:** [→ Practical Lab Environment Setup](07-practical-lab-environment-setup.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Working With The Path Variable](05-working-with-the-path-variable.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

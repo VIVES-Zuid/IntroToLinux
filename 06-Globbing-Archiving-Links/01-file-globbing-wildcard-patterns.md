@@ -135,7 +135,7 @@ tail -f /var/log/*.log
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ Working With Blocks The Dd Command](02-working-with-blocks-the-dd-command.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

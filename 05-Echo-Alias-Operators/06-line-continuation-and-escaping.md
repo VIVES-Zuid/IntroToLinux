@@ -40,7 +40,7 @@ ls file\ with\ spaces.txt
 
 ## Navigation
 
-**Previous:** [← Control Operators](05-control-operators.md)  
 **Next:** [→ Practical Labs](07-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Control Operators](05-control-operators.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

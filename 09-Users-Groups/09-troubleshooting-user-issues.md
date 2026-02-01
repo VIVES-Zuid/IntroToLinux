@@ -52,7 +52,7 @@ sudo pam_tally2 --user username --reset
 
 ## Navigation
 
-**Previous:** [← User Security Best Practices](08-user-security-best-practices.md)  
 **Next:** [→ Review Questions](10-review-questions.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← User Security Best Practices](08-user-security-best-practices.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

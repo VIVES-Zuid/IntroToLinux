@@ -56,7 +56,7 @@ echo "=== Audit Complete ==="
 
 ## Navigation
 
-**Previous:** [← Practical Labs](08-practical-labs.md)  
 **Next:** [→ Review Questions](10-review-questions.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Practical Labs](08-practical-labs.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

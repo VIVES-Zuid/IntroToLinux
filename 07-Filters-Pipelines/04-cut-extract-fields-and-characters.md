@@ -58,7 +58,7 @@ echo "2024-01-15" | cut -d- -f1 # Year
 
 ## Navigation
 
-**Previous:** [← Grep Pattern Matching Master](03-grep-pattern-matching-master.md)  
 **Next:** [→ Tr Character Translation And Deletion](05-tr-character-translation-and-deletion.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Grep Pattern Matching Master](03-grep-pattern-matching-master.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

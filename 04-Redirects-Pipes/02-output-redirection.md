@@ -132,7 +132,7 @@ Why use /dev/null?
 
 ## Navigation
 
-**Previous:** [← Understanding Standard Streams](01-understanding-standard-streams.md)  
 **Next:** [→ Input Redirection](03-input-redirection.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Understanding Standard Streams](01-understanding-standard-streams.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

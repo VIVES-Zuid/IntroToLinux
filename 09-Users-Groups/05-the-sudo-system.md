@@ -99,7 +99,7 @@ alice   ALL=(ALL) /usr/bin/systemctl
 
 ## Navigation
 
-**Previous:** [← Group Management](04-group-management.md)  
 **Next:** [→ User Environment And Configuration](06-user-environment-and-configuration.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Group Management](04-group-management.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

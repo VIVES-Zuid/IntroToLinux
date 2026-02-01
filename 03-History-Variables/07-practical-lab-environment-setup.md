@@ -79,7 +79,7 @@ hello.sh        # Now it works!
 
 ## Navigation
 
-**Previous:** [← Shell Configuration Files](06-shell-configuration-files.md)  
 **Next:** [→ Advanced Environment Concepts](08-advanced-environment-concepts.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Shell Configuration Files](06-shell-configuration-files.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

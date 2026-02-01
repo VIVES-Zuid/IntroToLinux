@@ -48,7 +48,7 @@ strace -p PID         # System calls made by process
 
 ## Navigation
 
-**Previous:** [← Backup And Recovery Strategies](06-backup-and-recovery-strategies.md)  
 **Next:** [→ Advanced System Integration Project](08-advanced-system-integration-project.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Backup And Recovery Strategies](06-backup-and-recovery-strategies.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

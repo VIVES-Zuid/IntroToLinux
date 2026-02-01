@@ -127,7 +127,7 @@ Memory buffer      ┌─────────┐
 
 ## Navigation
 
-**Previous:** [← Input Redirection](03-input-redirection.md)  
 **Next:** [→ Text Processing Commands](05-text-processing-commands.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Input Redirection](03-input-redirection.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

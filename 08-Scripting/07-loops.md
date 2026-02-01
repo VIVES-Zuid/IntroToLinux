@@ -94,7 +94,7 @@ echo "Ready signal received!"
 
 ## Navigation
 
-**Previous:** [← Conditional Statements](06-conditional-statements.md)  
 **Next:** [→ Case Statements](08-case-statements.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Conditional Statements](06-conditional-statements.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

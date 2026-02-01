@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](10-review-questions.md)  
 **Next:** [→ Next Lesson](12-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Review Questions](10-review-questions.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

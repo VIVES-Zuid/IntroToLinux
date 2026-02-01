@@ -68,7 +68,7 @@ umask 002
 
 ## Navigation
 
-**Previous:** [← Special Permission Bits](04-special-permission-bits.md)  
 **Next:** [→ The Find Command Advanced File Search](06-the-find-command-advanced-file-search.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Special Permission Bits](04-special-permission-bits.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

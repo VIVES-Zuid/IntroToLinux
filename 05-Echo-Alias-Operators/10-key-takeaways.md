@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](09-review-questions.md)  
 **Next:** [→ Next Lesson](11-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Review Questions](09-review-questions.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

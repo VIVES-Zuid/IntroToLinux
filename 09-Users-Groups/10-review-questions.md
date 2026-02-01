@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Troubleshooting User Issues](09-troubleshooting-user-issues.md)  
 **Next:** [→ Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Troubleshooting User Issues](09-troubleshooting-user-issues.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -10,7 +10,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../09-Users-Groups/12-next-lesson.md)  
 **Next:** [→ Understanding Linux File Permissions](01-understanding-linux-file-permissions.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Next Lesson](../09-Users-Groups/12-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -112,7 +112,7 @@ ls -la test_umask_*
 
 ## Navigation
 
-**Previous:** [← System Tools](07-system-tools.md)  
 **Next:** [→ Security Best Practices](09-security-best-practices.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← System Tools](07-system-tools.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

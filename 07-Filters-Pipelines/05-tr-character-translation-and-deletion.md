@@ -66,7 +66,7 @@ echo "Hello, World! 123" | tr -cd '[:alnum:]'
 
 ## Navigation
 
-**Previous:** [← Cut Extract Fields And Characters](04-cut-extract-fields-and-characters.md)  
 **Next:** [→ Wc Word Line And Character Counting](06-wc-word-line-and-character-counting.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Cut Extract Fields And Characters](04-cut-extract-fields-and-characters.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

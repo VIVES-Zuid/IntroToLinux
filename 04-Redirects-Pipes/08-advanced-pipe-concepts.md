@@ -38,7 +38,7 @@ echo ${PIPESTATUS[@]}  # Exit status of all commands
 
 ## Navigation
 
-**Previous:** [← Practical Labs](07-practical-labs.md)  
 **Next:** [→ Performance And Best Practices](09-performance-and-best-practices.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Practical Labs](07-practical-labs.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

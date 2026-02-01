@@ -146,7 +146,7 @@ sudo deluser --remove-home username
 
 ## Navigation
 
-**Previous:** [← User Information Files](02-user-information-files.md)  
 **Next:** [→ Group Management](04-group-management.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← User Information Files](02-user-information-files.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

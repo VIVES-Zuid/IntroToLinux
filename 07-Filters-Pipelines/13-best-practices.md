@@ -22,7 +22,7 @@
 
 ## Navigation
 
-**Previous:** [← Practical Labs](12-practical-labs.md)  
 **Next:** [→ Review Questions](14-review-questions.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Practical Labs](12-practical-labs.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

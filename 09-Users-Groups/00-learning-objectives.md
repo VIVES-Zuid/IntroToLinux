@@ -10,7 +10,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../08-Scripting/13-next-lesson.md)  
 **Next:** [→ Introduction To Users And Groups](01-introduction-to-users-and-groups.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Next Lesson](../08-Scripting/13-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -38,7 +38,7 @@ fi
 
 ## Navigation
 
-**Previous:** [← Advanced Pipe Concepts](08-advanced-pipe-concepts.md)  
 **Next:** [→ Troubleshooting](10-troubleshooting.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Advanced Pipe Concepts](08-advanced-pipe-concepts.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

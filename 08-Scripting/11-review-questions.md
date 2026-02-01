@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Practical Labs](10-practical-labs.md)  
 **Next:** [→ Key Takeaways](12-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Practical Labs](10-practical-labs.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

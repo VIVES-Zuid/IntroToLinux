@@ -27,7 +27,7 @@
 
 ## Navigation
 
-**Previous:** [← Practical Labs](07-practical-labs.md)  
 **Next:** [→ Review Questions](09-review-questions.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Practical Labs](07-practical-labs.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

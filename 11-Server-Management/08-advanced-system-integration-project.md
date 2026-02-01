@@ -294,7 +294,7 @@ main "$@"
 
 ## Navigation
 
-**Previous:** [← Performance Tuning And Troubleshooting](07-performance-tuning-and-troubleshooting.md)  
 **Next:** [→ Final Project Labs](09-final-project-labs.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Performance Tuning And Troubleshooting](07-performance-tuning-and-troubleshooting.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

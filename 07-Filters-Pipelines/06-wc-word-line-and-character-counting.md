@@ -29,7 +29,7 @@ cat /etc/passwd | wc -l            # Count user accounts
 
 ## Navigation
 
-**Previous:** [← Tr Character Translation And Deletion](05-tr-character-translation-and-deletion.md)  
 **Next:** [→ Sort Sorting Text](07-sort-sorting-text.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Tr Character Translation And Deletion](05-tr-character-translation-and-deletion.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

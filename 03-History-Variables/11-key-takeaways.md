@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](10-review-questions.md)  
 **Next:** [→ Next Lesson](12-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Review Questions](10-review-questions.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -94,7 +94,7 @@ last                  # Login history
 
 ## Navigation
 
-**Previous:** [← Introduction To Users And Groups](01-introduction-to-users-and-groups.md)  
 **Next:** [→ Creating And Managing Users](03-creating-and-managing-users.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← Introduction To Users And Groups](01-introduction-to-users-and-groups.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

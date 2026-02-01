@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Final Assessment Questions](11-final-assessment-questions.md)  
 **Next:** [→ Course Completion](13-course-completion.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Final Assessment Questions](11-final-assessment-questions.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

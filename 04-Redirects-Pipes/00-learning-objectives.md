@@ -9,7 +9,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../03-History-Variables/12-next-lesson.md)  
 **Next:** [→ Understanding Standard Streams](01-understanding-standard-streams.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Next Lesson](../03-History-Variables/12-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -10,7 +10,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../06-Globbing-Archiving-Links/10-next-lesson.md)  
 **Next:** [→ Understanding Filters](01-understanding-filters.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Next Lesson](../06-Globbing-Archiving-Links/10-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

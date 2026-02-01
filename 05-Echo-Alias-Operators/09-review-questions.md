@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Best Practices](08-best-practices.md)  
 **Next:** [→ Key Takeaways](10-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 05: Echo Alias Operators](../)  
+**Previous:** [← Best Practices](08-best-practices.md)  
+**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -46,7 +46,7 @@ sed '$a\New last line' file.txt   # Append after last line
 
 ## Navigation
 
-**Previous:** [← Comm Compare Sorted Files](09-comm-compare-sorted-files.md)  
 **Next:** [→ Building Powerful Pipelines](11-building-powerful-pipelines.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Comm Compare Sorted Files](09-comm-compare-sorted-files.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -83,7 +83,7 @@ esac
 
 ## Navigation
 
-**Previous:** [← Variables In Shell Scripts](04-variables-in-shell-scripts.md)  
 **Next:** [→ Conditional Statements](06-conditional-statements.md)  
-**Lesson Home:** [↑ Lesson 08: Scripting](../)  
+**Previous:** [← Variables In Shell Scripts](04-variables-in-shell-scripts.md)  
+**Lesson Home:** [↑ Lesson 8: Scripting](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

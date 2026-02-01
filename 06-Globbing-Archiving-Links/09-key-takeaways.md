@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](08-review-questions.md)  
 **Next:** [→ Next Lesson](10-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Review Questions](08-review-questions.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

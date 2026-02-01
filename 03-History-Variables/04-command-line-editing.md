@@ -33,7 +33,7 @@ Tab Tab   # Show all possible completions
 
 ## Navigation
 
-**Previous:** [← Command History](03-command-history.md)  
 **Next:** [→ Working With The Path Variable](05-working-with-the-path-variable.md)  
-**Lesson Home:** [↑ Lesson 03: History Variables](../)  
+**Previous:** [← Command History](03-command-history.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

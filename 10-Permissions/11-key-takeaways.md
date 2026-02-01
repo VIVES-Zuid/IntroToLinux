@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](10-review-questions.md)  
 **Next:** [→ Next Lesson](12-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Review Questions](10-review-questions.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

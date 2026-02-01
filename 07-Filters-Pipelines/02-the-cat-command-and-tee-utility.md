@@ -50,7 +50,7 @@ cat /etc/passwd | tee users_backup.txt | head -5
 
 ## Navigation
 
-**Previous:** [← Understanding Filters](01-understanding-filters.md)  
 **Next:** [→ Grep Pattern Matching Master](03-grep-pattern-matching-master.md)  
-**Lesson Home:** [↑ Lesson 07: Filters Pipelines](../)  
+**Previous:** [← Understanding Filters](01-understanding-filters.md)  
+**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

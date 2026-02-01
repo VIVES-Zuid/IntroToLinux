@@ -161,7 +161,7 @@ find /home -nouser -exec ls -l {} \;
 
 ## Navigation
 
-**Previous:** [← Default Permissions With Umask](05-default-permissions-with-umask.md)  
 **Next:** [→ System Tools](07-system-tools.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← Default Permissions With Umask](05-default-permissions-with-umask.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -225,7 +225,7 @@ setup_user_environment "$1" "$2"
 
 ## Navigation
 
-**Previous:** [← Advanced System Integration Project](08-advanced-system-integration-project.md)  
 **Next:** [→ Course Review And Next Steps](10-course-review-and-next-steps.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Previous:** [← Advanced System Integration Project](08-advanced-system-integration-project.md)  
+**Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -56,7 +56,7 @@ sudo chmod 640 /var/log/syslog
 
 ## Navigation
 
-**Previous:** [← The Chmod Command](02-the-chmod-command.md)  
 **Next:** [→ Special Permission Bits](04-special-permission-bits.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)  
+**Previous:** [← The Chmod Command](02-the-chmod-command.md)  
+**Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

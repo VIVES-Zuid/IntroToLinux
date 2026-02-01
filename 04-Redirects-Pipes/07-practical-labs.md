@@ -89,7 +89,7 @@ history | awk '{print $2}' | sort | uniq -c | sort -nr | head -10 > command_freq
 
 ## Navigation
 
-**Previous:** [← Combining Redirection And Pipes](06-combining-redirection-and-pipes.md)  
 **Next:** [→ Advanced Pipe Concepts](08-advanced-pipe-concepts.md)  
-**Lesson Home:** [↑ Lesson 04: Redirects Pipes](../)  
+**Previous:** [← Combining Redirection And Pipes](06-combining-redirection-and-pipes.md)  
+**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

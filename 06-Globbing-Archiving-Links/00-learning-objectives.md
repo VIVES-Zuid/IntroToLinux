@@ -9,7 +9,7 @@
 
 ## Navigation
 
-**Previous:** [← Next Lesson](../05-Echo-Alias-Operators/11-next-lesson.md)  
 **Next:** [→ File Globbing Wildcard Patterns](01-file-globbing-wildcard-patterns.md)  
-**Lesson Home:** [↑ Lesson 06: Globbing Archiving Links](../)  
+**Previous:** [← Next Lesson](../05-Echo-Alias-Operators/11-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

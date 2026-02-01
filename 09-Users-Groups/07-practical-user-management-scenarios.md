@@ -95,7 +95,7 @@ sudo grep "Failed password" /var/log/auth.log | tail -10
 
 ## Navigation
 
-**Previous:** [← User Environment And Configuration](06-user-environment-and-configuration.md)  
 **Next:** [→ User Security Best Practices](08-user-security-best-practices.md)  
-**Lesson Home:** [↑ Lesson 09: Users Groups](../)  
+**Previous:** [← User Environment And Configuration](06-user-environment-and-configuration.md)  
+**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)
