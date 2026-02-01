@@ -204,17 +204,18 @@ Navigate to individual lesson folders to access the materials, or click the link
 ### 🧭 **Navigation Features**
 
 Every lesson file now includes seamless navigation:
-- **Previous/Next Links**: Sequential progression through topics
+- **Next Link**: Move forward to the next topic
+- **Previous Link**: Go back to the previous topic
 - **Lesson Home**: Quick return to lesson overview
 - **Course Home**: Jump back to this main index
-- **Cross-Lesson Navigation**: Smooth transition between lessons
 
 **Example Navigation Pattern:**
 ```
 ---
 ## Navigation
-**Previous:** [← Previous Topic](previous-topic.md)  
+
 **Next:** [→ Next Topic](next-topic.md)  
+**Previous:** [← Previous Topic](previous-topic.md)  
 **Lesson Home:** [↑ Lesson X: Topic](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)
 ```

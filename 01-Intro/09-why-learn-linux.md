@@ -24,7 +24,7 @@
 
 ## Navigation
 
-**Previous:** [← Linux In The Real World](08-linux-in-the-real-world.md)  
 **Next:** [→ Review And Next Steps](10-review-and-next-steps.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← Linux In The Real World](08-linux-in-the-real-world.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

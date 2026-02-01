@@ -19,10 +19,10 @@ This is a **mandatory continuous assessment lab** that contributes to your final
 
 ### Assessment Details
 
-- **📊 Weight**: Part of 20% Continuous Assessment
+- **📊 Weight**: Part of 20% Continuous Assessment (Together with the other CA Labs)
 - **⏰ Deadline**: Before the start of next lab session
 - **📝 Deliverables**: Screenshots/documentation of both working installations
-- **✅ Requirements**: Both AlmaLinux 9.7 AND Ubuntu 22.04 must be running
+- **✅ Requirements**: Both AlmaLinux 10.1 AND Ubuntu 24.04 must be running
 
 </div>
 
@@ -34,10 +34,10 @@ You must have **BOTH** of the following Linux distributions installed and runnin
 
 ### Required Distributions
 
-| Distribution     | Version   | Type    | Purpose                     |
-| ---------------- | --------- | ------- | --------------------------- |
-| 🔴 **AlmaLinux** | 9.7       | Minimal | Enterprise Linux experience |
-| 🟠 **Ubuntu**    | 22.04 LTS | Desktop | User-friendly environment   |
+| Distribution     | Version     | Type    | Purpose                     |
+| ---------------- | ----------- | ------- | --------------------------- |
+| 🔴 **AlmaLinux** | 10.1        | Minimal | Enterprise Linux experience |
+| 🟠 **Ubuntu**    | 24.04.3 LTS | Desktop | User-friendly environment   |
 
 ### Installation Options
 
@@ -72,7 +72,7 @@ Choose **ONE** installation method:
 **ISO Location:**
 
 ```
-https://ftp.belnet.be/mirror/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minimal.iso
+https://ftp.belnet.be/mirror/almalinux/10.1/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
 ```
 
 **File Details:**
@@ -106,7 +106,7 @@ https://ftp.belnet.be/mirror/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minima
 **Installation Steps:**
 
 1. Boot from ISO
-2. Select "Install AlmaLinux 9.3"
+2. Select "Install AlmaLinux 10.1"
 3. Choose language
 4. **Installation Destination**: Select disk
 5. **Network & Hostname**: Enable network, set hostname
@@ -138,7 +138,7 @@ free -h
 
 ---
 
-### Part 2: Ubuntu 22.04 Installation
+### Part 2: Ubuntu 24.04 Installation
 
 <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
@@ -147,12 +147,12 @@ free -h
 **ISO Location:**
 
 ```
-https://ftp.belnet.be/mirror/ubuntu-releases/22.04/ubuntu-22.04.5-desktop-amd64.iso
+https://ftp.belnet.be/mirror/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd64.iso
 ```
 
 **File Details:**
 
-- 📦 Size: ~4-5GB
+- 📦 Size: ~5GB
 - 🖥️ Type: Desktop (includes GUI)
 - 🎯 Purpose: User-friendly Linux experience
 
@@ -169,7 +169,7 @@ https://ftp.belnet.be/mirror/ubuntu-releases/22.04/ubuntu-22.04.5-desktop-amd64.
 **VirtualBox Example:**
 
 1. Click "New"
-2. Name: "Ubuntu-22.04"
+2. Name: "Ubuntu-24.04"
 3. Type: Linux
 4. Version: Ubuntu (64-bit)
 5. Allocate memory: 4096 MB
@@ -432,7 +432,6 @@ By completing this lab, you will:
 
 ## Navigation
 
-**Previous:** [← Downloads](02-downloads.md)  
 **Next:** [→ Lesson 1: Introduction](../01-Intro/00-introduction-and-objectives.md)  
-**Course Info Home:** [↑ Course Information](../)  
+**Previous:** [← Downloads](02-downloads.md)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

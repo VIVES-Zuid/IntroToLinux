@@ -11,5 +11,6 @@
 ## Navigation
 
 **Next:** [→ What Is Unix?](01-what-is-unix.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
+**Previous:** [← CA Lab: Linux Installation](../00-Course-Info/03-ca-lab.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

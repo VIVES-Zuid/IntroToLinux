@@ -32,7 +32,7 @@ The term "TTY" comes from "TeleTYpe Writer" - early computer terminals that were
 
 ## Navigation
 
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
 **Next:** [→ The Shell Your Command Interface](02-the-shell-your-command-interface.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

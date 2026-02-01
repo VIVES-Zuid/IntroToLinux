@@ -17,7 +17,7 @@ This Introduction to Linux course is taught by two experienced lecturers from VI
 
 ### 🎓 Expertise & Teaching Areas
 
-Steven specializes in **Network and Security** domains:
+S. Moerman specializes in **Network and Security** domains:
 
 - 🖥️ **Computer Systems**
 - 🔒 **Network Security**
@@ -30,7 +30,7 @@ Steven specializes in **Network and Security** domains:
 
 ## 👤 Milan Dima
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
+<div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
 ### 📧 Contact Information
 
@@ -39,9 +39,9 @@ Steven specializes in **Network and Security** domains:
 
 ### 🎓 Expertise & Teaching Areas
 
-Milan brings expertise across multiple domains:
+M. Dima brings expertise across multiple domains:
 
-- 🔐 **Cybersecurity Fundamentals**
+- 🔐 **Cybersecurity Architecture & Vulnerability Analysis**
 - 🐧 **Introduction to Linux**
 - 🚀 **DevOps Practices**
 - ☁️ **Cloud Infrastructure**
@@ -54,12 +54,12 @@ Milan brings expertise across multiple domains:
 
 ## 📞 How to Reach Us
 
-### For Course-Related Questions:
+### For All Course-Related Questions:
 
 - 💬 Use the course discussion forum
 - 🏢 Visit during office hours
 
-### For NON Course-Related Questions:
+### For Personal Matters:
 
 - 📧 Email us directly
 
@@ -86,6 +86,5 @@ Throughout this course, you'll receive:
 
 ## Navigation
 
-**Next:** [→ Course Rules](01-rules.md)  
-**Course Info Home:** [↑ Course Information](../)  
+**Next:** [→ Course Agreements](01-course-agreements.md)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

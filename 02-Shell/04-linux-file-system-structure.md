@@ -144,7 +144,7 @@ Unlike Windows' "Program Files" directory, Linux programs are distributed across
 
 ## Navigation
 
-**Previous:** [← User Types And Login](03-user-types-and-login.md)
 **Next:** [→ File System Navigation Quiz](05-file-system-navigation-quiz.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← User Types And Login](03-user-types-and-login.md)
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

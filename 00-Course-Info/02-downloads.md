@@ -10,18 +10,18 @@ This page contains all the software and tools you'll need for the Introduction t
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 1: AlmaLinux 9.7
+### Distro 1: AlmaLinux 10.1
 
 **Download Link:**
 
 ```
-https://ftp.belnet.be/mirror/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minimal.iso
+https://ftp.belnet.be/mirror/almalinux/10.1/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
 ```
 
 or Alma Official site:
 
 ```
-https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minimal.iso
+https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10.1-x86_64-minimal.iso
 ```
 
 **Why AlmaLinux?**
@@ -35,18 +35,18 @@ https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minimal.
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 2: Ubuntu 22.04 LTS
+### Distro 2: Ubuntu 24.04.3 LTS
 
 **Download Link:**
 
 ```
-https://ftp.belnet.be/mirror/ubuntu-releases/22.04/ubuntu-22.04.5-desktop-amd64.iso
+https://ftp.belnet.be/mirror/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd64.iso
 ```
 
 or Ubuntu Official site:
 
 ```
-https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
+https://releases.ubuntu.com/24.04.3/ubuntu-24.04.3-desktop-amd64.iso
 ```
 
 **Why Ubuntu?**
@@ -227,6 +227,7 @@ Before starting the course, ensure you have:
 
 ## Navigation
 
+**Next:** [→ CA-Lab](03-ca-lab.md)  
 **Previous:** [← Course Agreements](01-course-agreements.md)  
 **Course Info Home:** [↑ Course Information](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

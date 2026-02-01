@@ -46,7 +46,7 @@ user@localhost:~$ pwd
 
 ## Navigation
 
-**Previous:** [← File System Permissions](08-file-system-permissions.md)  
 **Next:** [→ Essential File Commands](10-essential-file-commands.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← File System Permissions](08-file-system-permissions.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

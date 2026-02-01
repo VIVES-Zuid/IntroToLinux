@@ -519,7 +519,7 @@ For this quiz, assume you are working with the following file system structure:
 
 ## Navigation
 
-**Previous:** [← Linux File System Structure](04-linux-file-system-structure.md)  
 **Next:** [→ Quiz Solutions](06-file-system-navigation-quiz-solutions.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Linux File System Structure](04-linux-file-system-structure.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

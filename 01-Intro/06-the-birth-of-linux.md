@@ -24,7 +24,7 @@ In 1991, Linus Torvalds, a Finnish computer science student, began working on hi
 
 ## Navigation
 
-**Previous:** [← Minix The Inspiration](05-minix-the-inspiration.md)  
 **Next:** [→ Linux Distributions](07-linux-distributions.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← Minix The Inspiration](05-minix-the-inspiration.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

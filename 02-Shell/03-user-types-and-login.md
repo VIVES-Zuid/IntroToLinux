@@ -54,7 +54,7 @@ w
 
 ## Navigation
 
-**Previous:** [← The Shell Your Command Interface](02-the-shell-your-command-interface.md)  
 **Next:** [→ Linux File System Structure](04-linux-file-system-structure.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← The Shell Your Command Interface](02-the-shell-your-command-interface.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -11,7 +11,7 @@
 
 ## Navigation
 
-**Previous:** [← Review Questions](13-review-questions.md)  
 **Next:** [→ Next Lesson](15-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Review Questions](13-review-questions.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

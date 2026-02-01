@@ -13,6 +13,7 @@ Welcome to Introduction to Linux! This document outlines the important agreement
 ### 💬 Discussion Forums (Toledo Ultra)
 
 **Primary Communication Channel:**
+
 - 📁 Use the dedicated **Discussion** section on Toledo Ultra
 - 🎯 Two categories available:
   - **Content-related questions** (course material, concepts, exercises)
@@ -23,6 +24,7 @@ Welcome to Introduction to Linux! This document outlines the important agreement
 > **Important:** Discussion forums are **preferred over email** for course-related questions.
 
 **Benefits:**
+
 - 🔍 Questions and answers visible to all students
 - 🤝 Learn from each other's questions
 - ⚡ Faster responses (both lecturers and peers can help)
@@ -39,10 +41,12 @@ Welcome to Introduction to Linux! This document outlines the important agreement
 ### Reporting Absence
 
 **In case of illness:**
-- 📞 Contact: **Sarah Balcaen**
+
+- 📞 Contact: **Sarah Balcaen** sarah.balcaen@vives.be
 - 📧 Follow official VIVES absence reporting procedures
 
 **Professional courtesy:**
+
 - 💼 Inform your lecturer when you'll be absent
 - 📅 Plan ahead for scheduled absences
 - 🔔 Check announcements for any schedule changes
@@ -50,6 +54,7 @@ Welcome to Introduction to Linux! This document outlines the important agreement
 ### Continuous Assessment
 
 Your grade includes continuous evaluation based on:
+
 - ✅ **Correctness** of your work and solutions
 - ⏰ **Punctuality** in submissions and attendance
 - 💪 **Work attitude** and engagement during labs
@@ -60,12 +65,14 @@ Your grade includes continuous evaluation based on:
 
 ## 📊 Evaluation and Grading
 
-### Grade Composition
+### Grade Composition for Day Students
 
-| Component | Weight | Description |
-|-----------|--------|-------------|
-| 🔄 **Continuous Assessment** | 20% | Lab work, participation, assignments |
-| 📝 **Final Exam** | 80% | Practical exam on computer |
+| Component                    | Weight | Description                          |
+| ---------------------------- | ------ | ------------------------------------ |
+| 🔄 **Continuous Assessment** | 20%    | Lab work, participation, assignments |
+| 📝 **Final Exam**            | 80%    | Practical exam on computer           |
+
+Please note that the grade for Erasmus and Distance Learning students consists of 100% Exam evaluation.
 
 ### Continuous Assessment Criteria
 
@@ -124,11 +131,11 @@ Your 20% continuous evaluation is based on:
 
 ### Essential Equipment
 
-| Item | Required | Notes |
-|------|----------|-------|
-| 💻 **Laptop** | ✅ Yes | Bring to every class |
-| 🖴 **External HDD** | 🔶 Optional | Recommended for backups |
-| 🌐 **Internet Connection** | ✅ Yes | For downloads and research |
+| Item                       | Required    | Notes                      |
+| -------------------------- | ----------- | -------------------------- |
+| 💻 **Laptop**              | ✅ Yes      | Bring to every class       |
+| 🖴 **External HDD**         | 🔶 Optional | Recommended for backups    |
+| 🌐 **Internet Connection** | ✅ Yes      | For downloads and research |
 
 ---
 
@@ -144,14 +151,15 @@ Your 20% continuous evaluation is based on:
 
 Choose one virtualization option:
 
-| Software | Compatibility | Notes |
-|----------|---------------|-------|
-| **UTM** | ✅ M1/M2/Intel | Recommended for Apple Silicon |
-| **QEMU** | ✅ M1/M2/Intel | Direct QEMU installation |
-| **VirtualBox** | ⚠️ Intel only | Not for M1/M2 Macs |
-| **VMWare Player** | ✅ Both | Commercial option |
+| Software          | Compatibility  | Notes                         |
+| ----------------- | -------------- | ----------------------------- |
+| **UTM**           | ✅ M1/M2/Intel | Recommended for Apple Silicon |
+| **QEMU**          | ✅ M1/M2/Intel | Direct QEMU installation      |
+| **VirtualBox**    | ⚠️ Intel only  | Not for M1/M2 Macs            |
+| **VMWare Player** | ✅ Both        | Commercial option             |
 
 **Download Links:**
+
 - UTM: https://mac.getutm.app
 - QEMU: https://www.qemu.org/
 - VirtualBox: https://www.virtualbox.org/
@@ -161,14 +169,15 @@ Choose one virtualization option:
 
 Choose one option:
 
-| Software | Type | Best For |
-|----------|------|----------|
-| **WSL/WSL2** | Subsystem | Quick setup, integrated |
-| **VirtualBox** | Virtualization | Full VM experience |
-| **VMWare Player** | Virtualization | Professional option |
-| **QEMU** | Virtualization | Advanced users |
+| Software          | Type           | Best For                |
+| ----------------- | -------------- | ----------------------- |
+| **WSL/WSL2**      | Subsystem      | Quick setup, integrated |
+| **VirtualBox**    | Virtualization | Full VM experience      |
+| **VMWare Player** | Virtualization | Professional option     |
+| **QEMU**          | Virtualization | Advanced users          |
 
 **Download Links:**
+
 - WSL: `wsl --install` (from PowerShell)
 - Or: https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/
 - VirtualBox: https://www.virtualbox.org/
@@ -191,6 +200,7 @@ Choose one option:
 > **📌 Important:** Course materials and slides are primarily in **English**.
 
 This prepares you for:
+
 - 🌍 International IT environment
 - 📖 Technical documentation (mostly English)
 - 💼 Professional communication in tech
@@ -279,7 +289,6 @@ Before the first lab, make sure you:
 
 ## Navigation
 
-**Previous:** [← Course Lecturers](00-Lecturers.md)  
 **Next:** [→ Downloads](02-downloads.md)  
-**Course Info Home:** [↑ Course Information](../)  
+**Previous:** [← Course Lecturers](00-Lecturers.md)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

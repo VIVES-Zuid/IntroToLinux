@@ -9,7 +9,7 @@
 
 ## Navigation
 
-**Previous:** [← Review And Next Steps](../01-Intro/10-review-and-next-steps.md)  
 **Next:** [→ Understanding The Console Tty Origins](01-understanding-the-console-tty-origins.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Review And Next Steps](../01-Intro/10-review-and-next-steps.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

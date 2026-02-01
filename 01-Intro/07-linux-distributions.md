@@ -25,7 +25,7 @@ Linux distributions (distros) are complete operating systems built around the Li
 
 ## Navigation
 
-**Previous:** [← The Birth Of Linux](06-the-birth-of-linux.md)  
 **Next:** [→ Linux In The Real World](08-linux-in-the-real-world.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← The Birth Of Linux](06-the-birth-of-linux.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -38,7 +38,7 @@ Linux runs on over 95% of the world's supercomputers, including:
 
 ## Navigation
 
-**Previous:** [← Linux Distributions](07-linux-distributions.md)  
 **Next:** [→ Why Learn Linux](09-why-learn-linux.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← Linux Distributions](07-linux-distributions.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

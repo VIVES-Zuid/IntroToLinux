@@ -21,7 +21,7 @@
 
 ## Navigation
 
-**Previous:** [← Operating System Vs Kernel](02-operating-system-vs-kernel.md)  
 **Next:** [→ Gnu General Public License](04-gnu-general-public-license.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← Operating System Vs Kernel](02-operating-system-vs-kernel.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

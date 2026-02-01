@@ -28,7 +28,7 @@ When you start a terminal, you see a prompt that typically shows:
 
 ## Navigation
 
-**Previous:** [← Understanding The Console Tty Origins](01-understanding-the-console-tty-origins.md)  
 **Next:** [→ User Types And Login](03-user-types-and-login.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Understanding The Console Tty Origins](01-understanding-the-console-tty-origins.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

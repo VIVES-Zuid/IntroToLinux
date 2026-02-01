@@ -17,7 +17,7 @@ In the next lesson, we'll explore the Linux console, terminal concepts, and begi
 
 ## Navigation
 
-**Previous:** [← Why Learn Linux](09-why-learn-linux.md)  
 **Next:** [→ Learning Objectives](../02-Shell/00-learning-objectives.md)  
-**Lesson Home:** [↑ Lesson 01: Intro](../)  
+**Previous:** [← Why Learn Linux](09-why-learn-linux.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

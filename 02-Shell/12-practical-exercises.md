@@ -24,7 +24,7 @@
 
 ## Navigation
 
-**Previous:** [← Getting Help With Commands](11-getting-help-with-commands.md)  
 **Next:** [→ Review Questions](13-review-questions.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Getting Help With Commands](11-getting-help-with-commands.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

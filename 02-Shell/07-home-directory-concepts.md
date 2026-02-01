@@ -21,7 +21,7 @@ Your home directory (`/home/username`) is:
 
 ## Navigation
 
-**Previous:** [← Quiz Solutions](06-file-system-navigation-quiz-solutions.md)  
 **Next:** [→ File System Permissions](08-file-system-permissions.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Quiz Solutions](06-file-system-navigation-quiz-solutions.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

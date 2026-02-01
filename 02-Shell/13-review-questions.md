@@ -12,7 +12,7 @@
 
 ## Navigation
 
-**Previous:** [← Practical Exercises](12-practical-exercises.md)  
 **Next:** [→ Key Takeaways](14-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 02: Shell](../)  
+**Previous:** [← Practical Exercises](12-practical-exercises.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)
