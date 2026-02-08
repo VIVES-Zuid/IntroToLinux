@@ -13,6 +13,6 @@
 ## Navigation
 
 **Next:** [→ Key Takeaways](14-key-takeaways.md)  
-**Previous:** [← Practical Exercises](12-practical-exercises.md)  
+**Previous:** [← Quiz Solutions](12-file-system-navigation-quiz-solutions.md)  
 **Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

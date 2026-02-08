@@ -1,12 +1,14 @@
-# 6. File System Navigation Quiz - Solutions
+# 12. File System Navigation Quiz - Solutions
 
 ## Answer Key with Explanations
 
 ### Question 1
+
 **Current Location:** `/home/alice`  
 **Target:** `/home/alice/documents/reports/2024`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents/reports/2024`
 - Relative path: `cd documents/reports/2024`
 
@@ -15,10 +17,12 @@
 ---
 
 ### Question 2
+
 **Current Location:** `/home/alice/documents/projects/web`  
 **Target:** `/home/alice/documents/projects/scripts`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents/projects/scripts`
 - Relative path: `cd ../scripts`
 
@@ -27,10 +31,12 @@
 ---
 
 ### Question 3
+
 **Current Location:** `/home/bob/workspace/python`  
 **Target:** `/home/alice/pictures/vacation`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/pictures/vacation`
 - Relative path: `cd ../../../alice/pictures/vacation`
 
@@ -39,10 +45,12 @@
 ---
 
 ### Question 4
+
 **Current Location:** `/var/log/apache`  
 **Target:** `/home/alice`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice`
 - Relative path: `cd ../../../home/alice`
 
@@ -51,10 +59,12 @@
 ---
 
 ### Question 5
+
 **Current Location:** `/home/alice/documents/reports/2023`  
 **Target:** `/home/alice/documents/reports/2024`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents/reports/2024`
 - Relative path: `cd ../2024`
 
@@ -63,10 +73,12 @@
 ---
 
 ### Question 6
+
 **Current Location:** `/usr/local/share/doc`  
 **Target:** `/usr/local/src/project/src`
 
 **Answers:**
+
 - Absolute path: `cd /usr/local/src/project/src`
 - Relative path: `cd ../../src/project/src`
 
@@ -75,10 +87,12 @@
 ---
 
 ### Question 7
+
 **Current Location:** `/home/charlie/logs/application`  
 **Target:** `/home/charlie/temp`
 
 **Answers:**
+
 - Absolute path: `cd /home/charlie/temp`
 - Relative path: `cd ../../temp`
 
@@ -87,10 +101,12 @@
 ---
 
 ### Question 8
+
 **Current Location:** `/opt/custom/config`  
 **Target:** `/opt/third-party/application/data`
 
 **Answers:**
+
 - Absolute path: `cd /opt/third-party/application/data`
 - Relative path: `cd ../../third-party/application/data`
 
@@ -99,10 +115,12 @@
 ---
 
 ### Question 9
+
 **Current Location:** `/home/alice/downloads/software/editors`  
 **Target:** `/home/alice/downloads/music/jazz`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/downloads/music/jazz`
 - Relative path: `cd ../../music/jazz`
 
@@ -111,10 +129,12 @@
 ---
 
 ### Question 10
+
 **Current Location:** `/etc/config/network`  
 **Target:** `/etc/config/apache`
 
 **Answers:**
+
 - Absolute path: `cd /etc/config/apache`
 - Relative path: `cd ../apache`
 
@@ -123,10 +143,12 @@
 ---
 
 ### Question 11
+
 **Current Location:** `/home/bob/backup/daily`  
 **Target:** `/home/bob/workspace/databases/mysql`
 
 **Answers:**
+
 - Absolute path: `cd /home/bob/workspace/databases/mysql`
 - Relative path: `cd ../../workspace/databases/mysql`
 
@@ -135,10 +157,12 @@
 ---
 
 ### Question 12
+
 **Current Location:** `/var/www/html`  
 **Target:** `/var/mail/alice`
 
 **Answers:**
+
 - Absolute path: `cd /var/mail/alice`
 - Relative path: `cd ../../mail/alice`
 
@@ -147,10 +171,12 @@
 ---
 
 ### Question 13
+
 **Current Location:** `/usr/share/applications`  
 **Target:** `/usr/local/bin`
 
 **Answers:**
+
 - Absolute path: `cd /usr/local/bin`
 - Relative path: `cd ../../local/bin`
 
@@ -159,10 +185,12 @@
 ---
 
 ### Question 14
+
 **Current Location:** `/home/alice/documents/projects/scripts`  
 **Target:** `/home/alice`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice`
 - Relative path: `cd ../../..`
 
@@ -171,10 +199,12 @@
 ---
 
 ### Question 15
+
 **Current Location:** `/tmp/session-123`  
 **Target:** `/home/charlie/logs/system`
 
 **Answers:**
+
 - Absolute path: `cd /home/charlie/logs/system`
 - Relative path: `cd ../../home/charlie/logs/system`
 
@@ -183,10 +213,12 @@
 ---
 
 ### Question 16
+
 **Current Location:** `/home/alice/pictures/family`  
 **Target:** `/home/alice/documents` (directory containing notes.txt)
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents`
 - Relative path: `cd ../../documents`
 
@@ -195,10 +227,12 @@
 ---
 
 ### Question 17
+
 **Current Location:** `/usr/local/src/project/build`  
 **Target:** `/usr/local/src/project/src`
 
 **Answers:**
+
 - Absolute path: `cd /usr/local/src/project/src`
 - Relative path: `cd ../src`
 
@@ -207,10 +241,12 @@
 ---
 
 ### Question 18
+
 **Current Location:** `/home/bob/workspace/java`  
 **Target:** `/home/bob/backup/weekly`
 
 **Answers:**
+
 - Absolute path: `cd /home/bob/backup/weekly`
 - Relative path: `cd ../../backup/weekly`
 
@@ -219,10 +255,12 @@
 ---
 
 ### Question 19
+
 **Current Location:** `/var/log/system`  
 **Target:** `/etc`
 
 **Answers:**
+
 - Absolute path: `cd /etc`
 - Relative path: `cd ../../../etc`
 
@@ -231,10 +269,12 @@
 ---
 
 ### Question 20
+
 **Current Location:** `/home/alice/downloads/software/tools`  
 **Target:** `/home/alice/downloads/software/editors`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/downloads/software/editors`
 - Relative path: `cd ../editors`
 
@@ -243,10 +283,12 @@
 ---
 
 ### Question 21
+
 **Current Location:** `/opt/third-party/application/bin`  
 **Target:** `/opt/custom/bin`
 
 **Answers:**
+
 - Absolute path: `cd /opt/custom/bin`
 - Relative path: `cd ../../../custom/bin`
 
@@ -255,10 +297,12 @@
 ---
 
 ### Question 22
+
 **Current Location:** `/home/charlie/logs/application`  
 **Target:** `/home/alice/documents/projects/web`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents/projects/web`
 - Relative path: `cd ../../../alice/documents/projects/web`
 
@@ -267,10 +311,12 @@
 ---
 
 ### Question 23
+
 **Current Location:** `/usr/share/fonts`  
 **Target:** `/usr/local/share/man/man1`
 
 **Answers:**
+
 - Absolute path: `cd /usr/local/share/man/man1`
 - Relative path: `cd ../../local/share/man/man1`
 
@@ -279,10 +325,12 @@
 ---
 
 ### Question 24
+
 **Current Location:** `/home/alice/documents/reports/2024`  
 **Target:** `/home/alice/documents/projects`
 
 **Answers:**
+
 - Absolute path: `cd /home/alice/documents/projects`
 - Relative path: `cd ../../projects`
 
@@ -291,10 +339,12 @@
 ---
 
 ### Question 25
+
 **Current Location:** `/var/www/cgi-bin`  
 **Target:** `/tmp/cache`
 
 **Answers:**
+
 - Absolute path: `cd /tmp/cache`
 - Relative path: `cd ../../../tmp/cache`
 
@@ -303,10 +353,12 @@
 ---
 
 ### Question 26
+
 **Current Location:** `/home/bob/workspace/databases/postgres`  
 **Target:** `/home/bob/workspace/python`
 
 **Answers:**
+
 - Absolute path: `cd /home/bob/workspace/python`
 - Relative path: `cd ../../python`
 
@@ -315,10 +367,12 @@
 ---
 
 ### Question 27
+
 **Current Location:** `/etc/config/apache`  
 **Target:** `/var/log/apache`
 
 **Answers:**
+
 - Absolute path: `cd /var/log/apache`
 - Relative path: `cd ../../../var/log/apache`
 
@@ -327,10 +381,12 @@
 ---
 
 ### Question 28
+
 **Current Location:** `/home/alice/pictures/vacation`  
 **Target:** `/home/bob/workspace`
 
 **Answers:**
+
 - Absolute path: `cd /home/bob/workspace`
 - Relative path: `cd ../../../bob/workspace`
 
@@ -339,10 +395,12 @@
 ---
 
 ### Question 29
+
 **Current Location:** `/usr/local/share/doc`  
 **Target:** `/usr/share/applications`
 
 **Answers:**
+
 - Absolute path: `cd /usr/share/applications`
 - Relative path: `cd ../../../share/applications`
 
@@ -351,10 +409,12 @@
 ---
 
 ### Question 30
+
 **Current Location:** `/home/alice/downloads/music/rock`  
 **Target:** `/`
 
 **Answers:**
+
 - Absolute path: `cd /`
 - Relative path: `cd ../../../../..`
 
@@ -365,32 +425,39 @@
 ## Bonus Challenge Solutions
 
 ### Bonus 1
+
 **Current Location:** `/home/alice/documents/reports/2023`  
 **Target:** `/home/charlie/temp`
 
 **Answer:**
+
 - Relative path: `cd ../../../../charlie/temp`
 
 **Explanation:** Go up 4 levels (2023 → reports → documents → alice → home), then down to charlie/temp.
 
 ### Bonus 2
+
 **Current Location:** `/usr/local/src/project/src`  
 **Target:** `/var/mail/bob`
 
 **Answer:**
+
 - Relative path: `cd ../../../../../var/mail/bob`
 
 **Explanation:** Go up 5 levels (src → project → src → local → usr → root), then down to var/mail/bob.
 
 ### Bonus 3
+
 **Current Location:** `/opt/third-party/application/data`  
 **Target:** First to `/home/alice/pictures/family`, then to `/etc/config/network`
 
 **Answers:**
+
 - Command 1: `cd ../../../../home/alice/pictures/family`
 - Command 2: `cd ../../../../etc/config/network`
 
-**Explanation:** 
+**Explanation:**
+
 - First: Go up 4 levels to root, then down to alice's family pictures
 - Second: From family pictures, go up 4 levels to root, then down to etc config network
 
@@ -463,7 +530,7 @@ ls -la                 # List detailed contents including hidden files
 
 ## Navigation
 
-**Next:** [→ Home Directory Concepts](07-home-directory-concepts.md)  
-**Previous:** [← File System Navigation Quiz](05-file-system-navigation-quiz.md)  
+**Next:** [→ Review Questions](13-review-questions.md)  
+**Previous:** [← File System Navigation Quiz](11-file-system-navigation-quiz.md)  
 **Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

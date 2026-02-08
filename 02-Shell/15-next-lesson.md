@@ -19,6 +19,7 @@ You've now mastered the fundamentals of the Linux shell and file system navigati
 In the next lesson, you'll dive deeper into the shell environment:
 
 ### Topics We'll Cover:
+
 - **Environment Variables**: Understanding and managing system configuration
 - **Command History**: Efficiently recalling and editing previous commands
 - **Shell Configuration**: Customizing your shell environment
@@ -26,13 +27,16 @@ In the next lesson, you'll dive deeper into the shell environment:
 - **Advanced Environment Concepts**: Mastering shell behavior
 
 ### Why This Matters:
+
 - **Productivity**: Configure your environment for maximum efficiency
 - **Automation**: Set up variables and aliases for repetitive tasks
 - **Troubleshooting**: Understand how the shell finds and executes commands
 - **Customization**: Personalize your Linux experience
 
 ### Prerequisites Check:
+
 Before starting Lesson 3, ensure you can:
+
 - ✅ Navigate the file system using `cd`, `pwd`, `ls`
 - ✅ Understand absolute vs relative paths
 - ✅ Use basic file operations (`cp`, `mv`, `rm`, `mkdir`)
@@ -40,6 +44,7 @@ Before starting Lesson 3, ensure you can:
 - ✅ Complete the navigation quiz successfully
 
 ### Getting Ready:
+
 1. **Practice Navigation**: Complete the [File System Navigation Quiz](05-file-system-navigation-quiz.md)
 2. **Review Commands**: Make sure you're comfortable with all commands from this lesson
 3. **Set Up Practice Environment**: Ensure you have access to a Linux terminal
@@ -52,7 +57,7 @@ Before starting Lesson 3, ensure you can:
 
 ---
 
-*"The journey of a thousand commands begins with a single `cd`."*
+_"The journey of a thousand commands begins with a single `cd`."_
 
 ---
 

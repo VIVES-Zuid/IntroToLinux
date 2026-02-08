@@ -24,7 +24,7 @@
 
 ## Navigation
 
-**Next:** [→ Review Questions](13-review-questions.md)  
-**Previous:** [← Getting Help With Commands](11-getting-help-with-commands.md)  
+**Next:** [→ File System Navigation Quiz](11-file-system-navigation-quiz.md)  
+**Previous:** [← Getting Help With Commands](09-getting-help-with-commands.md)  
 **Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,29 +1,82 @@
 # 2. The Shell: Your Command Interface
 
+---
 
-### What Does the Shell Do?
-- **Communication**: Interface with kernel, file system, and processes
-- **Program Execution**: Starts and manages programs
-- **Scripting**: Allows automation through scripts
-- **Auto-completion**: Completes commands and file names (Tab key)
-- **History**: Remembers and allows repetition of previous commands
-- **Aliases**: Create shortcuts for complex commands
+## 🎯 What Does the Shell Do?
 
-### Popular Shell Types:
-- **bash** (Bourne Again SHell) - Most common on Linux
-- **zsh** (Z Shell) - Feature-rich, default on macOS
-- **dash** (Debian Almquist Shell) - Lightweight
-- **ksh** (Korn Shell) - Unix heritage
-- **sh** (Bourne Shell) - Original Unix shell
+<table>
+<tr>
+<td>💬</td>
+<td><strong>Communication</strong></td>
+<td>Interface with kernel, file system, and processes</td>
+</tr>
+<tr>
+<td>▶️</td>
+<td><strong>Program Execution</strong></td>
+<td>Starts and manages programs</td>
+</tr>
+<tr>
+<td>📝</td>
+<td><strong>Scripting</strong></td>
+<td>Allows automation through scripts</td>
+</tr>
+<tr>
+<td>⭐</td>
+<td><strong>Auto-completion</strong></td>
+<td>Completes commands and file names (<kbd>Tab</kbd> key)</td>
+</tr>
+<tr>
+<td>📜</td>
+<td><strong>History</strong></td>
+<td>Remembers and allows repetition of previous commands</td>
+</tr>
+<tr>
+<td>⚡</td>
+<td><strong>Aliases</strong></td>
+<td>Create shortcuts for complex commands</td>
+</tr>
+</table>
 
-### Your First Terminal
+---
+
+## 🐚 Popular Shell Types
+
+| Shell    | Name                  | Description                       |
+| -------- | --------------------- | --------------------------------- |
+| **bash** | Bourne Again SHell    | 🐧 Most common on Linux           |
+| **zsh**  | Z Shell               | ✨ Feature-rich, default on macOS |
+| **dash** | Debian Almquist Shell | 🪶 Lightweight                    |
+| **ksh**  | Korn Shell            | 🏛️ Unix heritage                  |
+| **sh**   | Bourne Shell          | 👴 Original Unix shell            |
+
+---
+
+## 🖥️ Your First Terminal
+
+<div align="center">
+
 ![Terminal Milan](../images/terminal-milan.png)
 
-When you start a terminal, you see a prompt that typically shows:
-- Username
-- Hostname (computer name)  
-- Current directory
-- Prompt character ($ for regular user, # for root)
+</div>
+
+### 🔍 Understanding the Prompt
+
+When you start a terminal, you see a **prompt** that typically shows:
+
+```
+┌─────────────────────────────────────────┐
+│ username@hostname:~/current/directory$  │
+│    ↑        ↑          ↑            ↑   │
+│    │        │          │            │   │
+│  User    Computer   Location    Prompt  │
+└─────────────────────────────────────────┘
+```
+
+**Prompt Characters:**
+
+- 💚 `$` = Regular user (unprivileged)
+- 🔴 `#` = Root user (administrator)
+
 ---
 
 ## Navigation

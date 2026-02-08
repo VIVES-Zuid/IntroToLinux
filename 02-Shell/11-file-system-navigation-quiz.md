@@ -1,4 +1,4 @@
-# 5. File System Navigation Quiz
+# 11. File System Navigation Quiz
 
 ## Sample File System Diagram
 
@@ -148,330 +148,390 @@ For this quiz, assume you are working with the following file system structure:
 ---
 
 ### Question 1
+
 **Current Location:** `/home/alice`  
 **Target:** `/home/alice/documents/reports/2024`  
 **Task:** Navigate to the 2024 reports folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 2
+
 **Current Location:** `/home/alice/documents/projects/web`  
 **Target:** `/home/alice/documents/projects/scripts`  
 **Task:** Navigate to the scripts folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 3
+
 **Current Location:** `/home/bob/workspace/python`  
 **Target:** `/home/alice/pictures/vacation`  
 **Task:** Navigate to Alice's vacation pictures
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 4
+
 **Current Location:** `/var/log/apache`  
 **Target:** `/home/alice`  
 **Task:** Navigate to Alice's home directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 5
+
 **Current Location:** `/home/alice/documents/reports/2023`  
 **Target:** `/home/alice/documents/reports/2024`  
 **Task:** Navigate to the 2024 reports folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 6
+
 **Current Location:** `/usr/local/share/doc`  
 **Target:** `/usr/local/src/project/src`  
 **Task:** Navigate to the project source code
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 7
+
 **Current Location:** `/home/charlie/logs/application`  
 **Target:** `/home/charlie/temp`  
 **Task:** Navigate to Charlie's temp folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 8
+
 **Current Location:** `/opt/custom/config`  
 **Target:** `/opt/third-party/application/data`  
 **Task:** Navigate to the third-party application data
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 9
+
 **Current Location:** `/home/alice/downloads/software/editors`  
 **Target:** `/home/alice/downloads/music/jazz`  
 **Task:** Navigate to the jazz music folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 10
+
 **Current Location:** `/etc/config/network`  
 **Target:** `/etc/config/apache`  
 **Task:** Navigate to the Apache configuration
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 11
+
 **Current Location:** `/home/bob/backup/daily`  
 **Target:** `/home/bob/workspace/databases/mysql`  
 **Task:** Navigate to the MySQL database folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 12
+
 **Current Location:** `/var/www/html`  
 **Target:** `/var/mail/alice`  
 **Task:** Navigate to Alice's mail folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 13
+
 **Current Location:** `/usr/share/applications`  
 **Target:** `/usr/local/bin`  
 **Task:** Navigate to the local bin directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 14
+
 **Current Location:** `/home/alice/documents/projects/scripts`  
 **Target:** `/home/alice`  
 **Task:** Navigate back to Alice's home directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 15
+
 **Current Location:** `/tmp/session-123`  
 **Target:** `/home/charlie/logs/system`  
 **Task:** Navigate to Charlie's system logs
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 16
+
 **Current Location:** `/home/alice/pictures/family`  
 **Target:** `/home/alice/documents/notes.txt` (parent directory)  
 **Task:** Navigate to the directory containing notes.txt
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 17
+
 **Current Location:** `/usr/local/src/project/build`  
 **Target:** `/usr/local/src/project/src`  
 **Task:** Navigate to the source code directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 18
+
 **Current Location:** `/home/bob/workspace/java`  
 **Target:** `/home/bob/backup/weekly`  
 **Task:** Navigate to the weekly backup folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 19
+
 **Current Location:** `/var/log/system`  
 **Target:** `/etc`  
 **Task:** Navigate to the system configuration directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 20
+
 **Current Location:** `/home/alice/downloads/software/tools`  
 **Target:** `/home/alice/downloads/software/editors`  
 **Task:** Navigate to the editors folder
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 21
+
 **Current Location:** `/opt/third-party/application/bin`  
 **Target:** `/opt/custom/bin`  
 **Task:** Navigate to the custom bin directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 22
+
 **Current Location:** `/home/charlie/logs/application`  
 **Target:** `/home/alice/documents/projects/web`  
 **Task:** Navigate to Alice's web project
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 23
+
 **Current Location:** `/usr/share/fonts`  
 **Target:** `/usr/local/share/man/man1`  
 **Task:** Navigate to the manual pages
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 24
+
 **Current Location:** `/home/alice/documents/reports/2024`  
 **Target:** `/home/alice/documents/projects`  
 **Task:** Navigate to the projects directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 25
+
 **Current Location:** `/var/www/cgi-bin`  
 **Target:** `/tmp/cache`  
 **Task:** Navigate to the cache directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 26
+
 **Current Location:** `/home/bob/workspace/databases/postgres`  
 **Target:** `/home/bob/workspace/python`  
 **Task:** Navigate to the Python workspace
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 27
+
 **Current Location:** `/etc/config/apache`  
 **Target:** `/var/log/apache`  
 **Task:** Navigate to the Apache log directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 28
+
 **Current Location:** `/home/alice/pictures/vacation`  
 **Target:** `/home/bob/workspace`  
 **Task:** Navigate to Bob's workspace
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 29
+
 **Current Location:** `/usr/local/share/doc`  
 **Target:** `/usr/share/applications`  
 **Task:** Navigate to the applications directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
 ---
 
 ### Question 30
+
 **Current Location:** `/home/alice/downloads/music/rock`  
 **Target:** `/`  
 **Task:** Navigate to the root directory
 
 **Your Answer:**
+
 - Absolute path: `cd _______________`
 - Relative path: `cd _______________`
 
@@ -480,24 +540,30 @@ For this quiz, assume you are working with the following file system structure:
 ## Bonus Challenge Questions
 
 ### Bonus 1
+
 **Current Location:** `/home/alice/documents/reports/2023`  
 **Task:** Navigate to `/home/charlie/temp` using only relative paths and without using absolute paths
 
 **Your Answer:**
+
 - Relative path: `cd _______________`
 
 ### Bonus 2
+
 **Current Location:** `/usr/local/src/project/src`  
 **Task:** Navigate to `/var/mail/bob` using the shortest possible relative path
 
 **Your Answer:**
+
 - Relative path: `cd _______________`
 
 ### Bonus 3
+
 **Current Location:** `/opt/third-party/application/data`  
 **Task:** Navigate to `/home/alice/pictures/family` and then to `/etc/config/network` using two commands
 
 **Your Answer:**
+
 - Command 1: `cd _______________`
 - Command 2: `cd _______________`
 
@@ -519,7 +585,7 @@ For this quiz, assume you are working with the following file system structure:
 
 ## Navigation
 
-**Next:** [→ Quiz Solutions](06-file-system-navigation-quiz-solutions.md)  
-**Previous:** [← Linux File System Structure](04-linux-file-system-structure.md)  
+**Next:** [→ Quiz Solutions](12-file-system-navigation-quiz-solutions.md)  
+**Previous:** [← Practical Exercises](10-practical-exercises.md)  
 **Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)
