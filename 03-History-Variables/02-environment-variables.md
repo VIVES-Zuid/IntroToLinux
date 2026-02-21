@@ -119,10 +119,8 @@ graph TD
     
     A -->|"❌ Hardcoded Connection"| B
     
-    style A fill:#ffcccc,stroke:#cc0000,stroke-width:3px
-    style B fill:#ffcccc,stroke:#cc0000,stroke-width:2px
-    
-    classDef problemBox fill:#ffcccc,stroke:#cc0000,stroke-width:2px
+    style A fill:#ffcccc,stroke:#cc0000,stroke-width:3px,color:#000
+    style B fill:#ffcccc,stroke:#cc0000,stroke-width:2px,color:#000
 ```
 
 **❌ PROBLEMS:**
@@ -144,9 +142,9 @@ graph TD
     A -->|"Environment Variables"| B
     B -->|"✅ Secure Connection"| C
     
-    style A fill:#d4edda,stroke:#28a745,stroke-width:3px
-    style B fill:#d4edda,stroke:#28a745,stroke-width:3px
-    style C fill:#d4edda,stroke:#28a745,stroke-width:2px
+    style A fill:#d4edda,stroke:#28a745,stroke-width:3px,color:#000
+    style B fill:#d4edda,stroke:#28a745,stroke-width:3px,color:#000
+    style C fill:#d4edda,stroke:#28a745,stroke-width:2px,color:#000
 ```
 
 #### Production Environment Flow
@@ -160,9 +158,9 @@ graph TD
     A -->|"Environment Variables"| B
     B -->|"✅ Secure Connection"| C
     
-    style A fill:#cce5ff,stroke:#007bff,stroke-width:3px
-    style B fill:#cce5ff,stroke:#007bff,stroke-width:3px
-    style C fill:#cce5ff,stroke:#007bff,stroke-width:2px
+    style A fill:#cce5ff,stroke:#007bff,stroke-width:3px,color:#000
+    style B fill:#cce5ff,stroke:#007bff,stroke-width:3px,color:#000
+    style C fill:#cce5ff,stroke:#007bff,stroke-width:2px,color:#000
 ```
 
 **✅ BENEFITS:**

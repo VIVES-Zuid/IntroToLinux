@@ -1,7 +1,7 @@
 # 3. Command History
 
-
 ### History Features:
+
 The shell remembers commands you've typed, making it easy to repeat or modify previous commands.
 
 ### History Commands:
@@ -42,15 +42,18 @@ history | grep keyword
 ```
 
 ### Interactive History Search:
+
 - **Ctrl+R**: Reverse search through history
 - Type to search, Enter to execute, Ctrl+R again for next match
 - Ctrl+C to cancel search
 
 ### Arrow Keys:
+
 - **Up Arrow**: Previous command
 - **Down Arrow**: Next command
 - **Left/Right Arrows**: Move cursor in current command
----
+
+## ![Bash Arrow History](../images/bashhist.gif)
 
 ## Navigation
 
