@@ -10,6 +10,6 @@ In the next lesson, we'll explore advanced command usage, quotes, variables, and
 ## Navigation
 
 **Next:** [→ Learning Objectives](../05-Echo-Alias-Operators/00-learning-objectives.md)  
-**Previous:** [← Key Takeaways](12-key-takeaways.md)  
+**Previous:** [← Command Summary](13-command-summary.md)  
 **Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

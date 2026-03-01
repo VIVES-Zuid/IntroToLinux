@@ -79,7 +79,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 10. [Troubleshooting](04-Redirects-Pipes/10-troubleshooting.md)
 11. [Review Questions](04-Redirects-Pipes/11-review-questions.md)
 12. [Key Takeaways](04-Redirects-Pipes/12-key-takeaways.md)
-13. [Next Lesson](04-Redirects-Pipes/13-next-lesson.md)
+13. [Command Summary: Chapters 1-4](04-Redirects-Pipes/13-command-summary.md)
+14. [Next Lesson](04-Redirects-Pipes/14-next-lesson.md)
 
 ### [Lesson 5: Advanced Commands and Control Operators](05-Echo-Alias-Operators/)
 

@@ -1,7 +1,7 @@
 # 9. Performance and Best Practices
 
-
 ### Efficient Pipelines:
+
 - Put filters early in pipeline to reduce data
 - Use appropriate tools for each task
 - Avoid unnecessary pipes
@@ -10,19 +10,23 @@
 # Less efficient
 cat file.txt | grep pattern | head -10
 
-# More efficient
+## Watch out! Next two commands will have a different output!
+
+# Returns the first 10 lines from file.txt containing the pattern
 grep pattern file.txt | head -10
 
-# Or even better for head
+# Return only the line containing the pattern in the first 10 lines of file.txt
 head -10 file.txt | grep pattern  # If pattern is common
 ```
 
-### Memory Considerations:
+### ℹ️ Memory Considerations:
+
 - Pipes process data in streams (low memory)
 - Temporary files use disk space
 - Very large datasets may need special handling
 
-### Error Handling:
+### ℹ️ Error Handling:
+
 ```bash
 # Exit on pipeline failure
 set -o pipefail
@@ -34,6 +38,7 @@ else
     echo "somecommand not found"
 fi
 ```
+
 ---
 
 ## Navigation

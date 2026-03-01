@@ -83,7 +83,7 @@ cat errors.txt
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│ find /usr -name "*.txt" > found.txt 2> errors.txt       │
+│ find /usr -name "*.txt" > found.txt 2> errors.txt        │
 └──────────────────────────────────────────────────────────┘
                     │                      │
                     ▼                      ▼

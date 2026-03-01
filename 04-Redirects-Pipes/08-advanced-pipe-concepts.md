@@ -1,5 +1,4 @@
-# 8. Advanced Pipe Concepts
-
+# 8. ℹ️ Advanced Pipe Concepts
 
 ### Named Pipes (FIFOs):
 
@@ -34,6 +33,7 @@ set -o pipefail
 command1 | command2
 echo ${PIPESTATUS[@]}  # Exit status of all commands
 ```
+
 ---
 
 ## Navigation

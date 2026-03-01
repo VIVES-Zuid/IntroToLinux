@@ -5,6 +5,9 @@
 - Learn to chain commands with pipes
 - Use pipes for powerful text processing
 - Combine redirection and pipes effectively
+
+ℹ️ This symbol will be placed to all sections containing additional information but not necessarily being exam material.
+
 ---
 
 ## Navigation

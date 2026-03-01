@@ -1,7 +1,6 @@
 # 6. Combining Redirection and Pipes
 
-
-### Complex Examples:
+### ⚠️ Complex Examples:
 
 ```bash
 # Save command output to file and display
@@ -40,6 +39,7 @@ cat document.txt | \
     sort -nr | \
     head -20 > word_frequency.txt
 ```
+
 ---
 
 ## Navigation

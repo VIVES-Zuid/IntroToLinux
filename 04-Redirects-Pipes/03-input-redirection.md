@@ -44,7 +44,7 @@ EOF
 cat poem.txt
 ```
 
-## Here Document Visualization
+## ℹ️ Here Document Visualization
 
 ```
 Here Document Flow:
@@ -59,7 +59,7 @@ EOF                  └─────────────────┘
 The << operator creates a temporary input stream until it sees "EOF"
 ```
 
-## Input Redirection Types
+## ℹ️ Input Redirection Types
 
 ```
 Type          │ Syntax        │ Description
@@ -100,7 +100,7 @@ with here documents
 EOF
 ```
 
-## Complete Redirection Example
+## ℹ️ Complete Redirection Example
 
 ```
 Complex Example: sort < input.txt > output.txt 2> errors.txt
@@ -117,7 +117,7 @@ Complex Example: sort < input.txt > output.txt 2> errors.txt
 Flow: File → Process → File (with error handling)
 ```
 
-## Practical Use Cases
+## ℹ️ Practical Use Cases
 
 ```bash
 # Email-like input for scripts
