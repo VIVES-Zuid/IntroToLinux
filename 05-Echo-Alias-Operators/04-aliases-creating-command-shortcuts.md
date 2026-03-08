@@ -1,7 +1,7 @@
 # 4. Aliases: Creating Command Shortcuts
 
-
 ### What Are Aliases?
+
 Aliases are shortcuts that let you create custom commands or modify existing command behavior.
 
 ### Creating Aliases:
@@ -58,7 +58,8 @@ unalias grep
 unalias -a
 ```
 
-### Permanent Aliases:
+### ℹ️ Permanent Aliases:
+
 Add aliases to your shell configuration file:
 
 ```bash
@@ -108,6 +109,7 @@ alias gc='git commit'
 alias gp='git push'
 alias gl='git log'
 ```
+
 ---
 
 ## Navigation

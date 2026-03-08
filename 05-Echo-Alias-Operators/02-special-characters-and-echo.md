@@ -1,6 +1,5 @@
 # 2. Special Characters and Echo
 
-
 ### Echo Command with Special Characters:
 
 ```bash
@@ -36,12 +35,12 @@ QUOTE='"Hello World"'
 echo "He said: $QUOTE"
 ```
 
-### Echo with Colors:
+### ℹ️ Echo with Colors:
 
 ```bash
 # ANSI color codes
 echo -e "\033[31mRed text\033[0m"      # Red
-echo -e "\033[32mGreen text\033[0m"    # Green  
+echo -e "\033[32mGreen text\033[0m"    # Green
 echo -e "\033[33mYellow text\033[0m"   # Yellow
 echo -e "\033[34mBlue text\033[0m"     # Blue
 
@@ -53,6 +52,7 @@ RESET='\033[0m'
 echo -e "${RED}Error message${RESET}"
 echo -e "${GREEN}Success message${RESET}"
 ```
+
 ---
 
 ## Navigation
