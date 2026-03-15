@@ -62,6 +62,110 @@ dd if=test.img of=/dev/null bs=1M iflag=direct
 - `seek=N` - Skip N blocks at start of output
 - `status=progress` - Show progress
 - `conv=noerror` - Continue on errors
+
+### Common Block Devices and Partitions:
+
+#### Listing Block Devices:
+
+```bash
+# List all block devices
+lsblk                    # Tree view of all block devices
+
+# Show detailed information
+lsblk -f                 # Include filesystem type and UUID
+lsblk -o NAME,SIZE,TYPE,MOUNTPOINT   # Custom columns
+
+# Alternative methods
+fdisk -l                 # List all disks and partitions (requires root)
+parted -l                # List partitions with parted (requires root)
+ls -l /dev/sd*           # List SATA/SCSI devices
+ls -l /dev/nvme*         # List NVMe devices
+```
+
+#### SATA/SCSI Drives (Traditional):
+
+```bash
+# Whole disks
+/dev/sda                 # First SATA/SCSI drive
+/dev/sdb                 # Second SATA/SCSI drive
+/dev/sdc                 # Third SATA/SCSI drive
+
+# Partitions
+/dev/sda1               # First partition on first drive
+/dev/sda2               # Second partition on first drive
+/dev/sdb1               # First partition on second drive
+
+# Example: Backup entire SATA drive
+dd if=/dev/sda of=sda_backup.img bs=4M status=progress
+
+# Example: Clone one drive to another
+dd if=/dev/sda of=/dev/sdb bs=4M status=progress
+```
+
+#### NVMe Drives (Modern SSDs):
+
+```bash
+# Whole NVMe drives
+/dev/nvme0n1            # First NVMe drive
+/dev/nvme1n1            # Second NVMe drive
+/dev/nvme2n1            # Third NVMe drive
+
+# NVMe partitions
+/dev/nvme0n1p1          # First partition on first NVMe drive
+/dev/nvme0n1p2          # Second partition on first NVMe drive
+/dev/nvme1n1p1          # First partition on second NVMe drive
+
+# Example: Backup NVMe drive
+dd if=/dev/nvme0n1 of=nvme_backup.img bs=4M status=progress
+
+# Example: Backup NVMe partition
+dd if=/dev/nvme0n1p1 of=nvme_partition1.img bs=4M status=progress
+```
+
+#### Modern Removable Media:
+
+```bash
+# SD cards and eMMC
+/dev/mmcblk0            # First SD card/eMMC device
+/dev/mmcblk0p1          # First partition on SD card
+/dev/mmcblk1            # Second SD card
+
+# USB drives (usually appear as sd*)
+/dev/sdd                # USB drive (fourth SCSI device)
+/dev/sdd1               # First partition on USB drive
+
+# Example: Create bootable USB from ISO
+dd if=ubuntu.iso of=/dev/sdd bs=4M status=progress && sync
+
+# Example: Backup SD card
+dd if=/dev/mmcblk0 of=sdcard_backup.img bs=4M status=progress
+```
+
+#### Virtual and Loop Devices:
+
+```bash
+# Loop devices (for mounting image files)
+/dev/loop0              # First loop device
+/dev/loop1              # Second loop device
+
+# Virtual disks (in VMs)
+/dev/vda                # First virtio disk
+/dev/vda1               # First partition on virtio disk
+/dev/xvda               # Xen virtual disk
+
+# Example: Create disk image and mount
+dd if=/dev/zero of=disk.img bs=1M count=100
+losetup /dev/loop0 disk.img
+```
+
+#### ⚠️ Safety Tips:
+- **Always double-check the device name** before running dd
+- Use `lsblk` to verify the correct device
+- `if=` is input (source), `of=` is output (destination)
+- Wrong device can destroy data permanently
+- Consider using `status=progress` to monitor operations
+- Always run `sync` after dd operations
+
 ---
 
 ## Navigation

@@ -1,11 +1,11 @@
 # 1. File Globbing (Wildcard Patterns)
 
-
 File globbing allows you to select multiple files using pattern matching. It's processed by the shell before the command runs.
 
 ### Basic Globbing Patterns:
 
-#### Asterisk (*) - Match Any Characters
+#### Asterisk (\*) - Match Any Characters (0,1 or more)
+
 ```bash
 # Match all files
 ls *
@@ -24,7 +24,8 @@ ls *config*
 ls *2024*
 ```
 
-#### Question Mark (?) - Match Single Character
+#### Question Mark (?) - Match Single Character (only 1)
+
 ```bash
 # Match files with single character variation
 ls file?.txt          # file1.txt, file2.txt, fileA.txt
@@ -35,7 +36,8 @@ ls ?.conf             # a.conf, 1.conf, x.conf
 ls file??.txt         # file01.txt, file23.txt, fileAB.txt
 ```
 
-#### Square Brackets ([]) - Match Character Range
+#### Square Brackets ([]) - Match Character Range or options (only 1, repeat for more characters)
+
 ```bash
 # Match specific characters
 ls file[123].txt      # file1.txt, file2.txt, file3.txt
@@ -53,6 +55,7 @@ ls file[!a-c].txt     # file excluding filea.txt, fileb.txt, filec.txt
 ```
 
 #### Brace Expansion ({}) - Generate Multiple Patterns
+
 ```bash
 # Create multiple files
 touch file{1,2,3}.txt                    # file1.txt, file2.txt, file3.txt
@@ -72,7 +75,8 @@ mkdir -p project/{src,docs,tests}/{2023,2024}
 
 ### Advanced Globbing:
 
-#### Extended Globbing (bash)
+#### ℹ️ Extended Globbing (bash)
+
 Enable with `shopt -s extglob`:
 
 ```bash
@@ -94,6 +98,7 @@ ls !(*.tmp)           # All files except .tmp files
 ```
 
 #### Globbing with Directories:
+
 ```bash
 # Match files in subdirectories
 ls */*.txt            # .txt files in immediate subdirectories
@@ -111,7 +116,7 @@ ls **/*.py            # All .py files recursively
 cp *.{txt,doc,pdf} ~/backup/
 
 # Remove temporary files
-rm *.tmp *~ *.bak
+rm *.tmp *~ *.bak   #files ending in a tilde ~ are backup files created by some editors
 
 # List files by date pattern
 ls *2024*
@@ -131,6 +136,7 @@ ls *.log
 ls /var/log/*.log
 tail -f /var/log/*.log
 ```
+
 ---
 
 ## Navigation
