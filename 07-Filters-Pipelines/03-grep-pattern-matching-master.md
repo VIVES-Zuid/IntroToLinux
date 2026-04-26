@@ -1,6 +1,5 @@
 # 3. grep: Pattern Matching Master
 
-
 grep (Global Regular Expression Print) is one of the most powerful text searching tools.
 
 ### Basic grep Usage:
@@ -44,7 +43,7 @@ grep "pattern1\|pattern2" file.txt
 
 # Context lines
 grep -A 3 "pattern" file.txt   # 3 lines after match
-grep -B 3 "pattern" file.txt   # 3 lines before match  
+grep -B 3 "pattern" file.txt   # 3 lines before match
 grep -C 3 "pattern" file.txt   # 3 lines before and after
 
 # Whole word matching
@@ -54,7 +53,7 @@ grep -w "word" file.txt
 grep -F "literal.string" file.txt
 ```
 
-### grep with Regular Expressions:
+### ℹ️ grep with Regular Expressions:
 
 ```bash
 # Beginning of line
@@ -102,6 +101,7 @@ grep -n "TODO\|FIXME\|BUG" *.py
 grep -v "^#" /etc/ssh/sshd_config | grep -v "^$"
 grep "Port" /etc/ssh/sshd_config
 ```
+
 ---
 
 ## Navigation

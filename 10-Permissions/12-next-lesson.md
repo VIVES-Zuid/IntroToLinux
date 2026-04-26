@@ -4,8 +4,7 @@ In the final lesson, we'll explore system monitoring, process management, and ad
 
 ---
 
-*"File permissions are the locks and keys of the Linux system - master them to master security."*
----
+## _"File permissions are the locks and keys of the Linux system - master them to master security."_
 
 ## Navigation
 

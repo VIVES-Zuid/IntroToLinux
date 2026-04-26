@@ -1,7 +1,6 @@
 # 2. User Information Files
 
-
-### /etc/passwd: User Account Information
+### ⚠️ /etc/passwd: User Account Information
 
 The `/etc/passwd` file contains basic user account information:
 
@@ -17,6 +16,7 @@ john:x:1000:1000:John Doe,,,:/home/john:/bin/bash
 ```
 
 #### Field Explanation:
+
 1. **Username**: Login name
 2. **Password**: `x` (password stored in /etc/shadow)
 3. **UID**: User ID number
@@ -39,6 +39,7 @@ john:$6$anothersalt$anotherpassword:19500:0:99999:7:::
 ```
 
 #### Field Explanation:
+
 1. **Username**: Login name
 2. **Encrypted Password**: Hashed password (empty = no password, ! = locked)
 3. **Last Change**: Days since password was last changed (since Jan 1, 1970)
@@ -62,6 +63,7 @@ john:x:1000:
 ```
 
 #### Field Explanation:
+
 1. **Group Name**: Name of the group
 2. **Password**: Usually `x` (group passwords rarely used)
 3. **GID**: Group ID number
@@ -90,6 +92,7 @@ who
 w
 last                  # Login history
 ```
+
 ---
 
 ## Navigation

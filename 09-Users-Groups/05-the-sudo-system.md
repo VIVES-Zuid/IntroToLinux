@@ -1,7 +1,7 @@
-# 5. The sudo System
-
+# 5. ℹ️ The sudo System
 
 ### Understanding sudo
+
 `sudo` (substitute user do) allows regular users to execute commands with elevated privileges without knowing the root password.
 
 ### sudo Configuration: /etc/sudoers
@@ -28,6 +28,7 @@ alice   ALL=(ALL) /usr/bin/apt, /usr/bin/systemctl
 ```
 
 ### sudo Syntax in /etc/sudoers:
+
 ```
 user/group  hosts=(run_as_users:run_as_groups) commands
 ```
@@ -95,6 +96,7 @@ alice   ALL=(ALL) /usr/bin/systemctl
 # Use NOPASSWD sparingly and only for safe commands
 %backup ALL=(ALL) NOPASSWD: /usr/bin/rsync
 ```
+
 ---
 
 ## Navigation

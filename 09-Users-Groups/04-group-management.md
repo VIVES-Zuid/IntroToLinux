@@ -1,5 +1,4 @@
-# 4. Group Management
-
+# 4. ℹ️ Group Management
 
 ### Creating Groups:
 
@@ -63,6 +62,7 @@ sudo groupadd project-team
 sudo usermod -aG project-team alice
 sudo usermod -aG project-team bob
 ```
+
 ---
 
 ## Navigation

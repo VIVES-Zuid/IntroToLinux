@@ -1,5 +1,4 @@
-# 8. User Security Best Practices
-
+# 8. ℹ️ User Security Best Practices
 
 ### Password Policies:
 
@@ -56,6 +55,7 @@ find /home -type f -perm -002 -ls
 # Check for SUID/SGID files
 find /home -type f \( -perm -4000 -o -perm -2000 \) -ls
 ```
+
 ---
 
 ## Navigation

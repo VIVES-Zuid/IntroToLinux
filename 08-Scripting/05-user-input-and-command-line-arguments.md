@@ -1,6 +1,5 @@
 # 5. User Input and Command-Line Arguments
 
-
 ### Reading User Input:
 
 ```bash
@@ -31,7 +30,7 @@ echo "Hello, $first_name $last_name"
 #!/bin/bash
 # Script: greet.sh
 
-# Special variables for arguments
+# ⚠️ Special variables for arguments
 echo "Script name: $0"
 echo "First argument: $1"
 echo "Second argument: $2"
@@ -79,6 +78,7 @@ case $OPERATION in
         ;;
 esac
 ```
+
 ---
 
 ## Navigation

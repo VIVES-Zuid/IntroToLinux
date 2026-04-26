@@ -1,12 +1,11 @@
 # 6. Conditional Statements
 
-
 ### if-then-else Structure:
 
 ```bash
 #!/bin/bash
 
-# Basic if statement
+# ⚠️ Basic if statement
 if [ condition ]; then
     # commands to execute if condition is true
     echo "Condition is true"
@@ -32,6 +31,7 @@ fi
 ### Test Conditions:
 
 #### File Tests:
+
 ```bash
 #!/bin/bash
 
@@ -64,6 +64,7 @@ fi
 ```
 
 #### String Comparisons:
+
 ```bash
 #!/bin/bash
 
@@ -77,7 +78,7 @@ else
     echo "No name provided"
 fi
 
-# String tests:
+# ⚠️ String tests:
 # -z string : string is empty
 # -n string : string is not empty
 # string1 = string2 : strings are equal
@@ -85,6 +86,7 @@ fi
 ```
 
 #### Numeric Comparisons:
+
 ```bash
 #!/bin/bash
 
@@ -98,7 +100,7 @@ else
     echo "You are a child"
 fi
 
-# Numeric tests:
+# ⚠️ Numeric tests:
 # -eq : equal
 # -ne : not equal
 # -gt : greater than
@@ -163,6 +165,7 @@ fi
 
 echo "Backup checks completed successfully"
 ```
+
 ---
 
 ## Navigation

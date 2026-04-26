@@ -1,3 +1,5 @@
+# ℹ️ This full chapter 11 is provided for informational purposes only and will not be assessed in the exam. ℹ️
+
 # Learning Objectives
 
 - Master process management and system monitoring
@@ -6,6 +8,7 @@
 - Implement backup and recovery strategies
 - Integrate all Linux skills learned in previous lessons
 - Prepare for real-world Linux administration tasks
+
 ---
 
 ## Navigation

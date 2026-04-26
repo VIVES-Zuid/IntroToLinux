@@ -1,7 +1,7 @@
-# 4. Special Permission Bits
-
+# 4. ℹ️ Special Permission Bits
 
 ### Set User ID (SUID) - 4000
+
 When set on executable files, the program runs with the owner's privileges instead of the executor's.
 
 ```bash
@@ -16,6 +16,7 @@ ls -l /usr/bin/passwd
 ```
 
 ### Set Group ID (SGID) - 2000
+
 On files: Program runs with group's privileges
 On directories: New files inherit the directory's group
 
@@ -35,6 +36,7 @@ sudo chmod 2775 /opt/project
 ```
 
 ### Sticky Bit - 1000
+
 On directories: Only owner can delete their own files (like /tmp)
 
 ```bash
@@ -61,6 +63,7 @@ find /usr -perm -4000 2>/dev/null    # SUID files
 find /usr -perm -2000 2>/dev/null    # SGID files
 find / -perm -1000 -type d 2>/dev/null # Sticky bit directories
 ```
+
 ---
 
 ## Navigation

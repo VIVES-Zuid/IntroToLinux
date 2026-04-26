@@ -1,7 +1,7 @@
-# 5. Default Permissions with umask
-
+# 5. ℹ️ Default Permissions with umask
 
 ### Understanding umask
+
 umask defines default permissions for newly created files and directories by specifying which permissions to remove.
 
 ```bash
@@ -64,6 +64,7 @@ umask 022             # Standard permissions for web files
 umask 002
 # Combined with SGID directories for automatic group inheritance
 ```
+
 ---
 
 ## Navigation

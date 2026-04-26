@@ -1,9 +1,9 @@
-# 6. User Environment and Configuration
-
+# 6. ℹ️ User Environment and Configuration
 
 ### User's Startup Files:
 
 #### Login Shells:
+
 ```bash
 /etc/profile           # System-wide profile
 ~/.bash_profile        # User's bash profile
@@ -12,6 +12,7 @@
 ```
 
 #### Interactive Non-Login Shells:
+
 ```bash
 /etc/bash.bashrc       # System-wide bashrc
 ~/.bashrc              # User's bash configuration
@@ -72,6 +73,7 @@ mkdir -p "$USER_HOME/tmp"
 echo "User environment setup completed for $USERNAME"
 EOF
 ```
+
 ---
 
 ## Navigation

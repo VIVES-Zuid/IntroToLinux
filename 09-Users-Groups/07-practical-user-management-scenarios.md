@@ -1,6 +1,5 @@
 # 7. Practical User Management Scenarios
 
-
 ### Lab 7.1: User Creation and Management (20 minutes)
 
 ```bash
@@ -70,7 +69,7 @@ sudo visudo
 sudo -u charlie sudo systemctl status ssh
 ```
 
-### Lab 7.4: User Security Audit (10 minutes)
+### ℹ️ Lab 7.4: User Security Audit (10 minutes)
 
 ```bash
 # 1. Check users with shells
@@ -91,6 +90,7 @@ last | head -10
 # 6. Check failed login attempts
 sudo grep "Failed password" /var/log/auth.log | tail -10
 ```
+
 ---
 
 ## Navigation
