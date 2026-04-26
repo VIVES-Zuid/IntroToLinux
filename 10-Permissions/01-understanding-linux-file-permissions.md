@@ -6,27 +6,30 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                    Linux Permission System                  │
 │                                                             │
-│  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐       │
-│  │    Owner    │   │    Group    │   │   Others    │       │
-│  │    (User)   │   │  (Members)  │   │  (Everyone) │       │
-│  │             │   │             │   │             │       │
-│  │  r w x      │   │  r w x      │   │  r w x      │       │
-│  │  ┌─┬─┬─┐    │   │  ┌─┬─┬─┐    │   │  ┌─┬─┬─┐    │       │
-│  │  │4│2│1│    │   │  │4│2│1│    │   │  │4│2│1│    │       │
-│  │  └─┴─┴─┘    │   │  └─┴─┴─┘    │   │  └─┴─┴─┘    │       │
-│  └─────────────┘   └─────────────┘   └─────────────┘       │
+│  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐        │
+│  │    Owner    │   │    Group    │   │   Others    │        │
+│  │    (User)   │   │  (Members)  │   │  (Everyone) │        │
+│  │             │   │             │   │             │        │
+│  │  r w x      │   │  r w x      │   │  r w x      │        │
+│  │  ┌─┬─┬─┐    │   │  ┌─┬─┬─┐    │   │  ┌─┬─┬─┐    │        │
+│  │  │4│2│1│    │   │  │4│2│1│    │   │  │4│2│1│    │        │
+│  │  └─┴─┴─┘    │   │  └─┴─┴─┘    │   │  └─┴─┴─┘    │        │
+│  └─────────────┘   └─────────────┘   └─────────────┘        │
 └─────────────────────────────────────────────────────────────┘
 
 r = Read (4)    w = Write (2)    x = Execute (1)
 ```
 
 ### The Permission Model
+
 Linux uses a three-tier permission model:
+
 - **Owner (User)**: The file's owner
-- **Group**: Members of the file's group  
+- **Group**: Members of the file's group
 - **Others**: Everyone else on the system
 
 Each tier can have three types of permissions:
+
 - **Read (r)**: View file contents or list directory contents
 - **Write (w)**: Modify file or create/delete files in directory
 - **Execute (x)**: Run file as program or enter directory
@@ -37,14 +40,14 @@ Each tier can have three types of permissions:
 Example: -rw-r--r-- 1 user group 1024 Jan 15 10:30 file.txt
 
 ┌─┬───┬───┬───┬─┬────┬─────┬────┬──────────┬────────┐
-│-│rw-│r--│r--│1│user│group│1024│Jan 15...│file.txt│
+│-│rw-│r--│r--│1│user│group│1024│Jan 15... │file.txt│
 └─┴───┴───┴───┴─┴────┴─────┴────┴──────────┴────────┘
  │  │   │   │  │  │    │     │      │         │
  │  │   │   │  │  │    │     │      │         └─ Filename
  │  │   │   │  │  │    │     │      └─ Date/Time
  │  │   │   │  │  │    │     └─ Size (bytes)
  │  │   │   │  │  │    └─ Group owner
- │  │   │   │  │  └─ User owner  
+ │  │   │   │  │  └─ User owner
  │  │   │   │  └─ Number of hard links
  │  │   │   └─ Others permissions (r--)
  │  │   └─ Group permissions (r--)
@@ -80,24 +83,24 @@ ls -la directory/
 ```
 Permission Calculation:
 r (read)    = 4
-w (write)   = 2  
+w (write)   = 2
 x (execute) = 1
 
-┌─────────────────────────────────────────────────────────┐
-│                 Permission Examples                     │
+┌────────────────────────────────────────────────────────┐
+│                 Permission Examples                    │
 ├─────────┬────────────┬─────────────────────────────────┤
 │ Numeric │ Symbolic   │ Description                     │
 ├─────────┼────────────┼─────────────────────────────────┤
 │   755   │ rwxr-xr-x  │ Owner: all, Group/Others: r+x   │
 │   644   │ rw-r--r--  │ Owner: r+w, Group/Others: r     │
 │   700   │ rwx------  │ Owner: all, Group/Others: none  │
-│   777   │ rwxrwxrwx  │ Everyone: all (dangerous!)     │
-│   000   │ ---------  │ No permissions for anyone      │
+│   777   │ rwxrwxrwx  │ Everyone: all (dangerous!)      │
+│   000   │ ---------  │ No permissions for anyone       │
 └─────────┴────────────┴─────────────────────────────────┘
 
 Calculation Example for 755:
 Owner:  r(4) + w(2) + x(1) = 7
-Group:  r(4) + -(0) + x(1) = 5  
+Group:  r(4) + -(0) + x(1) = 5
 Others: r(4) + -(0) + x(1) = 5
 Result: 755
 ```
@@ -118,7 +121,7 @@ Execute(x) │ Run file as program/script   │ Enter directory
            │ ./script.sh, /bin/program    │ cd, access files inside
 
 Visual Example:
-┌──────────┐    r     ┌──────────┐    w     ┌──────────┐    x     ┌──────────┐
+┌──────────┐    r    ┌──────────┐    w    ┌──────────┐    x    ┌──────────┐
 │   User   │ ──────▶ │   Read   │ ──────▶ │  Write   │ ──────▶ │ Execute  │
 │          │         │   File   │         │   File   │         │   File   │
 └──────────┘         └──────────┘         └──────────┘         └──────────┘
@@ -133,7 +136,7 @@ Visual Example:
 -rwxr-xr-x  (755)  Executable (owner all, others read/execute)
 -rwxrwxrwx  (777)  World writable (dangerous!)
 
-# Directories  
+# Directories
 drwx------  (700)  Private directory
 drwxr-xr-x  (755)  Public directory
 drwxrwxrwx  (777)  World writable directory (very dangerous!)
@@ -142,13 +145,14 @@ drwxrwxrwx  (777)  World writable directory (very dangerous!)
 -rwxr--r--  (744)  Owner executable script
 -rwxr-xr-x  (755)  Public executable script
 ```
+
 ```
 
 ### Permission Representation
 
 #### Symbolic Notation:
 - `r` = read (4)
-- `w` = write (2)  
+- `w` = write (2)
 - `x` = execute (1)
 - `-` = permission not granted
 
@@ -176,7 +180,8 @@ Common permission combinations:
 
 ## Navigation
 
-**Next:** [→ The Chmod Command](02-the-chmod-command.md)  
-**Previous:** [← Learning Objectives](00-learning-objectives.md)  
+**Next:** [→ The Chmod Command](02-the-chmod-command.md)
+**Previous:** [← Learning Objectives](00-learning-objectives.md)
 **Lesson Home:** [↑ Lesson 10: Permissions](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)
+```
