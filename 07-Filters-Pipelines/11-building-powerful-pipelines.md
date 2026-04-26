@@ -1,4 +1,4 @@
-# 11. Building Powerful Pipelines
+# 11. ℹ️ Building Powerful Pipelines
 
 ## Pipeline Design Patterns
 
