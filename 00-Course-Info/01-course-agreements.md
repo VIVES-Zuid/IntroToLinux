@@ -6,6 +6,15 @@ Welcome to Introduction to Linux! This document outlines the important agreement
 
 ---
 
+## 📌 Section Icons Legend
+
+Throughout the course materials, you will encounter special icons in section titles that indicate the importance and exam relevance:
+
+- **ℹ️** - This section is **not included** in the exam. It contains supplementary information for your knowledge.
+- **⚠️** - This section is **important** and will be covered in the exam. Pay special attention to these topics.
+
+---
+
 ## ❓ Questions and Communication
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
