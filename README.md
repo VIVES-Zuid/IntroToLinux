@@ -197,6 +197,17 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 12. [Key Takeaways](11-Server-Management/12-key-takeaways.md)
 13. [Course Completion](11-Server-Management/13-course-completion.md)
 
+### [Lesson 12: Exam Preparation Recap](12-Recap/)
+
+0. [Overview](12-Recap/00-overview.md)
+1. [File Listing and Navigation](12-Recap/01-filesystem-and-listing.md)
+2. [I/O, Redirects and Pipelines](12-Recap/02-io-redirects-and-pipelines.md)
+3. [Text Filters](12-Recap/03-text-filters.md)
+4. [Links and Permissions](12-Recap/04-links-and-permissions.md)
+5. [Alias and Scripting](12-Recap/05-alias-and-scripting.md)
+
+**Solutions:** [Lesson 12 Recap Solutions](Solutions/lesson-12-recap-solutions.md)
+
 ## How to Use These Materials
 
 Each lesson folder contains:
@@ -235,6 +246,7 @@ The lessons follow a logical progression:
 - **Lessons 1-4**: Foundation concepts and basic operations
 - **Lessons 5-8**: Advanced command usage and scripting
 - **Lessons 9-11**: System administration and security
+- **Lesson 12**: Exam preparation recap — covers all key concepts with practice exercises
 
 Each topic is designed to build upon previous knowledge while remaining focused and manageable for individual study sessions.
 
@@ -275,7 +287,7 @@ You should have received a copy of the GNU General Public License along with thi
 - **Program**: Computer Science - First Year
 - **Course**: Introduction to Linux
 - **Academic Year**: 2025-2026
-- **Lecturers**: Milan Decorte & Steven Beeckman
+- **Lecturers**: Milan Dima & Steven Moerman
 
 ### Contact
 
