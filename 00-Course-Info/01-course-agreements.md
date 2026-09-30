@@ -110,24 +110,32 @@ Your 20% continuous evaluation is based on:
 
 ### Exam Format
 
-- 📖 **Open book exam**
-- 💻 **On your own computer/laptop**
+- 🚫 **No internet access** during the exam
+- 💻 **On the exam server** (SSH access)
 - 🧪 **Similar to lab exercises**
 - ⏱️ **Practical, hands-on problems**
+- 📚 **Available resources:** course materials on the exam server + built-in documentation (`man`, `info`, `--help`, `apropos`)
+
+> **Why no internet?** This reflects realistic professional conditions — sysadmins regularly work on servers without internet access (air-gapped environments, locked-down datacenters). Being able to find answers in `man` pages is a genuine Linux skill.
 
 ### Preparation Tips
 
-1. 📚 **Document your solutions well**
+1. 📚 **Get comfortable with built-in documentation**
+   - Practice using `man <command>`, `info <command>`, `<command> --help`
+   - Use `apropos <keyword>` to find relevant man pages
+   - The exam server has the full course materials available
+
+2. 📚 **Document your solutions well**
    - Keep clear notes of lab work
    - Comment your scripts
    - Save working examples
 
-2. 🛠️ **Install tools early**
+3. 🛠️ **Install tools early**
    - Don't wait until exam time
    - Test your setup beforehand
    - Make sure everything works
 
-3. 💡 **Practice regularly**
+4. 💡 **Practice regularly**
    - Complete all lab exercises
    - Experiment beyond requirements
    - Review previous solutions
@@ -144,7 +152,7 @@ Your 20% continuous evaluation is based on:
 | -------------------------- | ----------- | -------------------------- |
 | 💻 **Laptop**              | ✅ Yes      | Bring to every class       |
 | 🖴 **External HDD**         | 🔶 Optional | Recommended for backups    |
-| 🌐 **Internet Connection** | ✅ Yes      | For downloads and research |
+| 🌐 **Internet Connection** | ✅ Yes      | For lab sessions and downloads — **not available during exam** |
 
 ---
 
