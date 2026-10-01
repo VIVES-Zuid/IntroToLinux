@@ -29,6 +29,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 9. [Why Learn Linux?](01-Intro/09-why-learn-linux.md)
 10. [Review and Next Steps](01-Intro/10-review-and-next-steps.md)
 
+📝 **Summary:** [Lesson 1 summary](01-Intro/99-summary.md)
+
 ### [Lesson 2: The Linux Console and Terminal](02-Shell/)
 
 0. [Learning Objectives](02-Shell/00-learning-objectives.md)
@@ -48,6 +50,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 14. [Key Takeaways](02-Shell/14-key-takeaways.md)
 15. [Next Lesson](02-Shell/15-next-lesson.md)
 
+📝 **Summary:** [Lesson 2 summary](02-Shell/99-summary.md)
+
 ### [Lesson 3: Shell Environment and Variables](03-History-Variables/)
 
 0. [Learning Objectives](03-History-Variables/00-learning-objectives.md)
@@ -63,6 +67,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 10. [Review Questions](03-History-Variables/10-review-questions.md)
 11. [Key Takeaways](03-History-Variables/11-key-takeaways.md)
 12. [Next Lesson](03-History-Variables/12-next-lesson.md)
+
+📝 **Summary:** [Lesson 3 summary](03-History-Variables/99-summary.md)
 
 ### [Lesson 4: I/O Redirection and Pipes](04-Redirects-Pipes/)
 
@@ -82,6 +88,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 13. [Command Summary: Chapters 1-4](04-Redirects-Pipes/13-command-summary.md)
 14. [Next Lesson](04-Redirects-Pipes/14-next-lesson.md)
 
+📝 **Summary:** [Lesson 4 summary](04-Redirects-Pipes/99-summary.md)
+
 ### [Lesson 5: Advanced Commands and Control Operators](05-Echo-Alias-Operators/)
 
 0. [Learning Objectives](05-Echo-Alias-Operators/00-learning-objectives.md)
@@ -97,6 +105,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 10. [Key Takeaways](05-Echo-Alias-Operators/10-key-takeaways.md)
 11. [Next Lesson](05-Echo-Alias-Operators/11-next-lesson.md)
 
+📝 **Summary:** [Lesson 5 summary](05-Echo-Alias-Operators/99-summary.md)
+
 ### [Lesson 6: File Operations, Globbing, and Archiving](06-Globbing-Archiving-Links/)
 
 0. [Learning Objectives](06-Globbing-Archiving-Links/00-learning-objectives.md)
@@ -110,6 +120,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 8. [Review Questions](06-Globbing-Archiving-Links/08-review-questions.md)
 9. [Key Takeaways](06-Globbing-Archiving-Links/09-key-takeaways.md)
 10. [Next Lesson](06-Globbing-Archiving-Links/10-next-lesson.md)
+
+📝 **Summary:** [Lesson 6 summary](06-Globbing-Archiving-Links/99-summary.md)
 
 ### [Lesson 7: Text Processing and Filters](07-Filters-Pipelines/)
 
@@ -131,6 +143,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 15. [Key Takeaways](07-Filters-Pipelines/15-key-takeaways.md)
 16. [Next Lesson](07-Filters-Pipelines/16-next-lesson.md)
 
+📝 **Summary:** [Lesson 7 summary](07-Filters-Pipelines/99-summary.md)
+
 ### [Lesson 8: Shell Scripting Fundamentals](08-Scripting/)
 
 0. [Learning Objectives](08-Scripting/00-learning-objectives.md)
@@ -148,6 +162,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 12. [Key Takeaways](08-Scripting/12-key-takeaways.md)
 13. [Next Lesson](08-Scripting/13-next-lesson.md)
 
+📝 **Summary:** [Lesson 8 summary](08-Scripting/99-summary.md)
+
 ### [Lesson 9: Users and Groups](09-Users-Groups/)
 
 0. [Learning Objectives](09-Users-Groups/00-learning-objectives.md)
@@ -163,6 +179,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 10. [Review Questions](09-Users-Groups/10-review-questions.md)
 11. [Key Takeaways](09-Users-Groups/11-key-takeaways.md)
 12. [Next Lesson](09-Users-Groups/12-next-lesson.md)
+
+📝 **Summary:** [Lesson 9 summary](09-Users-Groups/99-summary.md)
 
 ### [Lesson 10: File Permissions and Tools](10-Permissions/)
 
@@ -180,6 +198,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 11. [Key Takeaways](10-Permissions/11-key-takeaways.md)
 12. [Next Lesson](10-Permissions/12-next-lesson.md)
 
+📝 **Summary:** [Lesson 10 summary](10-Permissions/99-summary.md)
+
 ### [Lesson 11: System Administration and Advanced Topics](11-Server-Management/)
 
 0. [Learning Objectives](11-Server-Management/00-learning-objectives.md)
@@ -196,6 +216,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 11. [Final Assessment Questions](11-Server-Management/11-final-assessment-questions.md)
 12. [Key Takeaways](11-Server-Management/12-key-takeaways.md)
 13. [Course Completion](11-Server-Management/13-course-completion.md)
+
+📝 **Summary:** [Lesson 11 summary](11-Server-Management/99-summary.md)
 
 ### [Lesson 12: Exam Preparation Recap](12-Recap/)
 
@@ -215,6 +237,7 @@ Each lesson folder contains:
 - **Individual topic files**: Focused study materials for each section
 - **Practical exercises and labs**: Hands-on learning opportunities
 - **Review questions and key takeaways**: Assessment and reinforcement
+- **Summary (`99-summary.md`)**: Brief overview of the concepts and commands of the lesson
 
 Navigate to individual lesson folders to access the materials, or click the links above for direct access to specific topics.
 

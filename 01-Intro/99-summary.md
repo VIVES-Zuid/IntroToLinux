@@ -11,3 +11,12 @@
 
 **Commands**
 - *(none)*
+
+---
+
+## Navigation
+
+**Next:** [→ Learning Objectives](../02-Shell/00-learning-objectives.md)  
+**Previous:** [← Review Questions](10-review-and-next-steps.md)  
+**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Course Home:** [⌂ Introduction to Linux](../README.md)

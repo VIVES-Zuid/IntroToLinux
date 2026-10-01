@@ -63,7 +63,7 @@ _"The journey of a thousand commands begins with a single `cd`."_
 
 ## Navigation
 
-**Next:** [→ Lesson 3: Shell Environment and Variables](../03-History-Variables/00-learning-objectives.md)  
+**Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](14-key-takeaways.md)  
 **Lesson Home:** [↑ Lesson 2: The Shell](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

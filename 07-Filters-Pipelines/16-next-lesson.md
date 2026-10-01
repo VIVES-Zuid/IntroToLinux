@@ -9,7 +9,7 @@ In the next lesson, we'll dive into shell scripting, learning to automate tasks 
 
 ## Navigation
 
-**Next:** [→ Learning Objectives](../08-Scripting/00-learning-objectives.md)  
+**Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](15-key-takeaways.md)  
 **Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

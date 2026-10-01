@@ -30,6 +30,7 @@ This project will demonstrate integration of all skills learned and provide a po
 
 ## Navigation
 
+**Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](12-key-takeaways.md)  
 **Lesson Home:** [↑ Lesson 11: Server Management](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

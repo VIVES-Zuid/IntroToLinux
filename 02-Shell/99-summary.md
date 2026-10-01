@@ -17,3 +17,12 @@
 - Viewing/editing: `cat`, `less`, `nano`
 - Download: `wget`
 - Help: `man`, `apropos`, `--help`
+
+---
+
+## Navigation
+
+**Next:** [→ Lesson 3: Shell Environment and Variables](../03-History-Variables/00-learning-objectives.md)  
+**Previous:** [← Next Lesson](15-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Course Home:** [⌂ Introduction to Linux](../README.md)

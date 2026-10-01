@@ -9,7 +9,7 @@ In the next lesson, we'll explore file operations including globbing patterns, a
 
 ## Navigation
 
-**Next:** [→ Learning Objectives](../06-Globbing-Archiving-Links/00-learning-objectives.md)  
+**Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](10-key-takeaways.md)  
 **Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

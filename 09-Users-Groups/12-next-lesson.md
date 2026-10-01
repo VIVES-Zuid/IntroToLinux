@@ -9,7 +9,7 @@ In the next lesson, we'll explore file permissions, ownership, and advanced secu
 
 ## Navigation
 
-**Next:** [→ Learning Objectives](../10-Permissions/00-learning-objectives.md)  
+**Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](11-key-takeaways.md)  
 **Lesson Home:** [↑ Lesson 9: Users & Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

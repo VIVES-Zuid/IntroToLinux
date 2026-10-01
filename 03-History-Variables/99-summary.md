@@ -17,3 +17,12 @@
 - Editing: `Ctrl+A/E/W/K/U/Y`, `Ctrl+C/Z/L`, `Alt+F/B`
 - PATH: `which`, `type` (`-a`)
 - Config: `source` / `.`, `alias`
+
+---
+
+## Navigation
+
+**Next:** [→ Learning Objectives](../04-Redirects-Pipes/00-learning-objectives.md)  
+**Previous:** [← Next Lesson](12-next-lesson.md)  
+**Lesson Home:** [↑ Lesson 3: History & Variables](../)  
+**Course Home:** [⌂ Introduction to Linux](../README.md)
