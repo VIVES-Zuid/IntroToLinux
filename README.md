@@ -323,7 +323,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 <div align="center">
   
-**© 2025-2026 VIVES University of Applied Sciences**
+**© 2026-2027 VIVES University of Applied Sciences**
 
 _This course material is provided under the GPL-3.0 License_
 
