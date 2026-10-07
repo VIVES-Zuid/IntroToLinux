@@ -309,7 +309,8 @@ You should have received a copy of the GNU General Public License along with thi
 - **Institution**: VIVES University of Applied Sciences
 - **Program**: Computer Science - First Year
 - **Course**: Introduction to Linux
-- **Academic Year**: 2025-2026
+- **Academic Year**: 2026-2027
+- **Groups**: TI, AO, ACL
 - **Lecturers**: Milan Dima & Steven Moerman
 
 ### Contact
