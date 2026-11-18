@@ -142,6 +142,7 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 14. [Review Questions](07-Filters-Pipelines/14-review-questions.md)
 15. [Key Takeaways](07-Filters-Pipelines/15-key-takeaways.md)
 16. [Next Lesson](07-Filters-Pipelines/16-next-lesson.md)
+17. [Exercises](07-Filters-Pipelines/17-exercises.md)
 
 📝 **Summary:** [Lesson 7 summary](07-Filters-Pipelines/99-summary.md)
 
