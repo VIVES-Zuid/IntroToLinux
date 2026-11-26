@@ -10,7 +10,7 @@ This page contains all the software and tools you'll need for the Introduction t
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 1: AlmaLinux 10.1
+### Distro 1: [AlmaLinux](https://ftp.belnet.be/mirror/almalinux/) 10.1
 
 **Download Link:**
 
@@ -18,7 +18,7 @@ This page contains all the software and tools you'll need for the Introduction t
 https://ftp.belnet.be/mirror/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
 ```
 
-or Alma Official site:
+or [Alma Official](https://repo.almalinux.org/almalinux/) site:
 
 ```
 https://repo.almalinux.org/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
@@ -35,7 +35,7 @@ https://repo.almalinux.org/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 2: Ubuntu 24.04.3 LTS
+### Distro 2: [Ubuntu](https://ftp.belnet.be/mirror/ubuntu-releases/) 24.04.3 LTS
 
 **Download Link:**
 
@@ -43,7 +43,7 @@ https://repo.almalinux.org/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64
 https://ftp.belnet.be/mirror/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd64.iso
 ```
 
-or Ubuntu Official site:
+or [Ubuntu](https://releases.ubuntu.com) Official site:
 
 ````
 https://releases.ubuntu.com/24.04.5.1/ubuntu-24.04.4-desktop-amd64.iso
