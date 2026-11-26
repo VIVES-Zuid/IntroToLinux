@@ -15,13 +15,13 @@ This page contains all the software and tools you'll need for the Introduction t
 **Download Link:**
 
 ```
-https://ftp.belnet.be/mirror/almalinux/10.1/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
+https://ftp.belnet.be/mirror/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
 ```
 
 or Alma Official site:
 
 ```
-https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10.1-x86_64-minimal.iso
+https://repo.almalinux.org/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso
 ```
 
 **Why AlmaLinux?**
@@ -45,9 +45,8 @@ https://ftp.belnet.be/mirror/ubuntu-releases/24.04.3/ubuntu-24.04.3-desktop-amd6
 
 or Ubuntu Official site:
 
-```
-https://releases.ubuntu.com/24.04.3/ubuntu-24.04.3-desktop-amd64.iso
-```
+````
+https://releases.ubuntu.com/24.04.5.1/ubuntu-24.04.4-desktop-amd64.iso
 
 **Why Ubuntu?**
 
@@ -115,7 +114,7 @@ Choose the appropriate virtualization software based on your host operating syst
 
 ```powershell
 wsl --install
-```
+````
 
 **Manual Installation:**
 
