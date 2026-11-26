@@ -162,5 +162,5 @@ SQL
 
 **Next:** [→ Pipes Chaining Commands](04-pipes-chaining-commands.md)  
 **Previous:** [← Output Redirection](02-output-redirection.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

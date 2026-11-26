@@ -11,5 +11,5 @@ In the next lesson, we'll explore advanced shell features including redirection,
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

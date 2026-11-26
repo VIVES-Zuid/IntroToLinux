@@ -13,5 +13,5 @@
 
 **Next:** [→ Command Summary](13-command-summary.md)  
 **Previous:** [← Review Questions](11-review-questions.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

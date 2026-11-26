@@ -1,27 +1,44 @@
 # 1. Introduction to Shell Scripting
 
+### What Is a Shell Script?
 
-### What is Shell Scripting?
-Shell scripts are collections of commands written in a file that can be executed as a program. They automate repetitive tasks and create complex workflows by combining simple commands.
+A shell script is a **text file with commands**, the same commands you type in the terminal. Instead of typing them one by one, you save them in a file and run the file.
 
-### Benefits of Shell Scripting:
-- **Automation**: Eliminate repetitive manual tasks
-- **Consistency**: Ensure tasks are performed the same way every time
-- **Efficiency**: Save time and reduce errors
-- **Integration**: Combine multiple tools and commands
-- **Scheduling**: Run scripts automatically via cron
+```
+ Typing by hand, every time:          With a script, once:
 
-### When to Use Shell Scripts:
-- System administration tasks
-- File processing and manipulation
-- Backup and maintenance operations
-- Environment setup and configuration
-- Simple data processing tasks
+ $ mkdir backup                       $ ./backup.sh
+ $ cp *.txt backup/                        │
+ $ date > backup/when.txt                  ▼
+ $ ls backup                         ┌────────────────────────┐
+                                     │ #!/bin/bash            │
+                                     │ mkdir backup           │
+                                     │ cp *.txt backup/       │
+                                     │ date > backup/when.txt │
+                                     │ ls backup              │
+                                     └────────────────────────┘
+```
+
+### Why Write Scripts?
+
+- **Automation**: don't repeat the same commands by hand
+- **Consistency**: the task is done exactly the same way every time
+- **Fewer mistakes**: no typos in step 7 of 10
+- **Sharing**: give the script to a colleague and they can do the same task
+
+### When to Use a Shell Script?
+
+- Tasks you do more than twice (backups, cleaning up files, setting up a folder structure)
+- Combining commands you already know: `grep`, `cut`, `sort`, `tar`, ...
+- Small system administration jobs
+
+> 💡 Everything you learned in the previous lessons (pipes, redirects, filters, variables) works **inside** a script too. A script just adds decisions (`if`) and repetition (loops).
+
 ---
 
 ## Navigation
 
 **Next:** [→ Creating Your First Script](02-creating-your-first-script.md)  
 **Previous:** [← Learning Objectives](00-learning-objectives.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

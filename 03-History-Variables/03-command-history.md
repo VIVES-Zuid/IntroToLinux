@@ -59,5 +59,5 @@ history | grep keyword
 
 **Next:** [→ Command Line Editing](04-command-line-editing.md)  
 **Previous:** [← Environment Variables](02-environment-variables.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

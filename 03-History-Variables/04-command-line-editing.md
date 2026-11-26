@@ -35,5 +35,5 @@ Tab Tab   # Show all possible completions
 
 **Next:** [→ Working With The Path Variable](05-working-with-the-path-variable.md)  
 **Previous:** [← Command History](03-command-history.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,5 +1,7 @@
 # 10. Course Review and Next Steps
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Skills Mastered:
 1. **Linux Fundamentals**: File system, permissions, processes
@@ -20,6 +22,8 @@
 - Cloud infrastructure management
 
 ### Continuing Your Linux Journey:
+
+**Next at VIVES:** the follow-up course **Linux Server Management** builds on this course and covers the topics of this chapter (processes, services, scheduling, networking, backups) in depth.
 
 #### Advanced Topics to Explore:
 - **Container Technology**: Docker, Podman
@@ -48,5 +52,5 @@
 
 **Next:** [→ Final Assessment Questions](11-final-assessment-questions.md)  
 **Previous:** [← Final Project Labs](09-final-project-labs.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

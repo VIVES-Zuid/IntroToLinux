@@ -222,6 +222,6 @@ cd /ho<TAB>  # Expands to /home/
 
 ## Navigation
 
-**Previous:** [← Lesson 1: Introduction Solutions](lesson-01-solutions.md)  
-**Next:** [→ Lesson 3: Shell Environment Solutions](lesson-03-lab-solutions.md)  
+**Previous:** [← Lesson 1: Introduction to Linux and Unix Solutions](lesson-01-solutions.md)  
+**Next:** [→ Lesson 3: Shell Environment and Variables Solutions](lesson-03-lab-solutions.md)  
 **Home:** [↑ Solutions Index](README.md)

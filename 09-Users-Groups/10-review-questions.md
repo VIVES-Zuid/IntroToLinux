@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](11-key-takeaways.md)  
 **Previous:** [← Troubleshooting User Issues](09-troubleshooting-user-issues.md)  
-**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
+**Lesson Home:** [↑ Lesson 9: Users and Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -81,5 +81,5 @@ hello.sh        # Now it works!
 
 **Next:** [→ Advanced Environment Concepts](08-advanced-environment-concepts.md)  
 **Previous:** [← Shell Configuration Files](06-shell-configuration-files.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

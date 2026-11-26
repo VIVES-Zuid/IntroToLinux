@@ -110,5 +110,5 @@ w
 
 **Next:** [→ Linux File System Structure](04-linux-file-system-structure.md)  
 **Previous:** [← The Shell Your Command Interface](02-the-shell-your-command-interface.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

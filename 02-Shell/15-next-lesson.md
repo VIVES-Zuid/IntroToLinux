@@ -65,5 +65,5 @@ _"The journey of a thousand commands begins with a single `cd`."_
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](14-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

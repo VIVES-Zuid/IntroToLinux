@@ -122,5 +122,5 @@ cd ..
 
 **Next:** [→ Best Practices](07-best-practices.md)  
 **Previous:** [← Understanding Inodes](05-understanding-inodes.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

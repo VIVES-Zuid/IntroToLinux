@@ -532,5 +532,5 @@ ls -la                 # List detailed contents including hidden files
 
 **Next:** [→ Review Questions](13-review-questions.md)  
 **Previous:** [← File System Navigation Quiz](11-file-system-navigation-quiz.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

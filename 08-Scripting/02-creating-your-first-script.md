@@ -1,60 +1,76 @@
 # 2. Creating Your First Script
 
+### Anatomy of a Script
 
-### Script File Structure:
-
-```bash
-#!/bin/bash
-# This is a comment
-# Script: hello-world.sh
-# Purpose: Demonstrate basic script structure
-
-echo "Hello, World!"
-echo "This is my first shell script"
+```
+ hello-world.sh
+┌─────────────────────────────────────────┐
+│ #!/bin/bash                             │ ◀── shebang: "run me with bash"  (must be line 1)
+│ # Script: hello-world.sh                │ ◀── comments: ignored by bash, for humans
+│ # Purpose: my first script              │
+│                                         │
+│ echo "Hello, World!"                    │ ◀── commands: executed top to bottom
+│ echo "This is my first shell script"    │
+└─────────────────────────────────────────┘
 ```
 
-### The Shebang Line:
-- `#!/bin/bash` - Tells system which interpreter to use
-- Must be the first line of the script
-- Common shebangs:
-  - `#!/bin/bash` - Bash shell
-  - `#!/bin/sh` - POSIX shell (more portable)
-  - `#!/usr/bin/env bash` - Find bash in PATH
+### The Shebang Line
 
-### Making Scripts Executable:
+- `#!/bin/bash` tells Linux **which program** must run the script
+- It must be the **very first line** (no empty line or space before it)
+- `#!` is pronounced "she-bang" (hash + bang)
+
+### Three Steps: Create, Make Executable, Run
+
+```mermaid
+graph LR
+    A["1️⃣ Create<br/>nano hello-world.sh"] --> B["2️⃣ Make executable<br/>chmod +x hello-world.sh"]
+    B --> C["3️⃣ Run<br/>./hello-world.sh"]
+```
 
 ```bash
-# Create script file
+# 1. Create the script file
 nano hello-world.sh
 
-# Make executable
+# 2. Make it executable (x = execute permission, see lesson 10)
 chmod +x hello-world.sh
 
-# Run script
+# 3. Run it
 ./hello-world.sh
+```
 
-# Or run without making executable
+### Why `./` in Front?
+
+When you type a command, bash only looks in the directories of your `$PATH` (like `/usr/bin`). Your current directory is **not** in that list. `./` means "the file in **this** directory".
+
+```bash
+hello-world.sh      # ❌ command not found
+./hello-world.sh    # ✅ runs the script in the current directory
+```
+
+### Running Without chmod
+
+You can also start bash yourself and give it the script. Then the execute permission is not needed:
+
+```bash
 bash hello-world.sh
 ```
 
-### Script Location and PATH:
+### Common Errors
 
-```bash
-# Run from current directory
-./script.sh
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Permission denied` | no execute permission | `chmod +x script.sh` |
+| `command not found` | forgot `./` | `./script.sh` |
+| `bad interpreter` | typo in the shebang | check line 1: `#!/bin/bash` |
 
-# Make available system-wide
-sudo cp script.sh /usr/local/bin/
-sudo chmod +x /usr/local/bin/script.sh
+> ℹ️ **Advanced** – To run your script from anywhere without `./`, copy it to a directory in your `PATH`, for example `sudo cp script.sh /usr/local/bin/`. Another common shebang is `#!/usr/bin/env bash`, which searches for bash in the `PATH`.
 
-# Now can run from anywhere
-script.sh
-```
 ---
 
 ## Navigation
 
 **Next:** [→ Comments And Documentation](03-comments-and-documentation.md)  
 **Previous:** [← Introduction To Shell Scripting](01-introduction-to-shell-scripting.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

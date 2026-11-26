@@ -135,5 +135,5 @@ unzip -t archive.zip
 
 **Next:** [→ Understanding Links](04-understanding-links.md)  
 **Previous:** [← Working With Blocks The Dd Command](02-working-with-blocks-the-dd-command.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

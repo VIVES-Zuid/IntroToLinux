@@ -1,167 +1,141 @@
 # 6. The find Command: Advanced File Search
 
+`find` searches **live** through the directory tree and finds files based on name, type, size, age, owner, permissions ...
 
-### Basic find Syntax:
-```bash
-find [path] [options] [tests] [actions]
+### The Structure of a find Command
+
+```
+ find  /home  -type f  -name "*.txt"  -exec ls -l {} \;
+       ──┬──  ────────┬────────────   ─────────┬───────
+         │            │                        │
+     where to    tests: which files?      action: what to do with them
+     search      (all must be true)       (default: print the path)
 ```
 
-### Finding by Name:
-
 ```bash
-# Find exact name
-find /home -name "filename.txt"
-
-# Case-insensitive name search
-find /home -iname "FILENAME.TXT"
-
-# Wildcard patterns
-find /home -name "*.txt"
-find /home -name "file*"
-find /home -name "test?.log"
-
-# Multiple directories
-find /home /tmp -name "*.conf"
+find /home -name "notes.txt"     # find notes.txt anywhere under /home
+find . -name "*.txt"             # . = start in the current directory
 ```
 
-### Finding by Type:
+> 💡 Searching in system directories gives lots of `Permission denied` errors. Hide them with `2>/dev/null` (lesson 4): `find / -name "*.conf" 2>/dev/null`
+
+### By Name: `-name` and `-iname`
 
 ```bash
-# Find files by type
-find /home -type f        # Regular files
-find /home -type d        # Directories
-find /home -type l        # Symbolic links
-find /home -type c        # Character devices
-find /home -type b        # Block devices
-
-# Combine type and name
-find /var/log -type f -name "*.log"
+find /home -name "file.txt"      # exact name
+find /home -iname "FILE.TXT"     # ignore upper/lowercase
+find /home -name "*.txt"         # wildcards: put the pattern in "quotes"!
+find /home -name "test?.log"     # ? = exactly one character
+find /home /tmp -name "*.conf"   # search in several directories
 ```
 
-### Finding by Size:
+> ⚠️ Without quotes the shell expands `*.txt` **before** `find` runs (globbing, lesson 6), and you get strange results or errors.
+
+### By Type: `-type`
+
+| Test | Finds |
+|------|-------|
+| `-type f` | regular **f**iles |
+| `-type d` | **d**irectories |
+| `-type l` | symbolic **l**inks |
 
 ```bash
-# Find by exact size
-find /home -size 100c     # Exactly 100 bytes
-find /home -size 1M       # Exactly 1 megabyte
-
-# Find by size range
-find /home -size +1M      # Larger than 1MB
-find /home -size -1k      # Smaller than 1KB
-find /home -size +10M -size -100M  # Between 10MB and 100MB
-
-# Size units: c (bytes), k (KB), M (MB), G (GB)
+find /var/log -type f -name "*.log"   # only files ending in .log
+find ~ -type d -name "backup*"        # only directories starting with backup
 ```
 
-### Finding by Time:
+### By Size: `-size`
+
+```
+ -size +10M    larger than 10 MB
+ -size -10M    smaller than 10 MB
+ -size 10M     (about) 10 MB
+
+ units:  c = bytes   k = KB   M = MB   G = GB
+```
 
 ```bash
-# Find by modification time
-find /home -mtime -7      # Modified in last 7 days
-find /home -mtime +30     # Modified more than 30 days ago
-find /home -mtime 1       # Modified exactly 1 day ago
-
-# Find by access time
-find /home -atime -1      # Accessed in last day
-
-# Find by change time (metadata)
-find /home -ctime -1      # Changed in last day
-
-# Using minutes instead of days
-find /tmp -mmin -60       # Modified in last 60 minutes
-find /tmp -amin +120      # Accessed more than 120 minutes ago
+find /home -size +100M                 # larger than 100 MB
+find /home -size +10M -size -100M      # between 10 and 100 MB (both tests must be true)
+find /home -size -1024c                # smaller than 1024 bytes
+find /tmp -empty                       # empty files and directories
 ```
 
-### Finding by Permissions:
+> ⚠️ `find` rounds sizes **up** to whole units. `-size -1k` therefore only finds **empty** files (a 500-byte file counts as "1k", which is not less than 1k). For small sizes, use bytes: `-size -1024c`.
+
+### By Time: `-mtime` and `-mmin`
+
+```
+            -mtime +7            │   -mtime -7
+   ◀──── more than 7 days ago ───┼── within the last 7 days ────▶ now
+```
 
 ```bash
-# Find by exact permissions
-find /home -perm 644      # Exactly 644 permissions
-find /home -perm u=rw,g=r,o=r
-
-# Find with at least these permissions
-find /home -perm -644     # At least 644 permissions
-
-# Find with any of these permissions
-find /home -perm /644     # Any of 644 permissions
-
-# Find executable files
-find /home -perm -111     # Executable by someone
-find /home -executable    # Executable by current user
-
-# Find writable files
-find /home -writable      # Writable by current user
+find /home -mtime -7      # modified in the last 7 days
+find /home -mtime +30     # modified more than 30 days ago
+find /tmp -mmin -60       # modified in the last 60 minutes
 ```
 
-### Finding by Owner:
+> ℹ️ **Advanced** – `-mtime` counts in whole periods of 24 hours: `-mtime 1` means "between 24 and 48 hours ago". `-atime` uses the last **a**ccess time, `-ctime` the last **c**hange of the metadata (permissions, owner).
+
+### By Owner: `-user` and `-group`
 
 ```bash
-# Find by user
-find /home -user john
-find /home -uid 1000
-
-# Find by group
-find /home -group developers
-find /home -gid 100
-
-# Find files with no valid owner
-find /home -nouser
-find /home -nogroup
+find /home -user alice           # files owned by alice
+find /opt -group developers      # files belonging to group developers
+find / -nouser 2>/dev/null       # files whose owner no longer exists (deleted user)
 ```
 
-### Actions with find:
+### Combining Tests
+
+Tests after each other must **all** be true (AND):
 
 ```bash
-# Execute commands on found files
-find /tmp -name "*.tmp" -delete
-find /home -name "*.bak" -exec rm {} \;
-find /var/log -name "*.log" -exec gzip {} \;
-
-# Confirm before action
-find /tmp -name "*.tmp" -ok rm {} \;
-
-# Execute with multiple files (more efficient)
-find /home -name "*.txt" -exec ls -l {} +
-
-# Print with custom format
-find /home -name "*.conf" -printf "%p %s bytes\n"
-
-# Copy found files
-find /home -name "*.jpg" -exec cp {} /backup/images/ \;
+find /var/log -type f -name "*.log" -size +1M      # .log files larger than 1 MB
+find ~ -type f -mtime -1 -name "*.sh"              # scripts changed since yesterday
 ```
 
-### Complex find Examples:
+### ℹ️ Advanced: By Permissions: `-perm`
+
+> ℹ️ **Advanced** – optional on a first read.
+
+| Test | Finds files with ... |
+|------|----------------------|
+| `-perm 644` | **exactly** `644` |
+| `-perm -644` | **at least** these bits (`644`, `755`, `777` ... all match) |
+| `-perm /222` | **any** of these bits (writable by someone) |
 
 ```bash
-# Find large files in /var
-find /var -type f -size +100M -exec ls -lh {} \;
-
-# Find and remove old log files
-find /var/log -name "*.log" -mtime +30 -delete
-
-# Find SUID files (security audit)
-find /usr -perm -4000 -type f -exec ls -l {} \;
-
-# Find world-writable files (security risk)
-find /home -perm -002 -type f -exec ls -l {} \;
-
-# Find empty files and directories
-find /tmp -empty -delete
-
-# Find duplicate files by name
-find /home -name "*.txt" -exec basename {} \; | sort | uniq -d
-
-# Complex permission search
-find /opt -type f \( -perm -4000 -o -perm -2000 \) -exec ls -l {} \;
-
-# Find files owned by deleted users
-find /home -nouser -exec ls -l {} \;
+find /home -perm -002 -type f            # world-writable files (security risk!)
+find /usr -perm -4000 -type f            # SUID files
+find ~ -executable -type f               # files you may execute
 ```
+
+### ℹ️ Advanced: Doing Something With the Results
+
+> ℹ️ **Advanced** – optional on a first read. These actions change or delete files: **always** run the `find` without the action first and check the list!
+
+```
+ find /tmp -name "*.tmp" -exec rm {} \;
+                               ── ─┬─
+                               │   └── \; = end of the -exec command
+                               └────── {} = replaced by every file found
+```
+
+```bash
+find /tmp -name "*.tmp" -delete                  # ⚠️ delete the files found
+find /home -name "*.bak" -exec rm {} \;          # run rm for every file found
+find /tmp -name "*.tmp" -ok rm {} \;             # ask y/n before every file
+find /home -name "*.txt" -exec ls -l {} +        # + = run ls ONCE with all files (faster)
+find /var/log -name "*.log" -mtime +30 -delete   # ⚠️ clean up logs older than 30 days
+find /home -name "*.conf" -printf "%p %s bytes\n" # custom output: path and size
+```
+
 ---
 
 ## Navigation
 
 **Next:** [→ System Tools](07-system-tools.md)  
 **Previous:** [← Default Permissions With Umask](05-default-permissions-with-umask.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)
+**Lesson Home:** [↑ Lesson 10: File Permissions and Tools](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

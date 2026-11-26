@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](12-key-takeaways.md)  
 **Previous:** [← Troubleshooting](10-troubleshooting.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

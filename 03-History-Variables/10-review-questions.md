@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](11-key-takeaways.md)  
 **Previous:** [← Troubleshooting Common Issues](09-troubleshooting-common-issues.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

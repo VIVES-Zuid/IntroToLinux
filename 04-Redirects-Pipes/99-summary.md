@@ -1,4 +1,4 @@
-# Summary: Lesson 4 – Redirects & Pipes
+# Summary: Lesson 4 – I/O Redirection and Pipes
 
 **Concepts**
 - Standard streams: stdin (0), stdout (1), stderr (2)
@@ -20,5 +20,5 @@
 
 **Next:** [→ Learning Objectives](../05-Echo-Alias-Operators/00-learning-objectives.md)  
 **Previous:** [← Next Lesson](14-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)  
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

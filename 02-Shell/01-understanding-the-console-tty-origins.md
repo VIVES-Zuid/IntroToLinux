@@ -67,5 +67,5 @@ This historical connection explains many Linux terminal concepts we use today! �
 
 **Next:** [→ The Shell Your Command Interface](02-the-shell-your-command-interface.md)  
 **Previous:** [← Learning Objectives](00-learning-objectives.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

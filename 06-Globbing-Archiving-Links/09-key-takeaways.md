@@ -13,5 +13,5 @@
 
 **Next:** [→ Next Lesson](10-next-lesson.md)  
 **Previous:** [← Review Questions](08-review-questions.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

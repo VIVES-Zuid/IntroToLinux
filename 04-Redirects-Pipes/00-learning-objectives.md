@@ -14,5 +14,5 @@
 
 **Next:** [→ Understanding Standard Streams](01-understanding-standard-streams.md)  
 **Previous:** [← Next Lesson](../03-History-Variables/12-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

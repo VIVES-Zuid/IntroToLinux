@@ -45,5 +45,5 @@ fi
 
 **Next:** [→ Troubleshooting](10-troubleshooting.md)  
 **Previous:** [← Advanced Pipe Concepts](08-advanced-pipe-concepts.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

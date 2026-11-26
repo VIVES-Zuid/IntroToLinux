@@ -1,67 +1,94 @@
 # 4. ℹ️ Special Permission Bits
 
-### Set User ID (SUID) - 4000
+> ℹ️ **Advanced** – this whole section is optional and **not** part of the exam. The basic permissions `rwx` (sections 1–3) are enough for this course. Read on if you are curious how `passwd`, `/tmp` and shared project folders work.
 
-When set on executable files, the program runs with the owner's privileges instead of the executor's.
+Besides `rwx` there are three special bits.
 
-```bash
-# Set SUID bit
-chmod 4755 program        # or chmod u+s program
+| Bit | Value | Symbolic | Shows as | On a file | On a directory |
+|-----|-------|----------|----------|-----------|----------------|
+| **SUID** | 4000 | `u+s` | `rws------` | runs as the **owner** of the file | (not used) |
+| **SGID** | 2000 | `g+s` | `---rws---` | runs as the **group** of the file | new files get the **directory's group** |
+| **Sticky** | 1000 | `+t` | `------rwt` | (not used) | only the **owner of a file** may delete it |
 
-# Example: passwd command
-ls -l /usr/bin/passwd
-# -rwsr-xr-x root root /usr/bin/passwd
+The special bit is written as a 4th digit **in front**: `chmod 2775` = SGID + `775`.
 
-# Users can change their password because passwd runs as root
+```
+ chmod 2775 project/
+
+    2      7     7     5
+    │      │     │     │
+  SGID   user  group  others    →  drwxrwsr-x
 ```
 
-### Set Group ID (SGID) - 2000
-
-On files: Program runs with group's privileges
-On directories: New files inherit the directory's group
+### SUID (4000): Run as the Owner
 
 ```bash
-# Set SGID bit on file
-chmod 2755 program        # or chmod g+s program
+ls -l /usr/bin/passwd
+# -rwsr-xr-x 1 root root ... /usr/bin/passwd
+#     ↑ s = SUID: passwd always runs as root
+```
 
-# Set SGID bit on directory (very useful!)
-chmod 2775 shared_dir/    # New files inherit group
-chmod g+s shared_dir/
+```
+ student runs passwd  ──▶  passwd runs as ROOT  ──▶  may write /etc/shadow ✅
+```
 
-# Example: shared project directory
+`/etc/shadow` is only writable by root, yet every user can change their own password. The `passwd` program has SUID, so it runs with the rights of its owner, root.
+
+> ⚠️ SUID programs owned by root are a security risk: a bug in such a program can give an attacker root rights. That's why administrators regularly check which SUID files exist (section 6).
+
+### SGID (2000) on a Directory: Shared Project Folders
+
+This is the **most useful** special bit in practice:
+
+```
+ Without SGID:                          With SGID (chmod 2775):
+
+ /opt/project   (group developers)      /opt/project   (group developers)
+ └── alice.txt  (group alice) ❌        └── alice.txt  (group developers) ✅
+     the group can't edit it                the whole team can edit it
+```
+
+```bash
 sudo mkdir /opt/project
 sudo chgrp developers /opt/project
-sudo chmod 2775 /opt/project
-# Now all files created in /opt/project belong to 'developers' group
+sudo chmod 2775 /opt/project           # or: sudo chmod g+s /opt/project
+ls -ld /opt/project
+# drwxrwsr-x 2 root developers ... /opt/project
+#       ↑ s = SGID
 ```
 
-### Sticky Bit - 1000
-
-On directories: Only owner can delete their own files (like /tmp)
+### Sticky Bit (1000): Only Delete Your Own Files
 
 ```bash
-# Set sticky bit
-chmod 1777 directory/     # or chmod +t directory/
-
-# Example: /tmp directory
 ls -ld /tmp
-# drwxrwxrwt root root /tmp
-
-# Users can create files but only delete their own
+# drwxrwxrwt 10 root root ... /tmp
+#          ↑ t = sticky bit
 ```
 
-### Viewing Special Bits:
+Everyone may create files in `/tmp` (`rwx` for others), but thanks to the sticky bit you can only delete **your own** files, even when a file of someone else has `777` permissions.
 
 ```bash
-# Look for special characters in permissions
-ls -l file_with_suid      # -rwsr-xr-x (s in user execute)
-ls -l file_with_sgid      # -rwxr-sr-x (s in group execute)
-ls -ld dir_with_sticky    # drwxrwxrwt (t in other execute)
+chmod 1777 shared_dir/                 # or: chmod +t shared_dir/
+```
 
-# Find files with special bits
-find /usr -perm -4000 2>/dev/null    # SUID files
-find /usr -perm -2000 2>/dev/null    # SGID files
-find / -perm -1000 -type d 2>/dev/null # Sticky bit directories
+### Lowercase or Uppercase?
+
+| Shows | Means |
+|-------|-------|
+| `s` / `t` | special bit **and** `x` are set (normal) |
+| `S` / `T` | special bit is set, but `x` is **not**, usually a mistake |
+
+```
+ chmod u+s file      →  -rwSr--r--   (S: SUID without execute, has no effect)
+ chmod u+x file      →  -rwsr--r--   (s: now it works)
+```
+
+### ℹ️ Advanced: Finding Files with Special Bits
+
+```bash
+find /usr -perm -4000 2>/dev/null             # SUID files
+find /usr -perm -2000 2>/dev/null             # SGID files
+find / -type d -perm -1000 2>/dev/null        # directories with sticky bit
 ```
 
 ---
@@ -70,5 +97,5 @@ find / -perm -1000 -type d 2>/dev/null # Sticky bit directories
 
 **Next:** [→ Default Permissions With Umask](05-default-permissions-with-umask.md)  
 **Previous:** [← Ownership With Chown And Chgrp](03-ownership-with-chown-and-chgrp.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)
+**Lesson Home:** [↑ Lesson 10: File Permissions and Tools](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

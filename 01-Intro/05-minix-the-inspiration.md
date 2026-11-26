@@ -18,5 +18,5 @@ MINIX was created by Andrew Tanenbaum in 1987 as a Unix-like operating system de
 
 **Next:** [→ The Birth Of Linux](06-the-birth-of-linux.md)  
 **Previous:** [← Gnu General Public License](04-gnu-general-public-license.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

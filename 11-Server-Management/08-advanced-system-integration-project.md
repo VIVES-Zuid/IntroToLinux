@@ -1,5 +1,7 @@
 # 8. Advanced System Integration Project
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Project: Complete System Setup
 
@@ -296,5 +298,5 @@ main "$@"
 
 **Next:** [→ Final Project Labs](09-final-project-labs.md)  
 **Previous:** [← Performance Tuning And Troubleshooting](07-performance-tuning-and-troubleshooting.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

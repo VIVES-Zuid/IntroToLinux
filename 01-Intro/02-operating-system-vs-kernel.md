@@ -22,5 +22,5 @@ The kernel is the core of the operating system that:
 
 **Next:** [→ The Gnu Project](03-the-gnu-project.md)  
 **Previous:** [← What Is Unix](01-what-is-unix.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

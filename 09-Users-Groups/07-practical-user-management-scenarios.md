@@ -1,5 +1,7 @@
 # 7. Practical User Management Scenarios
 
+> 💡 Do these labs on your **own VM**, not on a shared server. At the end you can clean up with `sudo userdel -r alice` (etc.) and `sudo groupdel developers` (etc.).
+
 ### Lab 7.1: User Creation and Management (20 minutes)
 
 ```bash
@@ -58,28 +60,33 @@ sudo -l
 # 2. Add user to sudo group
 sudo usermod -aG sudo alice
 
-# 3. Test sudo access
-sudo -u alice sudo whoami
+# 3. Test sudo access: become alice, then use sudo as alice
+su - alice                 # type alice's password
+sudo whoami                # type alice's password again → prints: root
+exit                       # back to your own user
 
-# 4. Create custom sudo rule
-sudo visudo
-# Add line: charlie ALL=(ALL) NOPASSWD: /usr/bin/systemctl status *
+# 4. ℹ️ Advanced: create a custom sudo rule in its own file
+sudo visudo -f /etc/sudoers.d/charlie
+# Add this line, save and quit:
+# charlie ALL=(ALL) NOPASSWD: /usr/bin/systemctl status *
 
-# 5. Test custom rule
+# 5. Test the custom rule (no password asked for this command)
 sudo -u charlie sudo systemctl status ssh
 ```
 
 ### ℹ️ Lab 7.4: User Security Audit (10 minutes)
+
+> ℹ️ **Advanced** – optional. Uses the filters of lesson 7 on the user files.
 
 ```bash
 # 1. Check users with shells
 grep "/bin/bash\|/bin/sh" /etc/passwd
 
 # 2. Find users with UID 0 (should only be root)
-awk -F: '$3 == 0 {print $1}' /etc/passwd
+cut -d: -f1,3 /etc/passwd | grep ":0$"
 
-# 3. Check for empty passwords
-sudo awk -F: '$2 == "" {print $1}' /etc/shadow
+# 3. Check for empty passwords (should give no output)
+sudo cut -d: -f1,2 /etc/shadow | grep ":$"
 
 # 4. Check sudo group members
 getent group sudo
@@ -97,5 +104,5 @@ sudo grep "Failed password" /var/log/auth.log | tail -10
 
 **Next:** [→ User Security Best Practices](08-user-security-best-practices.md)  
 **Previous:** [← User Environment And Configuration](06-user-environment-and-configuration.md)  
-**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
+**Lesson Home:** [↑ Lesson 9: Users and Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

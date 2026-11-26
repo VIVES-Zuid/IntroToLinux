@@ -59,5 +59,5 @@ echo -e "${GREEN}Success message${RESET}"
 
 **Next:** [→ Command Types And Discovery](03-command-types-and-discovery.md)  
 **Previous:** [← Working With Whitespace And Quotes](01-working-with-whitespace-and-quotes.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

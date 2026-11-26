@@ -1,62 +1,61 @@
 # 3. Ownership with chown and chgrp
 
+Every file has a **user owner** and a **group owner**:
 
-### Changing File Ownership
-
-#### chown Command:
-```bash
-# Change owner only
-chown newowner file.txt
-
-# Change owner and group
-chown newowner:newgroup file.txt
-chown newowner. file.txt          # Use owner's primary group
-
-# Change recursively
-chown -R newowner:newgroup directory/
-
-# Change only if current owner matches
-chown --from=oldowner newowner file.txt
+```
+ -rw-r--r-- 1  alice  developers  1024 Jan 15 10:30 report.txt
+               ─┬───  ────┬─────
+                │         └── group owner   → change with chgrp (or chown :group)
+                └──────────── user owner    → change with chown
 ```
 
-#### chgrp Command:
-```bash
-# Change group only
-chgrp newgroup file.txt
+> ⚠️ Only **root** can give a file to another user, so you almost always need `sudo chown`. A regular user who tries gets `Operation not permitted`.
 
-# Change recursively
-chgrp -R newgroup directory/
+### chown: Change the Owner (and Group)
 
-# Use reference file's group
-chgrp --reference=reference.txt target.txt
+```
+ sudo chown  alice:developers  report.txt
+             ──┬── ────┬─────
+               │       └── new group  (optional)
+               └────────── new owner
 ```
 
-### Practical Ownership Examples:
+```bash
+sudo chown alice file.txt              # new owner only
+sudo chown alice:developers file.txt   # new owner AND new group
+sudo chown :developers file.txt        # new group only (same as chgrp)
+sudo chown alice: file.txt             # owner alice, group = alice's primary group
+sudo chown -R alice:alice /home/alice  # recursive: the directory and everything inside
+```
+
+### chgrp: Change Only the Group
 
 ```bash
-# Web server files
+chgrp developers file.txt         # you may do this yourself if you own the file AND are in that group
+sudo chgrp -R developers project/ # recursive
+```
+
+### Practical Ownership Examples
+
+```bash
+# Web server files belong to the web server user
 sudo chown -R www-data:www-data /var/www/html/
 
-# User's files (fixing ownership issues)
-sudo chown -R user:user /home/user/
+# Fix the ownership of a user's home directory
+sudo chown -R alice:alice /home/alice/
 
-# Shared project directory
+# Shared project directory for the group developers
 sudo chown -R :developers /opt/project/
 sudo chmod -R g+w /opt/project/
-
-# System files
-sudo chown root:root /etc/passwd
-sudo chmod 644 /etc/passwd
-
-# Log files
-sudo chown syslog:adm /var/log/syslog
-sudo chmod 640 /var/log/syslog
 ```
+
+> ℹ️ **Advanced** – `chown --from=olduser newuser file` only changes files currently owned by `olduser`. `chgrp --reference=ref.txt target.txt` copies the group of another file.
+
 ---
 
 ## Navigation
 
 **Next:** [→ Special Permission Bits](04-special-permission-bits.md)  
 **Previous:** [← The Chmod Command](02-the-chmod-command.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)
+**Lesson Home:** [↑ Lesson 10: File Permissions and Tools](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

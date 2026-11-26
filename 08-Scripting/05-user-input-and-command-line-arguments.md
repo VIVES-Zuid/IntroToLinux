@@ -1,83 +1,100 @@
 # 5. User Input and Command-Line Arguments
 
-### Reading User Input:
+A script can get information in two ways:
+
+| Way | When | Example |
+|-----|------|---------|
+| `read` | the script **asks** a question while it runs | `What's your name? _` |
+| arguments | you give the values **when you start** the script | `./greet.sh Alice` |
+
+### Reading User Input: `read`
 
 ```bash
 #!/bin/bash
 
-# Simple input
+# Ask a question, store the answer in the variable "name"
 echo "What's your name?"
 read name
 echo "Hello, $name!"
 
-# Input with prompt
+# -p = prompt: question and answer on the same line
 read -p "Enter your age: " age
 echo "You are $age years old"
-
-# Silent input (for passwords)
-read -s -p "Enter password: " password
-echo  # New line after silent input
-echo "Password entered"
-
-# Multiple inputs
-read -p "Enter first and last name: " first_name last_name
-echo "Hello, $first_name $last_name"
 ```
 
-### Command-Line Arguments:
+```
+ $ ./ask.sh
+ What's your name?
+ Alice                  ◀── typed by the user, stored in $name
+ Hello, Alice!
+ Enter your age: 20     ◀── stored in $age
+ You are 20 years old
+```
+
+> ℹ️ **Advanced** – `read -s -p "Password: " pw` hides what you type (handy for passwords). Print an empty `echo` afterwards, because the Enter key is hidden too.
+
+### Command-Line Arguments: `$1`, `$2`, ...
+
+The words you type **after** the script name are stored in special variables:
+
+```
+ $ ./greet.sh   Alice   25   Engineer
+     ───┬────   ──┬──   ┬─   ───┬────
+        │         │     │       │
+       $0        $1    $2      $3
+
+ $#  = 3                       (number of arguments)
+ $@  = Alice 25 Engineer       (all arguments)
+```
+
+| Variable | Meaning |
+|----------|---------|
+| `$0` | name of the script |
+| `$1`, `$2`, ... | first, second, ... argument |
+| `$#` | **number** of arguments |
+| `$@` | **all** arguments |
 
 ```bash
 #!/bin/bash
 # Script: greet.sh
+# Usage:  ./greet.sh <name> <age>
 
-# ⚠️ Special variables for arguments
 echo "Script name: $0"
-echo "First argument: $1"
-echo "Second argument: $2"
-echo "Third argument: $3"
-echo "All arguments: $@"
-echo "Number of arguments: $#"
-
-# Usage example: ./greet.sh John 25 Engineer
+echo "Hello $1, you are $2 years old"
+echo "You gave $# arguments: $@"
 ```
 
-### Processing Arguments:
+```
+ $ ./greet.sh Alice 25
+ Script name: ./greet.sh
+ Hello Alice, you are 25 years old
+ You gave 2 arguments: Alice 25
+```
+
+### Checking the Arguments
+
+A good script checks whether it got enough arguments and explains how to use it if not:
 
 ```bash
 #!/bin/bash
-# Script: file-manager.sh
+# Script: copy-file.sh
+# Usage:  ./copy-file.sh <source> <destination>
 
-# Check if enough arguments provided
 if [ $# -lt 2 ]; then
-    echo "Usage: $0 <source_file> <destination>"
+    echo "Usage: $0 <source> <destination>"
     exit 1
 fi
 
-# Assign arguments to meaningful names
-SOURCE_FILE="$1"
-DESTINATION="$2"
-OPERATION="${3:-copy}"  # Default to 'copy' if not provided
+source_file="$1"
+destination="$2"
 
-echo "Operation: $OPERATION"
-echo "Source: $SOURCE_FILE"
-echo "Destination: $DESTINATION"
-
-# Perform operation based on arguments
-case $OPERATION in
-    "copy")
-        cp "$SOURCE_FILE" "$DESTINATION"
-        echo "File copied successfully"
-        ;;
-    "move")
-        mv "$SOURCE_FILE" "$DESTINATION"
-        echo "File moved successfully"
-        ;;
-    *)
-        echo "Unknown operation: $OPERATION"
-        exit 1
-        ;;
-esac
+cp "$source_file" "$destination"
+echo "Copied $source_file to $destination"
 ```
+
+> 💡 Give the arguments a **meaningful name** (`source_file="$1"`) at the top of the script. The rest of the script is much easier to read than with `$1` and `$2` everywhere.
+>
+> `if` and `exit 1` are explained in the next section.
 
 ---
 
@@ -85,5 +102,5 @@ esac
 
 **Next:** [→ Conditional Statements](06-conditional-statements.md)  
 **Previous:** [← Variables In Shell Scripts](04-variables-in-shell-scripts.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

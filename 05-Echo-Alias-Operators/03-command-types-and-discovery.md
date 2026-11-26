@@ -71,5 +71,5 @@ command -v python3 && echo "Python 3 available"
 
 **Next:** [→ Aliases Creating Command Shortcuts](04-aliases-creating-command-shortcuts.md)  
 **Previous:** [← Special Characters And Echo](02-special-characters-and-echo.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

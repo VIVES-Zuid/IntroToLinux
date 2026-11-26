@@ -13,5 +13,5 @@
 
 **Next:** [→ Next Lesson](12-next-lesson.md)  
 **Previous:** [← Review Questions](10-review-questions.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -114,5 +114,5 @@ tail -f syslog      # Follow system log
 
 **Next:** [→ Line Continuation And Escaping](06-line-continuation-and-escaping.md)  
 **Previous:** [← Aliases Creating Command Shortcuts](04-aliases-creating-command-shortcuts.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

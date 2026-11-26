@@ -1,4 +1,4 @@
-# Summary: Lesson 2 – The Shell
+# Summary: Lesson 2 – The Linux Console and Terminal
 
 **Concepts**
 - TTY, terminal, console, shell
@@ -24,5 +24,5 @@
 
 **Next:** [→ Lesson 3: Shell Environment and Variables](../03-History-Variables/00-learning-objectives.md)  
 **Previous:** [← Next Lesson](15-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

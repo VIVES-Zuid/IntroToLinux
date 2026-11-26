@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](15-key-takeaways.md)  
 **Previous:** [← Best Practices](13-best-practices.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

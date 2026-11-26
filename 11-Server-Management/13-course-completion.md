@@ -1,5 +1,7 @@
 # Course Completion
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 Congratulations! You have completed the Introduction to Linux course. You now have:
 
@@ -32,5 +34,5 @@ This project will demonstrate integration of all skills learned and provide a po
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](12-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

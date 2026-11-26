@@ -587,5 +587,5 @@ For this quiz, assume you are working with the following file system structure:
 
 **Next:** [→ Quiz Solutions](12-file-system-navigation-quiz-solutions.md)  
 **Previous:** [← Practical Exercises](10-practical-exercises.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,4 +1,4 @@
-# Summary: Lesson 3 – History & Variables
+# Summary: Lesson 3 – Shell Environment and Variables
 
 **Concepts**
 - Environment vs shell (local) variables
@@ -24,5 +24,5 @@
 
 **Next:** [→ Learning Objectives](../04-Redirects-Pipes/00-learning-objectives.md)  
 **Previous:** [← Next Lesson](12-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)  
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

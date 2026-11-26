@@ -83,5 +83,5 @@ When you start a terminal, you see a **prompt** that typically shows:
 
 **Next:** [→ User Types And Login](03-user-types-and-login.md)  
 **Previous:** [← Understanding The Console Tty Origins](01-understanding-the-console-tty-origins.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

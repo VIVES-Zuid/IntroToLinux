@@ -1,5 +1,7 @@
 # 9. Final Project Labs
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Lab 11.1: System Administration Dashboard (30 minutes)
 
@@ -227,5 +229,5 @@ setup_user_environment "$1" "$2"
 
 **Next:** [→ Course Review And Next Steps](10-course-review-and-next-steps.md)  
 **Previous:** [← Advanced System Integration Project](08-advanced-system-integration-project.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -11,5 +11,5 @@ In the next lesson, we'll explore advanced command usage, quotes, variables, and
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Command Summary](13-command-summary.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

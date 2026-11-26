@@ -13,5 +13,5 @@
 
 **Next:** [→ Next Lesson](11-next-lesson.md)  
 **Previous:** [← Review Questions](09-review-questions.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

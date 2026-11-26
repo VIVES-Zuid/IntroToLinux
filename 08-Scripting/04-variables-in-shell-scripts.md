@@ -1,127 +1,116 @@
 # 4. Variables in Shell Scripts
 
+A variable is a **name** that holds a **value**. You already used variables in lesson 3; in a script they work the same way.
 
-### Variable Declaration and Usage:
+### Creating and Using a Variable
 
-```bash
-#!/bin/bash
-
-# Variable assignment (no spaces around =)
-NAME="Linux User"
-AGE=25
-PI=3.14159
-TODAY=$(date)
-
-# Using variables (with $ prefix)
-echo "Hello, $NAME"
-echo "You are $AGE years old"
-echo "Today is $TODAY"
-
-# Alternative syntax (recommended for complex cases)
-echo "Hello, ${NAME}"
-echo "File: ${NAME}.txt"
+```
+  name="Linux User"          echo "Hello, $name"
+  ──┬─ ┬ ─────┬─────                     ──┬──
+    │  │      └── value                    └── $ = "give me the value of"
+    │  └── NO spaces around =
+    └── variable name
 ```
 
-### Variable Types:
-
-#### String Variables:
 ```bash
 #!/bin/bash
 
-# Simple strings
-GREETING="Hello World"
-FILE_NAME="document.txt"
+name="Linux User"
+age=25
 
-# Strings with spaces (quotes required)
-FULL_NAME="John Doe"
-MESSAGE="Welcome to Linux scripting"
-
-# Using variables in strings
-USER="alice"
-HOME_DIR="/home/$USER"
-echo "User $USER lives in $HOME_DIR"
+echo "Hello, $name"
+echo "You are $age years old"
+echo "File: ${name}.txt"      # { } shows where the name ends
 ```
 
-#### Numeric Variables:
+> ⚠️ **No spaces around `=`!**
+> ```bash
+> name="Alice"      # ✅ correct
+> name = "Alice"    # ❌ bash tries to run a command called "name"
+> ```
+
+### Double Quotes vs Single Quotes
+
 ```bash
-#!/bin/bash
-
-# Numbers (treated as strings unless used in arithmetic)
-COUNT=10
-PRICE=29.99
-
-# Arithmetic operations
-NUMBER1=5
-NUMBER2=3
-SUM=$((NUMBER1 + NUMBER2))
-PRODUCT=$((NUMBER1 * NUMBER2))
-
-echo "Sum: $SUM"
-echo "Product: $PRODUCT"
+name="Alice"
+echo "Hello $name"     # Hello Alice    → " " : variables are filled in
+echo 'Hello $name'     # Hello $name    → ' ' : everything literally
 ```
 
-#### Command Substitution:
+> 💡 Always put variables between **double quotes** when you use them: `cp "$file" backup/`. Without quotes, a filename with a space (`my file.txt`) becomes two separate words.
+
+### Command Substitution: `$( )`
+
+Put the **output** of a command in a variable:
+
 ```bash
 #!/bin/bash
 
-# Capture command output in variables
-CURRENT_DATE=$(date)
-USER_COUNT=$(who | wc -l)
-DISK_USAGE=$(df -h | grep "/$" | awk '{print $5}')
+today=$(date +%F)
+user_count=$(who | wc -l)
+my_shell=$(grep "^$USER:" /etc/passwd | cut -d: -f7)
 
-echo "Today is: $CURRENT_DATE"
-echo "Users logged in: $USER_COUNT"
-echo "Root disk usage: $DISK_USAGE"
+echo "Today is: $today"
+echo "Users logged in: $user_count"
+echo "My login shell: $my_shell"
 ```
 
-### Environment Variables:
+### Arithmetic: `$(( ))`
 
 ```bash
 #!/bin/bash
 
-# Use existing environment variables
+a=5
+b=3
+echo "Sum: $((a + b))"          # 8
+echo "Product: $((a * b))"      # 15
+echo "Division: $((10 / 3))"    # 3  ← only whole numbers!
+
+counter=1
+counter=$((counter + 1))        # counter is now 2
+```
+
+> ⚠️ Bash can only calculate with **whole numbers** (integers). `$((10 / 3))` gives `3`, and `$((2.5 + 1))` gives an error.
+
+### Environment Variables
+
+Some variables already exist when your script starts:
+
+| Variable | Contains |
+|----------|----------|
+| `$USER` | your username |
+| `$HOME` | your home directory |
+| `$PWD` | the current directory |
+| `$SHELL` | your login shell |
+| `$PATH` | where bash looks for commands |
+
+```bash
 echo "Current user: $USER"
 echo "Home directory: $HOME"
-echo "Current path: $PWD"
-echo "Shell: $SHELL"
-
-# Set environment variables for child processes
-export MY_VAR="Available to child processes"
-
-# Local variables (not exported)
-LOCAL_VAR="Only in this script"
 ```
 
-### Variable Best Practices:
+> ⚠️ Don't use these names for your own variables. `USER="alice"` in a script would overwrite the real value. Use **lowercase** names for your own variables (`user_name`, `backup_dir`) to avoid that.
+
+### ℹ️ Advanced: readonly, export and Default Values
+
+> ℹ️ **Advanced** – optional on a first read.
 
 ```bash
-#!/bin/bash
-
-# Use uppercase for constants
-readonly PI=3.14159
+# A constant that cannot be changed
 readonly CONFIG_FILE="/etc/myapp.conf"
 
-# Use lowercase for local variables
-user_name="john"
-temp_file="/tmp/processing.tmp"
+# Make a variable available to programs started by this script
+export MY_VAR="visible for child processes"
 
-# Use descriptive names
-backup_directory="/backups"
-log_file="/var/log/script.log"
-
-# Quote variables to handle spaces
-FILE_NAME="my document.txt"
-cp "$FILE_NAME" backup/
-
-# Default values
-USERNAME=${1:-"guest"}              # Use $1 or "guest" if empty
-CONFIG_DIR=${CONFIG_DIR:-"/etc"}    # Use env var or default
+# Default value: use $1, or "guest" when $1 is empty
+username=${1:-guest}
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ User Input And Command Line Arguments](05-user-input-and-command-line-arguments.md)  
 **Previous:** [← Comments And Documentation](03-comments-and-documentation.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

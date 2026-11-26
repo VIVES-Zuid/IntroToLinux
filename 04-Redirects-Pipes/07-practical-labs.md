@@ -91,5 +91,5 @@ history | awk '{print $2}' | sort | uniq -c | sort -nr | head -10 > command_freq
 
 **Next:** [→ Advanced Pipe Concepts](08-advanced-pipe-concepts.md)  
 **Previous:** [← Combining Redirection And Pipes](06-combining-redirection-and-pipes.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

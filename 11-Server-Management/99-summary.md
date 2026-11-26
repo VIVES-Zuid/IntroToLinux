@@ -1,4 +1,6 @@
-# Summary: Lesson 11 – Server Management
+# Summary: Lesson 11 – System Administration and Advanced Topics
+
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
 
 **Concepts**
 - Processes: PID, states, signals, priorities (nice values)
@@ -24,5 +26,5 @@
 ## Navigation
 
 **Previous:** [← Course Completion](13-course-completion.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)  
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

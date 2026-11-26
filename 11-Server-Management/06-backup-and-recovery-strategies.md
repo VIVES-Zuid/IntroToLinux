@@ -1,5 +1,7 @@
 # 6. Backup and Recovery Strategies
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### File-based Backups:
 
@@ -65,5 +67,5 @@ sudo gunzip -c /backup/disk_image.img.gz | dd of=/dev/sda bs=4M
 
 **Next:** [→ Performance Tuning And Troubleshooting](07-performance-tuning-and-troubleshooting.md)  
 **Previous:** [← System Maintenance And Monitoring](05-system-maintenance-and-monitoring.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

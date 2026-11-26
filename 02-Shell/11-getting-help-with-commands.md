@@ -28,5 +28,5 @@ cp --help
 
 **Next:** [→ Practical Exercises](12-practical-exercises.md)  
 **Previous:** [← Essential File Commands](10-essential-file-commands.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

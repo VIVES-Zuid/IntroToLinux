@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](14-key-takeaways.md)  
 **Previous:** [← Quiz Solutions](12-file-system-navigation-quiz-solutions.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

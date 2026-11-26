@@ -1,5 +1,7 @@
 # 2. System Services and Systemd
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Understanding systemd
 systemd is the init system used by most modern Linux distributions. It manages:
@@ -82,5 +84,5 @@ sudo systemctl isolate multi-user.target       # Multi-user mode
 
 **Next:** [→ Job Scheduling With Cron](03-job-scheduling-with-cron.md)  
 **Previous:** [← Process Management](01-process-management.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

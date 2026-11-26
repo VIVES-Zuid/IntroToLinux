@@ -51,5 +51,5 @@ export PS1='\u@\h:\w\$ '
 
 **Next:** [→ Practical Lab Environment Setup](07-practical-lab-environment-setup.md)  
 **Previous:** [← Working With The Path Variable](05-working-with-the-path-variable.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,96 +1,110 @@
 # 2. User Information Files
 
-### ⚠️ /etc/passwd: User Account Information
+Three text files hold all information about users and groups:
 
-The `/etc/passwd` file contains basic user account information:
+| File | Contains | Who can read it? |
+|------|----------|------------------|
+| `/etc/passwd` | the user accounts | everyone |
+| `/etc/shadow` | the password **hashes** and password rules | only root |
+| `/etc/group` | the groups and their members | everyone |
+
+> ⚠️ Don't edit these files by hand. Use commands like `useradd`, `usermod` and `passwd` (section 3); they make sure the files stay consistent.
+
+### ⚠️ /etc/passwd: User Accounts
 
 ```bash
-# View the file
 cat /etc/passwd
+```
 
-# Format: username:x:UID:GID:GECOS:home_directory:shell
+Every line is one user, with 7 fields separated by `:`
+
+```
+  john : x : 1000 : 1000 : John Doe : /home/john : /bin/bash
+   │     │     │      │       │           │            │
+   1     2     3      4       5           6            7
+   │     │     │      │       │           │            └─ login shell
+   │     │     │      │       │           └─ home directory
+   │     │     │      │       └─ comment (full name)
+   │     │     │      └─ GID of the primary group
+   │     │     └─ UID
+   │     └─ password: "x" = stored in /etc/shadow
+   └─ username
+```
+
+```
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-bin:x:2:2:bin:/bin:/usr/sbin/nologin
 john:x:1000:1000:John Doe,,,:/home/john:/bin/bash
 ```
 
-#### Field Explanation:
+> 💡 Login shell `/usr/sbin/nologin` means: this account can't log in. That's normal for system users.
 
-1. **Username**: Login name
-2. **Password**: `x` (password stored in /etc/shadow)
-3. **UID**: User ID number
-4. **GID**: Primary group ID
-5. **GECOS**: Full name and other info
-6. **Home Directory**: User's home directory path
-7. **Shell**: Default shell program
-
-### /etc/shadow: Password Information
-
-The `/etc/shadow` file contains encrypted passwords and password policies:
+### /etc/shadow: Passwords
 
 ```bash
-# View shadow file (requires root)
-sudo cat /etc/shadow
-
-# Format: username:encrypted_password:last_change:min:max:warn:inactive:expire
-root:$6$randomsalt$encryptedpassword:19000:0:99999:7:::
-john:$6$anothersalt$anotherpassword:19500:0:99999:7:::
+sudo cat /etc/shadow       # only root may read it
 ```
 
-#### Field Explanation:
+```
+  john : $y$j9T$...hash... : 19500 : 0 : 99999 : 7 : : :
+   │            │             │      │     │     │
+   1            2             3      4     5     6     (7, 8, 9 empty)
+   │            │             │      │     │     └─ warn: days before expiry to warn
+   │            │             │      │     └─ max: days a password stays valid
+   │            │             │      └─ min: days before it may be changed again
+   │            │             └─ last change: days since 1 Jan 1970
+   │            └─ password hash ($y$ = yescrypt, the Ubuntu default)
+   └─ username
+```
 
-1. **Username**: Login name
-2. **Encrypted Password**: Hashed password (empty = no password, ! = locked)
-3. **Last Change**: Days since password was last changed (since Jan 1, 1970)
-4. **Minimum**: Minimum days between password changes
-5. **Maximum**: Maximum days password is valid
-6. **Warning**: Days before password expiry to warn user
-7. **Inactive**: Days after expiry before account is disabled
-8. **Expire**: Account expiration date
+The password itself is **never** stored, only a **hash**: a one-way "fingerprint". At login, Linux hashes what you type and compares the two hashes.
 
-### /etc/group: Group Information
+| Value in field 2 | Meaning |
+|------------------|---------|
+| `$y$...` or `$6$...` | a normal password hash |
+| `!` or `*` | no password set / login with password not possible |
+| `!$y$...` | the account is **locked** (`!` placed in front of the hash) |
+
+> ℹ️ **Advanced** – Fields 7, 8 and 9 are: inactive days after expiry, account expiration date (in days since 1 Jan 1970) and a reserved field. You view and change these with `chage` (section 8).
+
+### /etc/group: Groups
 
 ```bash
-# View group file
 cat /etc/group
+```
 
-# Format: group_name:x:GID:member_list
+```
+  sudo : x : 27 : john,alice
+    │    │    │       │
+    1    2    3       4
+    │    │    │       └─ members (secondary group members, comma-separated)
+    │    │    └─ GID
+    │    └─ group password (not used)
+    └─ group name
+```
+
+```
 root:x:0:
-adm:x:4:syslog,john
 sudo:x:27:john,alice
 john:x:1000:
 ```
 
-#### Field Explanation:
+> 💡 The group `john` shows no members, yet `john` is in it: it is his **primary** group (via the GID in `/etc/passwd`). The 4th field only lists **secondary** members.
 
-1. **Group Name**: Name of the group
-2. **Password**: Usually `x` (group passwords rarely used)
-3. **GID**: Group ID number
-4. **Members**: Comma-separated list of group members
-
-### Examining User Information:
+### Commands to Look Up User Information
 
 ```bash
-# Check user ID and groups
-id
-id username
+whoami                  # who am I?
+id                      # my UID, GID and all my groups
+id alice                # ... of another user
+groups                  # my groups (names only)
+groups alice
+getent passwd alice     # alice's line from /etc/passwd
+getent group sudo       # the sudo group and its members
 
-# Check current user
-whoami
-
-# Check user information
-finger username      # If finger is installed
-getent passwd username
-
-# Check group membership
-groups
-groups username
-
-# Check who's logged in
-who
-w
-last                  # Login history
+who                     # who is logged in right now?
+w                       # ... and what are they doing?
+last                    # login history
 ```
 
 ---
@@ -99,5 +113,5 @@ last                  # Login history
 
 **Next:** [→ Creating And Managing Users](03-creating-and-managing-users.md)  
 **Previous:** [← Introduction To Users And Groups](01-introduction-to-users-and-groups.md)  
-**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
+**Lesson Home:** [↑ Lesson 9: Users and Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -172,5 +172,5 @@ losetup /dev/loop0 disk.img
 
 **Next:** [→ Archiving And Compression](03-archiving-and-compression.md)  
 **Previous:** [← File Globbing Wildcard Patterns](01-file-globbing-wildcard-patterns.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -208,5 +208,5 @@ wget --progress=bar https://example.com/largefile.zip
 
 **Next:** [→ Getting Help With Commands](09-getting-help-with-commands.md)  
 **Previous:** [← Essential Navigation Commands](07-essential-navigation-commands.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

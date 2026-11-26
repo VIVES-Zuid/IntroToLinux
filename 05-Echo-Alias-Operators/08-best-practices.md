@@ -29,5 +29,5 @@
 
 **Next:** [→ Review Questions](09-review-questions.md)  
 **Previous:** [← Practical Labs](07-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

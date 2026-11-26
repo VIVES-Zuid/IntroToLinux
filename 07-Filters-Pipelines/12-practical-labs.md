@@ -1,5 +1,6 @@
 # 12. Practical Labs
 
+> 💡 Build every pipeline **one step at a time**: run the first command, look at the output, then add the next `| command`.
 
 ### Lab 7.1: grep Practice (15 minutes)
 
@@ -46,20 +47,22 @@ cut -d, -f1,2 employees.csv
 cut -d, -f3 employees.csv | grep -v "Salary"
 
 # 3. Analysis pipeline
-grep -v "^Name" employees.csv | \
-    cut -d, -f2 | \
-    sort | \
-    uniq -c | \
+grep -v "^Name" employees.csv |
+    cut -d, -f2 |
+    sort |
+    uniq -c |
     sort -nr
 
 # 4. Salary analysis
-grep -v "^Name" employees.csv | \
-    cut -d, -f3 | \
-    sort -n | \
+grep -v "^Name" employees.csv |
+    cut -d, -f3 |
+    sort -n |
     tail -3
 ```
 
-### Lab 7.3: Advanced Text Processing (20 minutes)
+### ℹ️ Lab 7.3: Advanced Text Processing (20 minutes)
+
+> ℹ️ **Advanced** – optional. This lab uses `grep -o` with a longer regular expression and a `sed` capture group (`\( \)` and `\1`). Do Labs 7.1, 7.2 and 7.4 first.
 
 ```bash
 # 1. Create mixed data
@@ -75,17 +78,17 @@ EOF
 grep -o '[a-zA-Z0-9._%+-]\+@[a-zA-Z0-9.-]\+\.[a-zA-Z]\{2,\}' mixed_data.txt
 
 # 3. Extract and sort IDs
-grep -o 'ID: [0-9]\+' mixed_data.txt | \
-    cut -d' ' -f2 | \
+grep -o 'ID: [0-9]\+' mixed_data.txt |
+    cut -d' ' -f2 |
     sort -n
 
 # 4. Complex transformation
-sed 's/User: \([^@]*\)@.*/Username: \1/' mixed_data.txt | \
+sed 's/User: \([^@]*\)@.*/Username: \1/' mixed_data.txt |
     grep "Username:"
 
 # 5. Character manipulation
-tr '[:lower:]' '[:upper:]' < mixed_data.txt | \
-    tr -d '()' | \
+tr '[:lower:]' '[:upper:]' < mixed_data.txt |
+    tr -d '()' |
     tr -s ' '
 ```
 
@@ -93,29 +96,32 @@ tr '[:lower:]' '[:upper:]' < mixed_data.txt | \
 
 ```bash
 # 1. Process running processes
-ps aux | head -n 1
-ps aux | grep -v "^USER" | sort -k4 -nr | head -5
+ps aux | head -n 1                                   # the header: which column is what?
+ps aux | grep -v "^USER" | sort -k4 -nr | head -5    # top 5 by %MEM (column 4)
 
-# 2. Memory usage analysis
-ps aux | \
-    grep -v "^USER" | \
-    awk '{print $4, $11}' | \
-    sort -nr | \
+# 2. Memory usage analysis: only %MEM (field 4) and the command (field 11)
+#    ps uses several spaces between columns, so squeeze them first with tr -s
+ps aux |
+    grep -v "^USER" |
+    tr -s ' ' |
+    cut -d' ' -f4,11 |
+    sort -nr |
     head -10
 
 # 3. User activity
 who | cut -d' ' -f1 | sort | uniq -c
 
-# 4. Disk usage formatting
-df -h | grep -v "^Filesystem" | \
-    sort -k5 -nr | \
+# 4. Disk usage formatting: fullest file systems first (column 5 = Use%)
+df -h | grep -v "^Filesystem" |
+    sort -k5 -nr |
     head -5
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Best Practices](13-best-practices.md)  
 **Previous:** [← Building Powerful Pipelines](11-building-powerful-pipelines.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

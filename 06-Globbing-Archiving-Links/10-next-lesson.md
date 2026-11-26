@@ -11,5 +11,5 @@ In the next lesson, we'll explore text filtering and processing tools including 
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](09-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

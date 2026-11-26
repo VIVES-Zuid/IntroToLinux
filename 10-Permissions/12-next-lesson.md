@@ -1,6 +1,8 @@
 # Next Lesson
 
-In the final lesson, we'll explore system monitoring, process management, and advanced Linux administration techniques to tie together all the concepts learned throughout the course.
+Lesson 11 gives an optional look ahead at system administration: processes, services, scheduling, networking and backups.
+
+> ℹ️ Lesson 11 is **advanced and not part of the exam**. The follow-up course **Linux Server Management** covers it in depth. Lesson 12 (Exam Preparation Recap) is what you need for the exam.
 
 ---
 
@@ -10,5 +12,5 @@ In the final lesson, we'll explore system monitoring, process management, and ad
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)
+**Lesson Home:** [↑ Lesson 10: File Permissions and Tools](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

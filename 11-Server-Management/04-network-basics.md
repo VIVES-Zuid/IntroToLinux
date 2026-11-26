@@ -1,5 +1,7 @@
 # 4. Network Basics
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Network Information:
 
@@ -70,5 +72,5 @@ sudo ufw deny 23/tcp
 
 **Next:** [→ System Maintenance And Monitoring](05-system-maintenance-and-monitoring.md)  
 **Previous:** [← Job Scheduling With Cron](03-job-scheduling-with-cron.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

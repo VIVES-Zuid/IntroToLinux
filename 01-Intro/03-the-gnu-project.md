@@ -23,5 +23,5 @@
 
 **Next:** [→ Gnu General Public License](04-gnu-general-public-license.md)  
 **Previous:** [← Operating System Vs Kernel](02-operating-system-vs-kernel.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

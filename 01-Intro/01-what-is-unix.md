@@ -31,5 +31,5 @@ Unix is a family of operating systems that was first developed in 1969. The orig
 
 **Next:** [→ Operating System Vs Kernel](02-operating-system-vs-kernel.md)  
 **Previous:** [← Introduction And Objectives](00-introduction-and-objectives.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

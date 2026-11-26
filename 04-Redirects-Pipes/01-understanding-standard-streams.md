@@ -110,5 +110,5 @@ ls -la /proc/$$/fd
 
 **Next:** [→ Output Redirection](02-output-redirection.md)  
 **Previous:** [← Learning Objectives](00-learning-objectives.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

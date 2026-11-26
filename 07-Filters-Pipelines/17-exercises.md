@@ -212,8 +212,8 @@ sync
 
 ## Navigation
 
-**Next:** [→ Next Lesson](16-next-lesson.md)  
-**Previous:** [← Key Takeaways](15-key-takeaways.md)  
+**Next:** [→ Summary](99-summary.md)  
+**Previous:** [← Next Lesson](16-next-lesson.md)  
 **Solutions:** [✔ Exercise solutions](../Solutions/lesson-07-exercises-solutions.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)  
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

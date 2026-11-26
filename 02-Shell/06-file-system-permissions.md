@@ -130,5 +130,5 @@ drwxr-xr-x  2 bob   users  4096 Feb 8 11:00 documents/
 
 **Next:** [→ Essential Navigation Commands](07-essential-navigation-commands.md)  
 **Previous:** [← Home Directory Concepts](05-home-directory-concepts.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

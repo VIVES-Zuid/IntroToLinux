@@ -1,4 +1,4 @@
-# Summary: Lesson 5 – Echo, Alias & Operators
+# Summary: Lesson 5 – Advanced Commands and Control Operators
 
 **Concepts**
 - Whitespace and argument splitting
@@ -22,5 +22,5 @@
 
 **Next:** [→ Learning Objectives](../06-Globbing-Archiving-Links/00-learning-objectives.md)  
 **Previous:** [← Next Lesson](11-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)  
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -204,5 +204,5 @@
 
 **Next:** [→ Home Directory Concepts](05-home-directory-concepts.md)  
 **Previous:** [← User Types And Login](03-user-types-and-login.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

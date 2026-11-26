@@ -13,5 +13,5 @@
 
 **Next:** [→ Next Lesson](16-next-lesson.md)  
 **Previous:** [← Review Questions](14-review-questions.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

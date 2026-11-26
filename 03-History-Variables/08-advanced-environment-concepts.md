@@ -50,5 +50,5 @@ echo ${VAR:="default"}      # Set VAR to "default" if empty
 
 **Next:** [→ Troubleshooting Common Issues](09-troubleshooting-common-issues.md)  
 **Previous:** [← Practical Lab Environment Setup](07-practical-lab-environment-setup.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

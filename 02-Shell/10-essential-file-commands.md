@@ -73,5 +73,5 @@ wget -O newname.txt https://example.com/file.txt
 
 **Next:** [→ Getting Help With Commands](11-getting-help-with-commands.md)  
 **Previous:** [← Essential Navigation Commands](09-essential-navigation-commands.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

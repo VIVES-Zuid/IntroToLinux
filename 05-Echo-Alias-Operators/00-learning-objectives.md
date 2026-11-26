@@ -11,5 +11,5 @@
 
 **Next:** [→ Working With Whitespace And Quotes](01-working-with-whitespace-and-quotes.md)  
 **Previous:** [← Next Lesson](../04-Redirects-Pipes/13-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

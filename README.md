@@ -203,6 +203,8 @@ This folder contains all the lesson materials for the Introduction to Linux cour
 
 ### [Lesson 11: System Administration and Advanced Topics](11-Server-Management/)
 
+> ℹ️ **Advanced – not part of the exam.** A look ahead for students who want to go further; the follow-up course **Linux Server Management** covers these topics in depth.
+
 0. [Learning Objectives](11-Server-Management/00-learning-objectives.md)
 1. [Process Management](11-Server-Management/01-process-management.md)
 2. [System Services and systemd](11-Server-Management/02-system-services-and-systemd.md)
@@ -269,7 +271,8 @@ The lessons follow a logical progression:
 
 - **Lessons 1-4**: Foundation concepts and basic operations
 - **Lessons 5-8**: Advanced command usage and scripting
-- **Lessons 9-11**: System administration and security
+- **Lessons 9-10**: System administration and security
+- **Lesson 11**: ℹ️ Optional look ahead at server management (not part of the exam; covered in depth in the follow-up course *Linux Server Management*)
 - **Lesson 12**: Exam preparation recap — covers all key concepts with practice exercises
 
 Each topic is designed to build upon previous knowledge while remaining focused and manageable for individual study sessions.

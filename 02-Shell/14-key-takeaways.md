@@ -13,5 +13,5 @@
 
 **Next:** [→ Next Lesson](15-next-lesson.md)  
 **Previous:** [← Review Questions](13-review-questions.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

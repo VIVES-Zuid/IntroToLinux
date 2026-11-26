@@ -29,5 +29,5 @@
 
 **Next:** [→ Review Questions](08-review-questions.md)  
 **Previous:** [← Practical Labs](06-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

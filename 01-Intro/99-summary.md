@@ -1,4 +1,4 @@
-# Summary: Lesson 1 – Introduction
+# Summary: Lesson 1 – Introduction to Linux and Unix
 
 **Concepts**
 - Unix (history, characteristics, versions)
@@ -18,5 +18,5 @@
 
 **Next:** [→ Learning Objectives](../02-Shell/00-learning-objectives.md)  
 **Previous:** [← Review Questions](10-review-and-next-steps.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -24,13 +24,25 @@ chmod 644 public/readme.txt
 ls -la
 ls -la private/ shared/ public/
 
-# 4. Test access (try as different user if possible)
-# Create test user first: sudo useradd -m testuser
+# 4. Test access as another user
+#    Your home directory is 750 on Ubuntu, so another user can't even enter it.
+#    Use /tmp for this test:
+sudo useradd -m -s /bin/bash testuser
+cp -r ~/permission_lab /tmp/
+sudo -u testuser cat /tmp/permission_lab/public/readme.txt    # ✅ works (644)
+sudo -u testuser ls /tmp/permission_lab/private               # ❌ Permission denied (700)
 ```
 
-### Lab 10.2: Special Permissions (15 minutes)
+### ℹ️ Lab 10.2: Special Permissions (15 minutes)
+
+> ℹ️ **Advanced** – optional. Uses the special bits from section 4.
 
 ```bash
+# 0. Preparation: the group "developers" must exist (lesson 9) and YOU must be a member
+sudo groupadd developers                 # skip if it already exists
+sudo usermod -aG developers $USER
+su - $USER                               # new login shell, so the new group is active (check with: id)
+
 # 1. Create shared project directory
 sudo mkdir /opt/shared_project
 sudo chgrp developers /opt/shared_project
@@ -41,7 +53,7 @@ sudo chmod 2775 /opt/shared_project
 # 3. Test the setup
 cd /opt/shared_project
 touch test_file.txt
-ls -la test_file.txt    # Should show 'developers' group
+ls -la test_file.txt    # Should show 'developers' group (thanks to the SGID bit)
 
 # 4. Create sticky bit directory
 mkdir ~/temp_shared
@@ -83,7 +95,9 @@ find ~/find_lab -mmin -1
 find ~/find_lab -name "*.sh" -exec chmod 755 {} \;
 ```
 
-### Lab 10.4: Security Audit (15 minutes)
+### ℹ️ Lab 10.4: Security Audit (15 minutes)
+
+> ℹ️ **Advanced** – optional. Uses `find -perm` from the advanced part of section 6.
 
 ```bash
 # 1. Find potential security issues
@@ -108,11 +122,12 @@ touch test_umask_file
 mkdir test_umask_dir
 ls -la test_umask_*
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Security Best Practices](09-security-best-practices.md)  
 **Previous:** [← System Tools](07-system-tools.md)  
-**Lesson Home:** [↑ Lesson 10: Permissions](../)
+**Lesson Home:** [↑ Lesson 10: File Permissions and Tools](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

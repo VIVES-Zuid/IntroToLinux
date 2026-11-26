@@ -1,72 +1,117 @@
 # 5. tr: Character Translation and Deletion
 
+`tr` (**tr**anslate) works on single **characters**, not on words. It can do three things:
 
-tr translates or deletes characters.
+| Mode | Syntax | What it does |
+|------|--------|--------------|
+| translate | `tr 'SET1' 'SET2'` | replace each character of SET1 by the matching one in SET2 |
+| delete | `tr -d 'SET'` | delete every character in SET |
+| squeeze | `tr -s 'SET'` | turn repeated characters into one |
 
-### Character Translation:
+> ⚠️ `tr` only reads from **stdin**. You can't give it a filename: use `tr ... < file.txt` or `cat file.txt | tr ...`.
+
+### Character Translation
+
+The characters are matched **by position**:
+
+```
+ tr 'abc' 'xyz'
+
+   a ──▶ x
+   b ──▶ y
+   c ──▶ z
+
+ "cabbage" ──▶ "zxyyxge"
+```
 
 ```bash
-# Convert lowercase to uppercase
-echo "hello world" | tr 'a-z' 'A-Z'
-echo "hello world" | tr '[:lower:]' '[:upper:]'
+# Lowercase to uppercase
+echo "hello world" | tr 'a-z' 'A-Z'               # HELLO WORLD
+echo "hello world" | tr '[:lower:]' '[:upper:]'   # same, also works for other alphabets
 
-# Convert uppercase to lowercase
+# Uppercase to lowercase
 echo "HELLO WORLD" | tr 'A-Z' 'a-z'
 
-# Replace specific characters
-echo "hello world" | tr ' ' '_'    # Replace spaces with underscores
-echo "hello,world" | tr ',' ' '    # Replace commas with spaces
+# Replace one character by another
+echo "hello world" | tr ' ' '_'    # hello_world
+echo "hello,world" | tr ',' ' '    # hello world
 
-# Multiple character replacement
-echo "hello123world" | tr '123' 'abc'  # Replace digits with letters
+# Put every item of PATH on its own line
+echo "$PATH" | tr ':' '\n'
 ```
 
-### Character Deletion:
+> ⚠️ `tr '123' 'abc'` does **not** replace the word "123" by "abc". It replaces every `1` by `a`, every `2` by `b` and every `3` by `c`. For replacing words use `sed` (section 10).
+
+### Character Deletion: `-d`
 
 ```bash
-# Delete specific characters
-echo "hello world" | tr -d ' '     # Remove spaces
-echo "abc123def" | tr -d '0-9'     # Remove digits
-echo "hello" | tr -d 'l'           # Remove letter 'l'
-
-# Delete character sets
-echo "Hello123World!" | tr -d '[:digit:]'  # Remove digits
-echo "Hello World!" | tr -d '[:punct:]'    # Remove punctuation
+echo "hello world" | tr -d ' '               # helloworld
+echo "abc123def" | tr -d '0-9'               # abcdef
+echo "Hello123World!" | tr -d '[:digit:]'    # HelloWorld!
+echo "Hello, World!" | tr -d '[:punct:]'     # Hello World
 ```
 
-### Character Squeezing:
+### Character Squeezing: `-s`
+
+```
+ tr -s ' '
+
+ "hello␣␣␣␣world"  ──▶  "hello␣world"
+```
 
 ```bash
-# Squeeze repeated characters
-echo "hello    world" | tr -s ' '  # Squeeze multiple spaces to one
-echo "aaaaabbbbcccc" | tr -s 'abc' # Squeeze repeated a, b, c
+echo "hello    world" | tr -s ' '   # hello world
+echo "aaaabbbbcccc" | tr -s 'abc'   # abc
 
-# Common uses
-cat file.txt | tr -s '\n'          # Remove blank lines
-echo "text" | tr -s '[:space:]'    # Normalize whitespace
+# Very common: clean up columns before using cut
+df -h | tr -s ' ' | cut -d' ' -f1,5
 ```
 
-### Practical tr Examples:
+### Character Classes
+
+| Class | Means |
+|-------|-------|
+| `[:lower:]` | lowercase letters |
+| `[:upper:]` | uppercase letters |
+| `[:digit:]` | digits 0-9 |
+| `[:alpha:]` | letters |
+| `[:alnum:]` | letters and digits |
+| `[:space:]` | spaces, tabs, newlines |
+| `[:punct:]` | punctuation `.,!?;:` ... |
+
+### Practical tr Examples
 
 ```bash
-# Clean data
-cat data.txt | tr -d '\r'          # Remove Windows line endings
-cat data.txt | tr '\t' ','          # Convert tabs to commas
+# Convert Windows line endings (\r\n) to Linux (\n)
+tr -d '\r' < windows.txt > linux.txt
 
-# Format text
-echo "file name with spaces.txt" | tr ' ' '_'  # file_name_with_spaces.txt
+# Tabs to commas (TSV to CSV)
+tr '\t' ',' < data.tsv
 
-# ROT13 encoding
-echo "hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+# Spaces in a filename to underscores
+echo "file name with spaces.txt" | tr ' ' '_'   # file_name_with_spaces.txt
 
-# Extract alphanumeric only
-echo "Hello, World! 123" | tr -cd '[:alnum:]'
+# Squeeze blank lines (several \n in a row become one)
+tr -s '\n' < file.txt
 ```
+
+### ℹ️ Advanced tr tricks
+
+> ℹ️ **Advanced** – optional on a first read.
+
+```bash
+# -c = complement: work on everything that is NOT in the set
+echo "Hello, World! 123" | tr -cd '[:alnum:]'    # HelloWorld123  (delete everything except letters/digits)
+
+# ROT13 "encryption" (every letter shifted 13 places)
+echo "hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'        # uryyb
+```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Wc Word Line And Character Counting](06-wc-word-line-and-character-counting.md)  
 **Previous:** [← Cut Extract Fields And Characters](04-cut-extract-fields-and-characters.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

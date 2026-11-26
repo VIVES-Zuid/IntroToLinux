@@ -32,5 +32,5 @@ command3 < temp2.txt
 
 **Next:** [→ Review Questions](11-review-questions.md)  
 **Previous:** [← Performance And Best Practices](09-performance-and-best-practices.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

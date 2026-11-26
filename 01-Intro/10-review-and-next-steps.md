@@ -19,5 +19,5 @@ In the next lesson, we'll explore the Linux console, terminal concepts, and begi
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Why Learn Linux](09-why-learn-linux.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

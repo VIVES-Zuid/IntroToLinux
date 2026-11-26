@@ -432,6 +432,6 @@ By completing this lab, you will:
 
 ## Navigation
 
-**Next:** [→ Lesson 1: Introduction](../01-Intro/00-introduction-and-objectives.md)  
+**Next:** [→ Lesson 1: Introduction to Linux and Unix](../01-Intro/00-introduction-and-objectives.md)  
 **Previous:** [← Downloads](02-downloads.md)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

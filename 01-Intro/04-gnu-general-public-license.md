@@ -17,5 +17,5 @@ The GPL is a copyleft license that ensures software remains free and open. Key p
 
 **Next:** [→ Minix The Inspiration](05-minix-the-inspiration.md)  
 **Previous:** [← The Gnu Project](03-the-gnu-project.md)  
-**Lesson Home:** [↑ Lesson 1: Introduction](../)  
+**Lesson Home:** [↑ Lesson 1: Introduction to Linux and Unix](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

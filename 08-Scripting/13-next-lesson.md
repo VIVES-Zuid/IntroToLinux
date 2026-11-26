@@ -11,5 +11,5 @@ In the next lesson, we'll explore user and group management, including creating 
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](12-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

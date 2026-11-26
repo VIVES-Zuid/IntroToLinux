@@ -11,5 +11,5 @@ In the next lesson, we'll explore file permissions, ownership, and advanced secu
 
 **Next:** [→ Summary](99-summary.md)  
 **Previous:** [← Key Takeaways](11-key-takeaways.md)  
-**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
+**Lesson Home:** [↑ Lesson 9: Users and Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

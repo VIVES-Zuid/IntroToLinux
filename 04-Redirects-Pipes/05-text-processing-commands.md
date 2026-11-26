@@ -89,5 +89,5 @@ strings unknown_file | head -10
 
 **Next:** [→ Combining Redirection And Pipes](06-combining-redirection-and-pipes.md)  
 **Previous:** [← Pipes Chaining Commands](04-pipes-chaining-commands.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

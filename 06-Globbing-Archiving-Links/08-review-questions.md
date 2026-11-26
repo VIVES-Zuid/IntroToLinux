@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](09-key-takeaways.md)  
 **Previous:** [← Best Practices](07-best-practices.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -116,5 +116,5 @@ alias gl='git log'
 
 **Next:** [→ Control Operators](05-control-operators.md)  
 **Previous:** [← Command Types And Discovery](03-command-types-and-discovery.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

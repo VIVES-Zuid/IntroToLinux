@@ -1,5 +1,7 @@
 # 7. Performance Tuning and Troubleshooting
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### System Performance Analysis:
 
@@ -50,5 +52,5 @@ strace -p PID         # System calls made by process
 
 **Next:** [→ Advanced System Integration Project](08-advanced-system-integration-project.md)  
 **Previous:** [← Backup And Recovery Strategies](06-backup-and-recovery-strategies.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

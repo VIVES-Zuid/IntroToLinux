@@ -465,5 +465,5 @@ ls -la                 # List detailed contents including hidden files
 
 **Next:** [→ Home Directory Concepts](07-home-directory-concepts.md)  
 **Previous:** [← File System Navigation Quiz](05-file-system-navigation-quiz.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

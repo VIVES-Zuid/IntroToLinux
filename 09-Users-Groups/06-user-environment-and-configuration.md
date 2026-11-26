@@ -1,77 +1,62 @@
 # 6. ℹ️ User Environment and Configuration
 
-### User's Startup Files:
+> ℹ️ **Advanced** – optional on a first read. Remember the main points: `~/.bashrc` is your personal bash configuration, and new users get a copy of `/etc/skel`.
 
-#### Login Shells:
+### Where Does a New User's Configuration Come From? `/etc/skel`
 
-```bash
-/etc/profile           # System-wide profile
-~/.bash_profile        # User's bash profile
-~/.bash_login          # Alternative login script
-~/.profile             # Shell-agnostic profile
+When `useradd -m` or `adduser` creates a home directory, it copies the contents of `/etc/skel` ("skeleton") into it:
+
+```
+ /etc/skel/                    /home/alice/   (new user)
+ ├── .bashrc        ──copy──▶  ├── .bashrc
+ ├── .profile       ──copy──▶  ├── .profile
+ └── .bash_logout   ──copy──▶  └── .bash_logout
 ```
 
-#### Interactive Non-Login Shells:
-
 ```bash
-/etc/bash.bashrc       # System-wide bashrc
-~/.bashrc              # User's bash configuration
+ls -A /etc/skel              # -A shows hidden files (starting with .)
 ```
 
-### Common User Configuration Files:
+> 💡 Want every **new** user to get an extra file or alias? Put it in `/etc/skel` **before** creating the users. Existing users are not affected.
+
+### Which Startup Files Does bash Read?
+
+```mermaid
+graph TD
+    A{"How did bash start?"} -->|"login shell<br/>(SSH, console login, su -)"| B["/etc/profile<br/>then ~/.profile"]
+    A -->|"new terminal window<br/>in the desktop"| C["/etc/bash.bashrc<br/>then ~/.bashrc"]
+    B -->|"~/.profile also loads"| C
+```
+
+On Ubuntu you can simplify this to: **put your own settings in `~/.bashrc`**. It is read in both cases.
+
+| File | Used for |
+|------|----------|
+| `~/.bashrc` | aliases, prompt, your own variables |
+| `~/.profile` | settings for login shells (loads `~/.bashrc`) |
+| `~/.bash_history` | your command history |
+| `~/.bash_logout` | runs when you log out |
+| `/etc/profile`, `/etc/bash.bashrc` | the same, but for **all** users |
+
+### Example: Personal Settings in ~/.bashrc
 
 ```bash
-~/.bashrc              # Bash configuration
-~/.bash_history        # Command history
-~/.bash_logout         # Logout script
-~/.vimrc               # Vim editor configuration
+# Add some lines to the END of your .bashrc (>> = append, don't overwrite!)
+echo "alias ll='ls -la'" >> ~/.bashrc
+echo "export EDITOR=nano" >> ~/.bashrc
+
+# Load the changes in the current shell
+source ~/.bashrc
+```
+
+> ⚠️ Use `>>`, not `>`. With `>` you overwrite the whole file and lose Ubuntu's default settings.
+
+### Other Common Configuration Files
+
+```bash
 ~/.ssh/                # SSH keys and configuration
 ~/.gitconfig           # Git configuration
-```
-
-### Setting Up New User Environment:
-
-```bash
-#!/bin/bash
-# Script: setup-user-environment.sh
-
-USERNAME="$1"
-if [ -z "$USERNAME" ]; then
-    echo "Usage: $0 <username>"
-    exit 1
-fi
-
-USER_HOME="/home/$USERNAME"
-
-# Create user
-sudo useradd -m -s /bin/bash "$USERNAME"
-sudo passwd "$USERNAME"
-
-# Set up basic configuration
-sudo -u "$USERNAME" bash << EOF
-# Create basic .bashrc
-cat > "$USER_HOME/.bashrc" << 'BASHRC'
-# Basic bash configuration
-alias ll='ls -la'
-alias la='ls -la'
-alias l='ls -CF'
-alias grep='grep --color=auto'
-
-export EDITOR=nano
-export HISTSIZE=1000
-export HISTFILESIZE=2000
-
-# Custom prompt
-PS1='\u@\h:\w\$ '
-BASHRC
-
-# Create useful directories
-mkdir -p "$USER_HOME/bin"
-mkdir -p "$USER_HOME/scripts"
-mkdir -p "$USER_HOME/tmp"
-
-echo "User environment setup completed for $USERNAME"
-EOF
+~/.vimrc               # Vim configuration
 ```
 
 ---
@@ -80,5 +65,5 @@ EOF
 
 **Next:** [→ Practical User Management Scenarios](07-practical-user-management-scenarios.md)  
 **Previous:** [← The Sudo System](05-the-sudo-system.md)  
-**Lesson Home:** [↑ Lesson 9: Users & Groups](../)
+**Lesson Home:** [↑ Lesson 9: Users and Groups](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

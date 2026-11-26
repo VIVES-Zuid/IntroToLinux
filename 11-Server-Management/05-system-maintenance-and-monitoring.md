@@ -1,5 +1,7 @@
 # 5. System Maintenance and Monitoring
 
+> ℹ️ **Advanced – not part of the exam.** Chapter 11 is a look ahead for students who want to go further. You do **not** need to know this material for the *Introduction to Linux* exam. The follow-up course **Linux Server Management** covers these topics in depth.
+
 
 ### Log File Management:
 
@@ -63,5 +65,5 @@ rpm -qa                        # RedHat/CentOS
 
 **Next:** [→ Backup And Recovery Strategies](06-backup-and-recovery-strategies.md)  
 **Previous:** [← Network Basics](04-network-basics.md)  
-**Lesson Home:** [↑ Lesson 11: Server Management](../)
+**Lesson Home:** [↑ Lesson 11: System Administration and Advanced Topics](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

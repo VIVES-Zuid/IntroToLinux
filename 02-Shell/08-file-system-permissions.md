@@ -17,5 +17,5 @@
 
 **Next:** [→ Essential Navigation Commands](09-essential-navigation-commands.md)  
 **Previous:** [← Home Directory Concepts](07-home-directory-concepts.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

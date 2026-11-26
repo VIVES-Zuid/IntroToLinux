@@ -1,61 +1,47 @@
 # 3. Comments and Documentation
 
-
-### Comment Types:
+Everything after a `#` is a **comment**: bash ignores it. Comments explain **why** the script does something, for your colleagues and for yourself in 3 months.
 
 ```bash
 #!/bin/bash
 
 # This is a single-line comment
 
-# This is a multi-line comment
-# spanning several lines
-# to explain complex logic
+# A longer explanation is just
+# several comment lines
+# after each other
 
-echo "Code here"  # Inline comment
+echo "Code here"   # a comment at the end of a line
 
-# Disable code temporarily
+# Disable a command temporarily by putting # in front:
 # echo "This won't run"
-
-: '
-This is a multi-line comment block
-using the colon command and single quotes.
-Everything between the quotes is ignored.
-Useful for longer explanations.
-'
 ```
 
-### Documentation Best Practices:
+> ⚠️ The shebang `#!/bin/bash` on line 1 is the only line starting with `#` that is **not** a comment.
+
+### A Simple Script Header
+
+Start every script with a short header: what does it do and how do you use it?
 
 ```bash
 #!/bin/bash
 #
-# Script Name: backup-system.sh
-# Description: Creates incremental backups of important directories
-# Author: Your Name
-# Date: 2024-01-15
-# Version: 1.0
-#
-# Usage: backup-system.sh [source_dir] [backup_dir]
-#
-# Examples:
-#   backup-system.sh /home/user /backups/user
-#   backup-system.sh /etc /backups/config
+# Script:  backup-home.sh
+# Purpose: Copy my documents to a backup folder
+# Author:  Your Name
+# Usage:   ./backup-home.sh
 #
 
-# Configuration variables
-SOURCE_DIR="/home"
-BACKUP_DIR="/backups"
-DATE=$(date +%Y%m%d_%H%M%S)
-
-# Main backup logic starts here
 echo "Starting backup at $(date)"
 ```
+
+> ℹ️ **Advanced** – You may also see `: '...'` used for a multi-line comment block. It works, but simply using `#` on every line is clearer.
+
 ---
 
 ## Navigation
 
 **Next:** [→ Variables In Shell Scripts](04-variables-in-shell-scripts.md)  
 **Previous:** [← Creating Your First Script](02-creating-your-first-script.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

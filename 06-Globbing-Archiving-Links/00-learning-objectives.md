@@ -11,5 +11,5 @@
 
 **Next:** [→ File Globbing Wildcard Patterns](01-file-globbing-wildcard-patterns.md)  
 **Previous:** [← Next Lesson](../05-Echo-Alias-Operators/11-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 6: Globbing & Archiving](../)
+**Lesson Home:** [↑ Lesson 6: File Operations, Globbing, and Archiving](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

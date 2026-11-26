@@ -1,81 +1,81 @@
 # 8. case Statements
 
+`case` compares **one value** with a list of possibilities. It is a cleaner alternative to a long chain of `if ... elif ... elif ...`.
+
+### The Structure
+
+```
+ case $choice in
+     1)                  ◀── if $choice is "1"
+         date
+         ;;              ◀── end of this option (two semicolons!)
+     2)                  ◀── if $choice is "2"
+         who
+         ;;
+     *)                  ◀── * = anything else (the "default")
+         echo "Invalid"
+         ;;
+ esac                    ◀── end of case (case backwards)
+```
+
+### Example: A Simple Menu
 
 ```bash
 #!/bin/bash
 # Script: system-info.sh
 
-echo "System Information Menu"
-echo "1) Date and Time"
-echo "2) Current Users"
-echo "3) Disk Usage"
-echo "4) Memory Usage"
-echo "5) Exit"
-
-read -p "Enter your choice (1-5): " choice
+echo "1) Date and time"
+echo "2) Logged in users"
+echo "3) Disk usage"
+read -p "Enter your choice (1-3): " choice
 
 case $choice in
     1)
-        echo "Current Date and Time:"
         date
         ;;
     2)
-        echo "Currently Logged Users:"
         who
         ;;
     3)
-        echo "Disk Usage:"
         df -h
-        ;;
-    4)
-        echo "Memory Usage:"
-        free -h
-        ;;
-    5)
-        echo "Goodbye!"
-        exit 0
         ;;
     *)
         echo "Invalid choice: $choice"
-        echo "Please enter a number between 1 and 5"
         exit 1
         ;;
 esac
 ```
 
-### Pattern Matching in case:
+### Several Values for One Option: `|`
 
 ```bash
 #!/bin/bash
 
-read -p "Enter file extension: " ext
+read -p "Enter a file extension: " ext
 
 case $ext in
     txt|doc|docx)
         echo "Text document"
         ;;
-    jpg|jpeg|png|gif)
+    jpg|jpeg|png)
         echo "Image file"
         ;;
-    mp3|wav|flac)
+    mp3|wav)
         echo "Audio file"
-        ;;
-    mp4|avi|mkv)
-        echo "Video file"
-        ;;
-    [Zz][Ii][Pp])
-        echo "Archive file (zip)"
         ;;
     *)
         echo "Unknown file type"
         ;;
 esac
 ```
+
+> 💡 The patterns in `case` work like **globbing** (lesson 6): `*` matches anything, `?` one character, `[Yy]` one character from the list. For example, `[Yy]*)` matches `y`, `Y`, `yes` and `Yes`.
+
 ---
 
 ## Navigation
 
 **Next:** [→ Script Examples And Best Practices](09-script-examples-and-best-practices.md)  
 **Previous:** [← Loops](07-loops.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -11,5 +11,5 @@
 
 **Next:** [→ Review Shell Basics Lesson 12 Recap](01-review-shell-basics-lesson-12-recap.md)  
 **Previous:** [← Next Lesson](../02-Shell/13-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 3: History & Variables](../)
+**Lesson Home:** [↑ Lesson 3: Shell Environment and Variables](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,52 +1,79 @@
 # 10. sed: Stream Editor
 
+`sed` (**s**tream **ed**itor) edits text while it flows through a pipeline. You will mostly use it for **search and replace**.
 
-sed is a powerful stream editor for filtering and transforming text.
+### The Substitute Command: `s/old/new/`
 
-### Basic sed Operations:
-
-```bash
-# Substitute (replace)
-sed 's/old/new/' file.txt         # Replace first occurrence per line
-sed 's/old/new/g' file.txt        # Replace all occurrences (global)
-sed 's/old/new/2' file.txt        # Replace second occurrence per line
-
-# Case-insensitive substitution
-sed 's/old/new/gi' file.txt
-
-# Delete lines
-sed '/pattern/d' file.txt         # Delete lines containing pattern
-sed '1d' file.txt                 # Delete first line
-sed '$d' file.txt                 # Delete last line
-sed '1,5d' file.txt               # Delete lines 1-5
-
-# Print specific lines
-sed -n '1,5p' file.txt            # Print lines 1-5
-sed -n '/pattern/p' file.txt      # Print lines matching pattern
+```
+ sed 's/cat/dog/g'
+      │ │   │   │
+      │ │   │   └── g = global: replace ALL matches on the line (not only the first)
+      │ │   └────── replacement text
+      │ └────────── text (pattern) to search for
+      └──────────── s = substitute
 ```
 
-### Advanced sed Examples:
+```
+ Input:  "the cat sat on the cat mat"
+
+ sed 's/cat/dog/'    →  "the dog sat on the cat mat"   (only the 1st per line)
+ sed 's/cat/dog/g'   →  "the dog sat on the dog mat"   (all of them)
+```
 
 ```bash
-# Multiple substitutions
+sed 's/old/new/' file.txt         # replace first occurrence on each line
+sed 's/old/new/g' file.txt        # replace all occurrences
+sed 's/old/new/2' file.txt        # replace only the 2nd occurrence on each line
+sed 's/old/new/gi' file.txt       # all occurrences, ignore case
+```
+
+> 💡 `sed` does **not** change the file by default. It prints the result on the screen. Use `> newfile.txt` to save it, or `-i` (see below).
+
+### Delete and Print Lines
+
+```bash
+# Delete lines
+sed '/pattern/d' file.txt         # delete lines that contain pattern
+sed '1d' file.txt                 # delete line 1 (e.g. a header)
+sed '$d' file.txt                 # delete the last line
+sed '1,5d' file.txt               # delete lines 1 to 5
+
+# Print only certain lines (-n = don't print everything automatically)
+sed -n '1,5p' file.txt            # print lines 1 to 5
+sed -n '/pattern/p' file.txt      # print lines matching pattern (like grep)
+```
+
+### Editing a File In-Place: `-i`
+
+```bash
+sed -i 's/old/new/g' file.txt     # ⚠️ changes the file directly, no undo!
+sed -i.bak 's/old/new/g' file.txt # safer: keeps the original as file.txt.bak
+```
+
+### ℹ️ Advanced sed
+
+> ℹ️ **Advanced** – optional on a first read.
+
+```bash
+# Several substitutions in one go
 sed -e 's/old1/new1/g' -e 's/old2/new2/g' file.txt
 
-# In-place editing
-sed -i 's/old/new/g' file.txt     # Modify file directly
-sed -i.bak 's/old/new/g' file.txt # Keep backup as file.txt.bak
-
-# Use different delimiter
+# Another delimiter: handy when the text contains slashes
 sed 's|/old/path|/new/path|g' file.txt
 
-# Add text
-sed '1i\New first line' file.txt  # Insert before line 1
-sed '$a\New last line' file.txt   # Append after last line
+# Insert / append lines
+sed '1i\New first line' file.txt  # insert before line 1
+sed '$a\New last line' file.txt   # append after the last line
+
+# Capture groups: \( \) remembers a part, \1 puts it back
+echo "User: john@example.com" | sed 's/User: \([^@]*\)@.*/Username: \1/'   # Username: john
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Building Powerful Pipelines](11-building-powerful-pipelines.md)  
 **Previous:** [← Comm Compare Sorted Files](09-comm-compare-sorted-files.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

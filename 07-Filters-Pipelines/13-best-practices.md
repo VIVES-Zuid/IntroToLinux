@@ -1,28 +1,36 @@
 # 13. Best Practices
 
+### ✅ Build Step by Step
+- Start with one command, check the output, then add the next `| command`
+- Use the ↑ arrow key to recall the previous command and extend it
+- Use `tee step.txt` in the middle of a pipeline to save what the data looks like at that point
 
-### Efficiency Tips:
-- Put filters early in pipelines to reduce data
-- Use appropriate tools for each task
-- Consider memory usage with large datasets
-- Test complex pipelines step by step
+### ✅ Filter Early
+- Put `grep` (select lines) **early** in the pipeline: less data for the next commands
+- `sort` before `uniq` and before `comm`, always
 
-### Debugging Pipelines:
-- Test each stage separately
-- Use `tee` to inspect intermediate results
-- Add `-v` flags for verbose output when available
-- Use temporary files for complex processing
+### ✅ Know the Classic Traps
 
-### Regular Expressions:
-- Start simple and build complexity gradually
-- Test regex patterns with `grep` before using in scripts
-- Use online regex testers for complex patterns
-- Document complex regex patterns
+| Trap | Fix |
+|------|-----|
+| `uniq` doesn't remove all duplicates | `sort` first |
+| `sort` puts `10` before `2` | use `sort -n` |
+| `cut -d' '` gives empty fields on `ls -l` / `ps` / `df` output | squeeze first: `tr -s ' '` |
+| `wc -l file` also prints the filename | `wc -l < file` |
+| pattern with `*`, `$` or `[ ]` behaves strangely | put the pattern in **quotes** |
+| `sed -i` destroyed my file | test without `-i` first, or use `-i.bak` |
+| long pipeline over several lines breaks | end each line with `\|`, not with `\   # comment` |
+
+### ✅ Regular Expressions
+- Start simple (`^`, `$`, `.`, `[ ]`) and make the pattern more precise step by step
+- Test the pattern with `grep` on a small sample file first
+- For complex patterns an online regex tester helps you see what matches
+
 ---
 
 ## Navigation
 
 **Next:** [→ Review Questions](14-review-questions.md)  
 **Previous:** [← Practical Labs](12-practical-labs.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

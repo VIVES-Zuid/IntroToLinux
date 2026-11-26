@@ -1,64 +1,100 @@
 # 4. cut: Extract Fields and Characters
 
+`cut` keeps only certain **columns** of every line. It works in two ways:
 
-cut extracts specific columns or character ranges from text.
+- **by field** (`-f`): split each line on a separator (`-d`) and keep some pieces
+- **by character** (`-c`): keep characters at certain positions
 
-### Cut by Character Position:
+### Cut by Field: `-d` (delimiter) and `-f` (field)
 
-```bash
-# Extract specific characters
-cut -c1-5 file.txt             # Characters 1-5
-cut -c1,3,5 file.txt           # Characters 1, 3, and 5
-cut -c10- file.txt             # From character 10 to end
-cut -c-10 file.txt             # First 10 characters
+```
+ cut -d: -f1,6 /etc/passwd
 
-# Examples
-echo "Hello World" | cut -c1-5  # "Hello"
-echo "2024-01-15" | cut -c1-4   # "2024"
+          -d:  = split on ":"
+   ┌──────┬─┬─┬─┬────┬───────┬─────────┐
+   │ root │x│0│0│root│ /root │/bin/bash│
+   └──────┴─┴─┴─┴────┴───────┴─────────┘
+  field:  1  2 3 4  5     6        7
+          ▲                ▲
+          └──── -f1,6 ─────┘
+
+ Result:  root:/root
 ```
 
-### Cut by Fields (Delimiter-based):
-
 ```bash
-# Default delimiter is TAB
-cut -f1 file.txt               # First field
-cut -f1,3 file.txt             # Fields 1 and 3
-cut -f2- file.txt              # From field 2 to end
-
 # Custom delimiter
-cut -d: -f1 /etc/passwd        # Extract usernames
-cut -d: -f1,3 /etc/passwd      # Username and UID
-cut -d, -f2 data.csv           # Second column from CSV
+cut -d: -f1 /etc/passwd        # usernames (field 1)
+cut -d: -f1,3 /etc/passwd      # username and UID (fields 1 and 3)
+cut -d: -f1-3 /etc/passwd      # fields 1 up to 3
+cut -d: -f6- /etc/passwd       # field 6 until the end
+cut -d, -f2 data.csv           # 2nd column of a CSV file
 
-# Space delimiter
+# Space as delimiter (quote it!)
 cut -d' ' -f1 file.txt
+
+# Without -d the default delimiter is TAB
+cut -f1 file.txt
 ```
 
-### Practical cut Examples:
+> 💡 The output keeps the same delimiter: `cut -d: -f1,3` gives `root:0`.
+
+### Cut by Character Position: `-c`
+
+```
+ echo "2024-01-15" | cut -c1-4
+
+  position: 1 2 3 4 5 6 7 8 9 10
+            2 0 2 4 - 0 1 - 1 5
+            └──┬──┘
+            -c1-4  →  2024
+```
 
 ```bash
-# Extract usernames from /etc/passwd
+cut -c1-5 file.txt             # characters 1 to 5
+cut -c1,3,5 file.txt           # characters 1, 3 and 5
+cut -c10- file.txt             # from character 10 to the end
+cut -c-10 file.txt             # the first 10 characters
+
+echo "Hello World" | cut -c1-5  # Hello
+echo "2024-01-15" | cut -c1-4   # 2024
+```
+
+### ⚠️ The Multiple-Spaces Trap
+
+`cut` treats **every** delimiter as a new field. If there are several spaces after each other (like in `ls -l`, `ps` or `df` output), you get empty fields:
+
+```
+ "a␣␣␣b"  with  cut -d' '   →  field1="a"  field2=""  field3=""  field4="b"
+```
+
+The fix: **squeeze** the spaces first with `tr -s ' '` (see next section):
+
+```bash
+ls -l /etc/passwd | tr -s ' ' | cut -d' ' -f5,9     # size and filename
+```
+
+### Practical cut Examples
+
+```bash
+# Usernames from /etc/passwd
 cut -d: -f1 /etc/passwd
 
-# Get IP addresses from network output
-ip addr | grep "inet " | cut -d' ' -f6
-
-# Extract domains from URLs
+# Domain from a URL  (https: / "" / www.example.com / path)
 echo "https://www.example.com/path" | cut -d/ -f3
 
-# Process CSV data
-cut -d, -f1,3 data.csv         # First and third columns
-cut -d, -f2- data.csv          # All columns except first
+# CSV data
+cut -d, -f1,3 data.csv         # first and third column
+cut -d, -f2- data.csv          # all columns except the first
 
-# Extract date components
-date | cut -d' ' -f1-3         # Day, month, date
-echo "2024-01-15" | cut -d- -f1 # Year
+# Date parts
+echo "2024-01-15" | cut -d- -f1 # year: 2024
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Tr Character Translation And Deletion](05-tr-character-translation-and-deletion.md)  
 **Previous:** [← Grep Pattern Matching Master](03-grep-pattern-matching-master.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

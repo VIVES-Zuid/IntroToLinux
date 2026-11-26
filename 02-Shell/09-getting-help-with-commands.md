@@ -172,5 +172,5 @@ man 1 passwd    # Section 1 of passwd (command)
 
 **Next:** [→ Practical Exercises](10-practical-exercises.md)  
 **Previous:** [← Essential File Commands](08-essential-file-commands.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

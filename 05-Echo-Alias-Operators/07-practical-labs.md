@@ -111,5 +111,5 @@ cd /tmp && \
 
 **Next:** [→ Best Practices](08-best-practices.md)  
 **Previous:** [← Line Continuation And Escaping](06-line-continuation-and-escaping.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

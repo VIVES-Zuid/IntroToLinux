@@ -1,4 +1,4 @@
-# Summary: Lesson 7 – Filters & Pipelines
+# Summary: Lesson 7 – Text Processing and Filters
 
 **Concepts**
 - Filters: read stdin, write stdout
@@ -21,6 +21,6 @@
 ## Navigation
 
 **Next:** [→ Learning Objectives](../08-Scripting/00-learning-objectives.md)  
-**Previous:** [← Next Lesson](16-next-lesson.md)  
-**Lesson Home:** [↑ Lesson 7: Filters & Pipelines](../)  
+**Previous:** [← Exercises](17-exercises.md)  
+**Lesson Home:** [↑ Lesson 7: Text Processing and Filters](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

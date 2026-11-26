@@ -11,5 +11,5 @@
 
 **Next:** [→ Understanding The Console Tty Origins](01-understanding-the-console-tty-origins.md)  
 **Previous:** [← Review And Next Steps](../01-Intro/10-review-and-next-steps.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)

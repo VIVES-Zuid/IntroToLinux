@@ -46,5 +46,5 @@ cat document.txt | \
 
 **Next:** [→ Practical Labs](07-practical-labs.md)  
 **Previous:** [← Text Processing Commands](05-text-processing-commands.md)  
-**Lesson Home:** [↑ Lesson 4: Redirects & Pipes](../)
+**Lesson Home:** [↑ Lesson 4: I/O Redirection and Pipes](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

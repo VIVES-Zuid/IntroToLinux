@@ -42,5 +42,5 @@ ls file\ with\ spaces.txt
 
 **Next:** [→ Practical Labs](07-practical-labs.md)  
 **Previous:** [← Control Operators](05-control-operators.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

@@ -1,5 +1,6 @@
 # 10. Practical Labs
 
+> 💡 Type the scripts yourself instead of copy-pasting: you learn the syntax much faster. The `cat > file.sh << 'EOF' ... EOF` blocks are just a quick way to create a file; you can also open `nano file.sh` and type the lines between the two `EOF`s.
 
 ### Lab 8.1: Basic Script Creation (15 minutes)
 
@@ -89,7 +90,7 @@ if [ -e "$TARGET" ]; then
     
     if [ -f "$TARGET" ]; then
         echo "✓ Is a file"
-        echo "  Size: $(stat -c%s "$TARGET") bytes"
+        echo "  Size: $(wc -c < "$TARGET") bytes"
         
         if [ -r "$TARGET" ]; then
             echo "  ✓ Readable"
@@ -123,6 +124,8 @@ chmod +x file_checker.sh
 
 ### Lab 8.4: Loop Practice (15 minutes)
 
+> 💡 `/proc/loadavg` is a "file" in which the kernel shows the system load. `free -m` shows memory in MB; `tr -s ' '` + `cut` take the 3rd column (used).
+
 ```bash
 # Create system monitor script
 cat > system_monitor.sh << 'EOF'
@@ -136,8 +139,8 @@ echo "============="
 for i in {1..5}; do
     echo "Iteration $i/5"
     echo "Time: $(date)"
-    echo "Load: $(uptime | awk -F'load average:' '{print $2}')"
-    echo "Memory: $(free -m | grep '^Mem:' | awk '{printf "%.1f%%", $3/$2 * 100}')"
+    echo "Load: $(cut -d' ' -f1-3 /proc/loadavg)"
+    echo "Memory used: $(free -m | grep '^Mem:' | tr -s ' ' | cut -d' ' -f3) MB"
     echo "---"
     
     if [ $i -lt 5 ]; then
@@ -151,11 +154,12 @@ EOF
 chmod +x system_monitor.sh
 ./system_monitor.sh
 ```
+
 ---
 
 ## Navigation
 
 **Next:** [→ Review Questions](11-review-questions.md)  
 **Previous:** [← Script Examples And Best Practices](09-script-examples-and-best-practices.md)  
-**Lesson Home:** [↑ Lesson 8: Scripting](../)
+**Lesson Home:** [↑ Lesson 8: Shell Scripting Fundamentals](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

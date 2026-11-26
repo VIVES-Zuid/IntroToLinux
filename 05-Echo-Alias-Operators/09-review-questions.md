@@ -14,5 +14,5 @@
 
 **Next:** [→ Key Takeaways](10-key-takeaways.md)  
 **Previous:** [← Best Practices](08-best-practices.md)  
-**Lesson Home:** [↑ Lesson 5: Echo, Alias & Operators](../)
+**Lesson Home:** [↑ Lesson 5: Advanced Commands and Control Operators](../)
 **Course Home:** [⌂ Introduction to Linux](../README.md)

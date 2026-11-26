@@ -66,5 +66,5 @@ $HOME/.bashrc
 
 **Next:** [→ File System Permissions](06-file-system-permissions.md)  
 **Previous:** [← Linux File System Structure](04-linux-file-system-structure.md)  
-**Lesson Home:** [↑ Lesson 2: The Shell](../)  
+**Lesson Home:** [↑ Lesson 2: The Linux Console and Terminal](../)  
 **Course Home:** [⌂ Introduction to Linux](../README.md)
