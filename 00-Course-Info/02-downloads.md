@@ -10,7 +10,7 @@ This page contains all the software and tools you'll need for the Introduction t
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 1: [AlmaLinux](https://ftp.belnet.be/mirror/almalinux/) 10.1
+### Distro 1: [AlmaLinux](https://ftp.belnet.be/mirror/almalinux/) 10.3
 
 **Download Link:**
 
@@ -35,7 +35,7 @@ https://repo.almalinux.org/almalinux/10.3/isos/x86_64/AlmaLinux-10-latest-x86_64
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: white; margin: 20px 0;">
 
-### Distro 2: [Ubuntu](https://ftp.belnet.be/mirror/ubuntu-releases/) 24.04.3 LTS
+### Distro 2: [Ubuntu](https://ftp.belnet.be/mirror/ubuntu-releases/) 24.04.5.1 LTS
 
 **Download Link:**
 
